@@ -9,7 +9,7 @@ tags:
 ### Particelle in campi magnetici
 #### Moto in campo magnetico uniforme 🟩
 Se abbiamo una particella carica con velocità uniforme in campo magnetico uniforme, come abbiamo detto in precedenza, una forza centripeta, questo farà **curvare la carica**, una cosa interessante sarebbe provare a capire **raggio di curvatura** della nostra carica. Sotto in immagine abbiamo l'esempio di curvatura.
-![[Magnetismo-1700054485909.jpeg]]
+![Magnetismo-1700054485909](images/Magnetismo-1700054485909.jpeg)
 
 $$
 F = qvB= ma = \frac{mv^{2}}{r}
@@ -34,7 +34,7 @@ Ma questo vale solo classicamente, perché poi entrano in gioco **irradiazioni**
 Supponiamo ora che ci sia un certo angolo fra i due allora ho che solamente la parte normale ha forza, avrò un moto elicoidale.
 
 #### Angolo generico 🟩
-![[Magnetismo-1700055358930.jpeg]]
+![Magnetismo-1700055358930](images/Magnetismo-1700055358930.jpeg)
 
 $$
 F = qv \times B = q(\vec{v}_{n} + \vec{v}_{p}) \times \vec{B} = q\vec{v}_{n}\times \vec{B}
@@ -52,7 +52,7 @@ Il coseno serve per prendere la componente corretta credo....
 
 #### Effetto Hall 🟩
 Da studiare bene pagina 230 Mazzoldi.
-![[Spettrometri di massa-1700844643754.jpeg]]
+![Spettrometri di massa-1700844643754](images/Spettrometri di massa-1700844643754.jpeg)
 Sia dato un conduttore parallelepipedo, una piccola sottile lastra, che scorre una corrente, allora avremo una forza
 $$
 \vec{F} = q\vec{v}_{d} \times \vec{B}
@@ -81,7 +81,7 @@ Per esempio questo diventa molto utile quando per [[Magnetismo nella materia]] a
 
 ### Spettrometri di massa
 #### Spettrometro di massa di Thomson 🟩
-![[Spettrometri di massa-1700473509303.jpeg]]
+![Spettrometri di massa-1700473509303](images/Spettrometri di massa-1700473509303.jpeg)
 Ho un coso che emette particelle in tutte le direzioni, faccio passare una zona per aumentare energia e poi campo magnetico
 
 Abbiamo che 
@@ -102,7 +102,7 @@ $$
 \frac{r_{1}}{r_{2}} = \sqrt{ \frac{m_{1}}{m_{2}} }
 $$
 #### Selettore di velocità 🟩
-![[Spettrometri di massa-1700473442834.jpeg]]
+![Spettrometri di massa-1700473442834](images/Spettrometri di massa-1700473442834.jpeg)
 
 Metto in modo che ci sia un condensatore che abbia un certo campo elettrico, e anche che ci sia un campo magnetico, vorrei avere che abbiamo stesso valore, ossia
 $$
@@ -121,7 +121,7 @@ Anche questo posso usarlo per separare isotopi diversi, ma la cosa bella è che 
 
 #### Setting classico: spira rettangolare 🟩
 Prendiamo un campo magnetico costante, e un rettangolo di filo **indeformabile** (perché ci sono forze che potrebbero deformarla), in cui c'è corrente, questo fa girare.
-![[Magnetismo-1700058718118.jpeg]]
+![Magnetismo-1700058718118](images/Magnetismo-1700058718118.jpeg)
 
 Il campo magnetico ha un angolo con la nostra spira.
 Ossia ->

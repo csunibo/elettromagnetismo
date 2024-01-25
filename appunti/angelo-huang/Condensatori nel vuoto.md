@@ -8,7 +8,7 @@ tags:
 ### Introduzione ai condensatori
 
 #### Analisi introduttiva condensatori: tubi di flusso 🟩
-![[Materiali e campo elettrico-1697456372758.jpeg]]
+![Materiali e campo elettrico-1697456372758](images/Materiali e campo elettrico-1697456372758.jpeg)
 Consideriamo un **tubo di flusso infinitesimo** come in immagine. abbiamo che  $dQ$ è la carica totale dentro al cubo. Tale che segua le linee di campo.
 Il flusso totale sarebbe
 $$
@@ -71,7 +71,7 @@ Consideriamo un classico caso in cui abbiamo due condensatori piani, con la stes
 1. Consideriamo le linee di campo del tutto parallele (campo come se fosse un piano infinito per chiarirci).
 2. Facce sono infinite (ma poi nella realtà cambia solamente ai bordi).
 #### Campo elettrico in ogni regione 🟩
-![[Condensatori-1697527856591.jpeg]]
+![Condensatori-1697527856591](images/Condensatori-1697527856591.jpeg)
 Si può notare che
 
 **Calcolo della direzione**
@@ -126,7 +126,7 @@ Nel caso reale:
 ### Disposizioni di condensatori
 
 #### Parallelo 🟩
-![[Condensatori-1697529560798.jpeg]]
+![Condensatori-1697529560798](images/Condensatori-1697529560798.jpeg)
 Analizziamo sempre potenziali e capacità, da un punto di vista totale (vedendolo come un singolo condensatore).
 Chiamiamo a sinistra 1, a destra 2
 **Osservazioni**:
@@ -139,7 +139,7 @@ $$
 > In un sistema composto da due o più condensatori posti in parallelo, la capacità totale è pari alla **somma delle singole capacità**.
 
 #### In serie 🟨
-![[Condensatori-1697529794365.jpeg]]
+![Condensatori-1697529794365](images/Condensatori-1697529794365.jpeg)
 **Osservazione**
 1. Conduttori su E è isolato, quindi si *caricheranno solo per induzione*.
 Analizziamo le differenze di potenziali, allora abbiamo che
@@ -163,7 +163,7 @@ L'energia di un sistema di cariche che cosa è? è il **lavoro esterno compiuto 
 Se è repulsiva (quindi energia positiva) io faccio lavoro positivo, altrimenti negativo, questo l'hai visto ieri. Se l'energia è positiva posso *estrarre* energia da utilizzare, altrimenti no.
 
 #### Energia di Interazione 🟩
-![[Condensatori-1697532550995.jpeg]]
+![Condensatori-1697532550995](images/Condensatori-1697532550995.jpeg)
 L'energia di sistema (o di interazione fra le cariche) è calcolato nel modo seguente:
 
 1. La prima carica non fa lavoro perché il campo è nullo inizialmente
@@ -245,7 +245,7 @@ Questo servirà per il vettore di Poynting in seguito quando faremo il minimo di
 ### Carica del condensatore
 #### Setting del problema 🟩
 Ci stiamo chiedendo, come varia l'intensità di corrente in un circuito fatto di semplice condensatore e resistenza? In che modo cambia il potenziale? Se ho l'intensità di corrente per un dato momento, allora posso calcolare l'intensità di corrente.
-![[Condensatori nel vuoto-1699945999446.jpeg]]
+![Condensatori nel vuoto-1699945999446](images/Condensatori nel vuoto-1699945999446.jpeg)
 Possiamo usare le leggi presenti in [[Leggi di Ohm]] e osservare che vale, perché alla fine il campo esterno è ancora conservativo (credo), anche se la corrente varia.
 $$
 \varepsilon = V_{C} + V_{R} = \frac{q(t)}{C} + Ri(t) 
@@ -290,7 +290,7 @@ $$
 V_{b}(t) = i(t)R = \varepsilon e^{-t/RC}
 $$
 Come grafici questi hanno:
-![[Condensatori nel vuoto-1699947549475.jpeg]]
+![Condensatori nel vuoto-1699947549475](images/Condensatori nel vuoto-1699947549475.jpeg)
 #### Note sul tempo di carica 🟩
 Nota: il condensatore non si carica mai al valore teorico di carica che può avere (è un asintoto orizzontale). Possiamo considerarlo carico quando è tipo 1% del valore nominale, non ho capito esattamente perché questo, forse è una convenzione.
 
@@ -330,7 +330,7 @@ $$
 ### Scarica del condensatore
 #### Setting del problema 🟩
 Ho un condensatore completamente carico come in figura
-![[Condensatori nel vuoto-1699948578740.jpeg]]
+![Condensatori nel vuoto-1699948578740](images/Condensatori nel vuoto-1699948578740.jpeg)
 Ad un certo punto chiudo l'interruttore e inizierà a scorrere della carica, vogliamo capire in che modo varia $q(t)$ e in che modo varia $i(t)$
 #### Equazioni per la scarica dei condensatori 🟩
 In modo simile al precedente possiamo mettere su una equazione differenziale:

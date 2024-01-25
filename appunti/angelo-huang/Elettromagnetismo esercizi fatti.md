@@ -156,7 +156,7 @@ Non la calcoliamo in modo esplicito perché non si semplifica, ma basta fare tot
 Abbiamo una regione di piano delimitata da $[-d, d]$ sull'asse delle $x$ una distribuzione di carica uniforme $\rho$, calcolare campo elettrico e potenziale elettrico nello spazio.
 
 **Soluzione
-![[Condensatori nel vuoto-1698266319925.jpeg]]**
+![Condensatori nel vuoto-1698266319925](images/Condensatori nel vuoto-1698266319925.jpeg)**
 Andiamo a considerare il cilindro come in figura, per ragioni di simmetria sul lato lungo del cilindro il campo è nullo, quindi le uniche superfici da considerare sono le due esterne
 $$
 \oint \vec{E} \cdot d\vec{s} = \int _{\Sigma} \vec{E} \, d\vec{s} +  \int _{\Sigma} \vec{E} \, d\vec{s} = 2E\delta
@@ -189,7 +189,7 @@ $$
 Potrebbe essere che ci sia un 2 in meno, è da rifare questo esercizio per verificare questo.
 #### Esercizio 3
 Supponiamo di avere una sfera di densità uniforme $\rho$ di raggio$r_{1}$ e una cavità sferica al suo interno di raggio $r_{2} < r_{1}$, calcolare campo elettrico circostante.
-![[Condensatori nel vuoto-1698268740890.jpeg]]
+![Condensatori nel vuoto-1698268740890](images/Condensatori nel vuoto-1698268740890.jpeg)
 **Soluzione**
 $$\vec{E}_{tot} = \frac{\rho}{3\varepsilon_{0}} \vec{r}$$
 con $\vec{r}$ il vettore della congiungente dei centri.
@@ -322,7 +322,7 @@ Non la calcoliamo in modo esplicito perché non si semplifica, ma basta fare tot
 Abbiamo una regione di piano delimitata da $[-d, d]$ sull'asse delle $x$ una distribuzione di carica uniforme $\rho$, calcolare campo elettrico e potenziale elettrico nello spazio.
 
 **Soluzione
-![[Condensatori nel vuoto-1698266319925.jpeg]]**
+![Condensatori nel vuoto-1698266319925](images/Condensatori nel vuoto-1698266319925.jpeg)**
 Andiamo a considerare il cilindro come in figura, per ragioni di simmetria sul lato lungo del cilindro il campo è nullo, quindi le uniche superfici da considerare sono le due esterne
 $$
 \oint \vec{E} \cdot d\vec{s} = \int _{\Sigma} \vec{E} \, d\vec{s} +  \int _{\Sigma} \vec{E} \, d\vec{s} = 2E\delta
@@ -355,7 +355,7 @@ $$
 Potrebbe essere che ci sia un 2 in meno, è da rifare questo esercizio per verificare questo.
 #### Esercizio 3
 Supponiamo di avere una sfera di densità uniforme $\rho$ di raggio$r_{1}$ e una cavità sferica al suo interno di raggio $r_{2} < r_{1}$, calcolare campo elettrico circostante.
-![[Condensatori nel vuoto-1698268740890.jpeg]]
+![Condensatori nel vuoto-1698268740890](images/Condensatori nel vuoto-1698268740890.jpeg)
 **Soluzione**
 $$\vec{E}_{tot} = \frac{\rho}{3\varepsilon_{0}} \vec{r}$$
 con $\vec{r}$ il vettore della congiungente dei centri.
@@ -393,7 +393,7 @@ Ha senso perché in questo esercizio il campo elettrico cambia a seconda della d
 ### Problemi classici col flusso
 #### Problema: Flusso del cilindro su carica lineare 🟨+
 Consideriamo una linea con distribuzione di carica uniforme $\lambda$ questo è un campo **perpendicolare**, e si può dire che questo campo abbia **simmetria cilindrica** 
-![[Campo elettrico-1696847330771.jpeg]]
+![Campo elettrico-1696847330771](images/Campo elettrico-1696847330771.jpeg)
 Sapendo la carica di questo cilindro possiamo calcolare il flusso che passa in questo cilindro, quindi abbiamo
 $$
 \oint_{\Sigma}\vec{E}\vec{ds} = \frac{Q_{T}}{\varepsilon_{0}} = \lambda \cdot \frac{h}{\varepsilon_{0}}, h \text{ la lunghezza}
@@ -465,7 +465,7 @@ Supponiamo di avere un cilindro di **lunghezza infinita** con una certa carica d
 
 
 
-![[Campo elettrico-1697027656747.jpeg]]
+![Campo elettrico-1697027656747](images/Campo elettrico-1697027656747.jpeg)
 Dato il setting in figura (una carica distribuita indefinitivamente sulla superficie di un cilindro), proviamo a considerare un cilindro all'interno del cilindro grosso, andiamo a provare a calcolare il flusso
 $$
 \oint_{\Sigma}\vec{E}\cdot \vec{ds} = E(r) \oint_{\Sigma}ds = E(r) 2\pi rh = 0 \implies E(r) = 0, r < R
@@ -488,7 +488,7 @@ $$
 Che è molto simile al problema del filo di lunghezza infinita, anche con il cilindro esterno (ed è sensato perché un filo infinito è come se se fosse un cilindro!) vai a vedere [[Campo elettrico#Distribuzione di carica uniforme lineare infinita]]
 
 Con questa analisi possiamo dire che segue questo andamento.
-![[Campo elettrico-1697028175427.jpeg]]
+![Campo elettrico-1697028175427](images/Campo elettrico-1697028175427.jpeg)
 Con la seconda parte $\propto \frac{1}{r}$
 
 **Potenziale**
@@ -508,7 +508,7 @@ $$
 r < R \implies \oint \vec{E} \cdot d \vec{s} = E(r) 2\pi rh = \frac{Q_{\Sigma}}{\varepsilon_{0}} = \frac{\rho \pi r^{2}h}{\varepsilon_{0}} \implies \vec{E}(r) = \frac{\rho}{2\varepsilon_{0}} \vec{r}
 $$
 In questo caso il campo **aumenta linearmente.**
-![[Campo elettrico-1697028847157.jpeg]]
+![Campo elettrico-1697028847157](images/Campo elettrico-1697028847157.jpeg)
 **Potenziale**
 Esternamente il potenziale è ancora uguale al precedente,
 internamente invece cambia leggermente
@@ -516,7 +516,7 @@ $$
 V(r) - V(R) = \int _{r}^{R} \vec{E}(r) \, d \vec{r} = \frac{\rho}{2\varepsilon_{0}} \cdot \frac{R^{2} - r^{2}}{2}
 $$
 
-![[Campo elettrico-1697029199180.jpeg]]
+![Campo elettrico-1697029199180](images/Campo elettrico-1697029199180.jpeg)
 
 
 
@@ -525,7 +525,7 @@ $$
 #### Esercizio sul calcolo della divergenza:
 TODO: vedere se la divergenza è zero su una linea normale idiota al punto p
 TODO: vedere divergenza in coordinate sferiche (formula strana).... dipende dal raggio
-![[Campo elettrico-1696845619755.jpeg]]
+![Campo elettrico-1696845619755](images/Campo elettrico-1696845619755.jpeg)
 TODO: guardare quanto è buono.
 
 $$

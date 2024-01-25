@@ -107,7 +107,7 @@ $$
 Con la velocità di deriva.
 
 #### Densità di corrente motivazione (!) 🟩
-![[Corrente Elettrica-1698661245378.jpeg]]
+![Corrente Elettrica-1698661245378](images/Corrente Elettrica-1698661245378.jpeg)
 Vogliamo capire, quanta corrente in un intervallo $dt$ attraversa quella superficie?
 Tutta la carica che sta a distanza $v_{d}dt$ riesce a passare la superficie.
 abbiamo quindi che il volume è
@@ -167,7 +167,7 @@ Ma essendo la carica enorme, alla fine ho grandi valori!
 Facendo tutto questo calcolo abbiamo che 
 
 #### Equazione di continuità della densità di corrente (!) 🟩
-![[Corrente Elettrica-1698663340120.jpeg]]
+![Corrente Elettrica-1698663340120](images/Corrente Elettrica-1698663340120.jpeg)
 
 $$
 i = \int _{\Sigma} \vec{J} \cdot \vec{S}  = -\frac{dq}{dt}

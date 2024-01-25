@@ -72,7 +72,7 @@ Pg 254 Mazzoldi
 ### Solenoide
 
 #### Descrizione del solenoide 🟩
-![[Geometrie di spire-1700555199573.jpeg]]
+![Geometrie di spire-1700555199573](images/Geometrie di spire-1700555199573.jpeg)
 Vogliamo cercare di definire quale sia il campo magnetico presente sull'asse
 
 Utilizzando la funzione per la singola spira, abbiamo che basta integrare fra l'angolo formato fr ail primo e l'ultimo argomento del nostro solenoide, e facendo una cosa del genere dovrebbe venire molto più semplice.
@@ -94,7 +94,7 @@ $$
 	B =\frac{\mu_{0}ni}{2}(\cos \phi_{2} - \cos \phi_{1})
 $$
 Mettendo l'origine all'inizio della spira, e supponendo che la lunghezza della spira sia $d$ otteniamo questo per i valori di sopra e gli angoli di sopra, ma comunque spiega meglio il libro su questo.
-![[Geometrie di spire-1700557573857.jpeg]]
+![Geometrie di spire-1700557573857](images/Geometrie di spire-1700557573857.jpeg)
 #### Campo esterno del solenoide 🟨+
 
 Se assumiamo che i raggi siano simili, allora prendiamo due contributi e abbiamo che 
@@ -112,11 +112,11 @@ $$
 B_{\infty} = \mu_{0}ni
 $$
 E si può dimostrare che all'interno il campo è sempre quello, lo stesso, costante.
-![[Geometrie di spire-1700556983093.jpeg]]
+![Geometrie di spire-1700556983093](images/Geometrie di spire-1700556983093.jpeg)
 #### Analisi tramite circuitazione del solenoide 🟩
 Possiamo provare ad applicare Ampere [[Magnetismo]] per potere sapere quanto valga il valore del campo magnetico.
 Noi sappiamo che il campo magnetico all'interno (da fare ancora) è sempre parallelo all'asse del solenoide
-![[Geometrie di spire-1700557328403.jpeg]]
+![Geometrie di spire-1700557328403](images/Geometrie di spire-1700557328403.jpeg)
 Se mettiamo dentro il quadratino, possiamo notare come la circuitazione sia nulla, perché la corrente concatenata è nulla, per questo motivo ad ogni momento è nullo, ed è sempre uguale a quello dell'a
 Prendendo questa figura, abbiamo che BC e AD che nada non c'è niente, però in questo caso ci dovrà essere un po' di circuitazione.
 Fuori abbiamo detto non c'è nessun campo, mentre dentro è uguale al campo. E si dimostra
@@ -125,7 +125,7 @@ $$
 $$
 Potrebbe essere interessante rifare l'analisi seguendo la 256, in cui si divide la corrente in circolare e lineare(falla e scrivi qui i risultati come esercizio al prossimo ripasso)
 ### Toroide
-![[Geometrie di spire-1700558950220.jpeg]]
+![Geometrie di spire-1700558950220](images/Geometrie di spire-1700558950220.jpeg)
 #### Campo esterno 🟩
 Possiamo usare ampere e dire che corrente concatenata è nulla e concludere che il campo magnetico è nullo.
 #### Campo magnetico del toroide 🟩
@@ -151,7 +151,7 @@ Poi avendo questo posso sia calcolare B che M.
 
 ### Tanti fili carichi 
 
-![[Geometrie di spire-1700559752504.jpeg]]
+![Geometrie di spire-1700559752504](images/Geometrie di spire-1700559752504.jpeg)
 #### Simmetria su asse y 🟩
 Dalla figura 8.35 si può dire che non abbiamo una componente $y$ , perché si eliminano.
 
@@ -177,7 +177,7 @@ $$
 ### Flusso concatenato campi magnetici 🟩
 
 #### Setting delle spire
-![[Geometrie di spire-1701683646789.jpeg]]
+![Geometrie di spire-1701683646789](images/Geometrie di spire-1701683646789.jpeg)
 
 Poniamo di avere due spire. Vorrei sapere il flusso del campo magnetico indotto dentro la seconda superficie.
 
@@ -254,7 +254,7 @@ $$
 $$
 
 #### Circuito con induttanza 🟩
-![[Geometrie di spire-1701767116060.jpeg]]
+![Geometrie di spire-1701767116060](images/Geometrie di spire-1701767116060.jpeg)
 Può essere opportuno confrontare questo circuito con quello trovato in [[Condensatori nel vuoto]] per la carica/scarica.
 
 Consideriamo la relazione fra forza elettromotrice e campo magnetico, abbiamo che

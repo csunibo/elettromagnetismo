@@ -8,7 +8,7 @@ tags:
 ### Analisi macroscopica
 
 #### Setting dell'esperimento 🟩
-![[Magnetismo nella materia-1701163856145.jpeg]]
+![Magnetismo nella materia-1701163856145](images/Magnetismo nella materia-1701163856145.jpeg)
 
 Provare a guardare 269 del Mazzoldi. (227 per la defivazione della forza.)
 Si può dimostrare che 
@@ -232,7 +232,7 @@ $$
 dm = di_{m}dS\hat{u} = M dSdz\hat{u} \implies di_{m} = Mdz
 $$
 
-![[Magnetismo nella materia-1701161635186.jpeg]]
+![Magnetismo nella materia-1701161635186](images/Magnetismo nella materia-1701161635186.jpeg)
 Ma tutte le correnti interne si elideranno, e questo sarà equivalente a un circuito esterno (una spira per dire), questo motiva anche l'utilizzo del solenoide, perché sembra simile a questo setting. Vedere [[Geometrie di spire]].
 
 allora:
@@ -246,7 +246,7 @@ $$
 
 #### Caso Magnetizzazione non uniforme 🟨--
 Questo rende la cosa un po' più compelssa perché le correnti amperiane non si cancellano. Consideriamo il setting in figura:
-![[Magnetismo nella materia-1701162173942.jpeg]]
+![Magnetismo nella materia-1701162173942](images/Magnetismo nella materia-1701162173942.jpeg)
 
 abbiamo che
 $$
@@ -412,7 +412,7 @@ Certi materiali si magnetizzano velocemente quando si mettono vicino a campi mag
 Consideriamo un toroide, uguale a quello descritto in [[Geometrie di spire]], abbiamo che quando mettiamo un materiale, $H$ non cambia, perché dipende solo da correnti concatenate.
 
 #### Magnetizzazione in funzione di H 🟩
-![[Magnetismo nella materia-1701266367852.jpeg]]
+![Magnetismo nella materia-1701266367852](images/Magnetismo nella materia-1701266367852.jpeg)
 Lo **stato vergine** è lo stato iniziale del materiale.
 POi si ha la **curva di prima magnetizzazione** che è la curva $a$ in figura.
 Per **magnetizzazione residua** si indica il valore di $M_{sat}$ quando $H = 0$ dopo aver salito la prima curva $a$.
@@ -458,7 +458,7 @@ Possiamo caratterizzare alcuni domini magnetici ($~10^{5}$ atomi per il prof, pe
 Una cosa strana è che $H$ dentro a un solenoide è verso giù all'interno, perché abbiamo che ... boh non ho capito però la cosa strana era che era direzione opposta.
 
 **Solenoide infinitamente lungo**: non abbiamo vettore H perché la circuitazione è sempre 0.
-![[Magnetismo nella materia-1704061722916.jpeg]]
+![Magnetismo nella materia-1704061722916](images/Magnetismo nella materia-1704061722916.jpeg)
 ## Note di ripasso
 
 | Data | Commenti |

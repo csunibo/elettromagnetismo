@@ -84,7 +84,7 @@ Per questo si può generalizzare con
 $$
 R = \int _{A}^{B} \frac{\rho}{\Sigma} \, dl 
 $$
-![[Corrente Elettrica-1698742216638.jpeg]]
+![Corrente Elettrica-1698742216638](images/Corrente Elettrica-1698742216638.jpeg)
 Seguendo quanto c'è in immagine.
 
 Quando abbiamo ai capi di un conduttore una differenza di un volt, si ottiene una corrente di un ampere, e questo è l'ampere.
@@ -184,7 +184,7 @@ $$
 
 Anche la potenza è semplicemente una cosa lineare!
 
-![[Corrente Elettrica-1698742421659.jpeg]]
+![Corrente Elettrica-1698742421659](images/Corrente Elettrica-1698742421659.jpeg)
 
 #### Parallelo 🟩
 
@@ -201,7 +201,7 @@ $$
 Che è esattamente il contrario di quanto abbiamo visto nei [[Condensatori nel vuoto]] per quanto riguarda i circuiti.
 Riguardo la potenza si comporta bene lo stesso, seguendo questa relazione.
 
-![[Corrente Elettrica-1698742568032.jpeg]]
+![Corrente Elettrica-1698742568032](images/Corrente Elettrica-1698742568032.jpeg)
 
 ## Generatori di FEM
 
@@ -221,7 +221,7 @@ Questo è un caso in **non valgono le leggi conservative** che abbiamo studiato 
 
 
 #### Derivazione forza elettromotrice 🟩-
-![[Leggi di Ohm-1698744414897.jpeg]]
+![Leggi di Ohm-1698744414897](images/Leggi di Ohm-1698744414897.jpeg)
 Esiste una *piccola corrente interna del generatore*
 Allora il nostro generatore produrrà una forza uguale a
 $$
@@ -247,7 +247,7 @@ Che notiamo è lo stesso valore per la **differenza di potenziale elettrico** pe
 #### Campo elettrico elettromotore 🟨+
 Trattato a pagina 181 del Mazzoldi
 
-![[Leggi di Ohm-1698744602540.jpeg]]
+![Leggi di Ohm-1698744602540](images/Leggi di Ohm-1698744602540.jpeg)
 Dentro ai poli il campo elettrico è opposto rispetto a quello del campo elettrico esterno!
 Il capo interno è il **campo elettrico elettromotore** che non è conservativo, siamo fuori dall'elettrostatica.
 $E^{*}$ è solamente il campo interno.

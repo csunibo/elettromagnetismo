@@ -78,7 +78,7 @@ Che mi da informazione sul valore del campo **sul singolo punto**, ossia se in q
 **Osservazione 2**: questa è una **forma locale** perché nel caso la densità cambiasse, questa legge non può essere utilizzata, non è immediato che il campo cambi infatti, però è utile per **calcolare il campo nella singola posizione**.
 ### Utilizzi della legge di Gauss
 #### Esempio: flusso dipolo 🟩
-![[Campo elettrico-1696844464868.jpeg]]
+![Campo elettrico-1696844464868](images/Campo elettrico-1696844464868.jpeg)
 Essendo che altre parti escono, altre entrano, il flusso totale è zero.
 Questo è anche un modo per dimostrare che **non esiste nessuna linea che entra o esce dall'infinito**, andandosi quindi a trattare di induzione completa.
 

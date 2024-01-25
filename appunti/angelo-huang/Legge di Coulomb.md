@@ -17,14 +17,14 @@ Questo effetto è chiamato **triboelettricità**.
 ### Dimensioni atomo
 #### Misure classiche dimensione atomo 🟨
 Questa è una piccolissima sezione per dare l'intuizione su quanto sia grande in generale un atomo, confronto fra protone ed elettrone:
-![[Introduzione-1696712973312.jpeg]]
+![Introduzione-1696712973312](images/Introduzione-1696712973312.jpeg)
 #### Forza di gravità vs elettromagnetico 🟩
 TODO: in questa parte viene fatto un confronto fra quanto è grande la forza di gravità contro la forza elettrica in un atomo
 Fatto da esempio 1.1 pagina 9 del Mazzoldi
 Abbiamo che la differenza in modulo della forza di gravità e forza elettrica sia molto differente (circa $10^{39}$ di differenza, quindi troppo per dire.)
 ### Esperimenti classici
 #### Elettroscopio a foglie 🟩
-![[Introduzione-1696711860049.jpeg]]
+![Introduzione-1696711860049](images/Introduzione-1696711860049.jpeg)
 [Video per l'esperimento](https://youtu.be/XXVUuW5F0xU?si=eKnTMxnoIitJdTB_) in cui vengono presentati tre casi (e tre cariche risultanti diverse).
 
 1. avvicinando un oggetto carico, le foglie si separavano, questa è una **carica indotta** dalla presenza di un altro oggetto, allontanando rimaneva poi uguale.
@@ -37,12 +37,12 @@ L'angolo di separazione fra le foglie hanno permesso di **misurare la carica per
 Questo è un setting un po' più complesso anche se l'idea è ancora quella presente in [[#Elettroscopio a foglie]] di misurare un angolo per avere la distanza.
 [video esempio](https://youtu.be/FYSTGX-F1GM?si=PLB61tg1ljz-XbRb).
 
-![[Introduzione-1696712750452.jpeg]]
+![Introduzione-1696712750452](images/Introduzione-1696712750452.jpeg)
 L'unica cosa importante era l'angolo di torsione, da cui si poteva dedurre la forza.
 Poi la palla blu è di metallo, e si può caricare.
 
 Proviamo a considerare il setting:
-![[Introduzione-1696713259915.jpeg]]
+![Introduzione-1696713259915](images/Introduzione-1696713259915.jpeg)
 Sappiamo che il momento torcente è dato da $\vec{m} = \vec{R}\vec{F}$ e si può dire che in modulo abbiamo $\lvert \vec{m} \rvert = \frac{L}{2} \lvert F \rvert \sin \varphi$ (questo da semplice meccanica), ma poi abbiamo anche che il momento torcente del setting (quello che va in alto è solamente $\lvert \vec{M} = k \theta \rvert$) Quando raggiunge l'equilibrio si avrà
 $$
 \frac{L}{2} \lvert F \rvert \sin \varphi = k \theta \implies \lvert F \rvert = \frac{2k\theta}{L \sin \varphi}
@@ -92,7 +92,7 @@ La carica è una **proprietà intrinseca della materia**, esattamente come la ma
 #### Subatomica (no)
 Si può dire che un protone e un neutrone è formato da quark, anche se non so esattamente cosa siano, puoi trovare una immagine negli appunti di Matti in questo modo:
 
-![[Legge di Coulomb-1697278798755.jpeg]]
+![Legge di Coulomb-1697278798755](images/Legge di Coulomb-1697278798755.jpeg)
 
 
 #### Carica protoni ed elettroni 🟩

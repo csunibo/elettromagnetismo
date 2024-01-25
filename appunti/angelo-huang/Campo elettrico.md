@@ -34,7 +34,7 @@ Il campo elettrico è proprio una **grandezza fisica** (ossia una *proprietà mi
 È una **caratteristica dello spazio** e una carica è in grado di modificare questo aspetto.
 
 Si rappresentano *uscenti* se positiva, *entrante* se negativa
-![[Campo elettrico-1697283852002.jpeg]]
+![Campo elettrico-1697283852002](images/Campo elettrico-1697283852002.jpeg)
 #### Definizione di campo elettrico 🟩
 $$
 \vec{E}  = \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{R^{2}} \hat{R}
@@ -50,14 +50,14 @@ $$
 \phi_{S}(\vec{F}) = \iint_{S} \vec{F} \cdot d\vec{s} = \iint_{S} \vec{F} \cdot \hat{n} \, ds
 $$
 Con $\hat{n}$ indicato per marcare che deve essere **orientato** e perpendicolare alla superficie considerata.
-![[Campo elettrico-1697287586097.jpeg]]
+![Campo elettrico-1697287586097](images/Campo elettrico-1697287586097.jpeg)
 Esempio di vettori normali alla superficie, nel nostro esempio il valore di $\hat{n}$.
 
 #### Campo tangenziale e parallelo 🟩
 Questa parte la devo ancora scrivere per bene, in breve andiamo a trattare della **discontinuità** del flusso di fronte a una superficie carica, e il fatto che la circuitazione parallela è 0. La discontinuità è trattata a pagina 79 del Mazzoldi.
 
 Questa parte serve per spiegare alcune proprietà del campo nei materiali conduttori trattata in [[Conduttori elettrici]].
-![[Campo elettrico-1696921034779.jpeg]]
+![Campo elettrico-1696921034779](images/Campo elettrico-1696921034779.jpeg)
 
 Alla fine possiamo andare a concludere che 
 $$
@@ -73,11 +73,11 @@ Fatto (molto) meglio in [[Dipolo elettrico]]
 Questo sarà uno dei nostri primi problemi (e probabilmente anche fra le più semplici che ci permetteranno di analizzare il campo).
 Abbiamo due cariche (stessa carica assoluta), una positiva e una negativa, vogliamo andare a capire come è fatto il campo elettrico attorno a queste cariche.
 
-![[Campo elettrico-1697284042753.jpeg]]
+![Campo elettrico-1697284042753](images/Campo elettrico-1697284042753.jpeg)
 
 #### Modellizzazione del problema dipolo elettrico 🟨+
 Consideriamo un punto esattamente a metà fra le due cariche, sia $d$ la distanza fra le due cariche, mettiamo il nostro sistema di riferimento come in figura. 
-![[Campo elettrico-1697284579328.jpeg]]
+![Campo elettrico-1697284579328](images/Campo elettrico-1697284579328.jpeg)
 il campo elettrico in quel punto è dato da.
 $$
 \vec{E}_{tot} = \vec{E}_{+} + \vec{E}_{-} = \frac{Q}{4\pi \varepsilon_{0}}\left( \frac{\hat{R}_{+}}{R^{2}_{+}} + \frac{\hat{R}_{-}}{R^{2}_{-}} \right)
@@ -100,7 +100,7 @@ Per questo è comodo poter analizzare un caso così semplificato di dipolo
 ### Distribuzione di carica uniforme lineare infinita
 Questa sarà la nostra seconda applicazione del concetto di campo e di sovrapposizione che conosciamo
 #### Introduzione problema carica uniforme lineare 🟩
-![[Campo elettrico-1697285118213.jpeg]]
+![Campo elettrico-1697285118213](images/Campo elettrico-1697285118213.jpeg)
 Abbiamo sull'asse $Z$ una distribuzione uniforme lineare, vogliamo cercare di capire come è fatto il campo in questo caso
 #### Modellizzazione problema carica uniforme lineare infinita 🟩
 Consideriamo un punto $P$ come in figura, sia dato un piccolissimo contributo di campo $d \vec{E}$, vogliamo cercare di capire come è fatto questo contributo per l'intera linea lineare.
@@ -164,7 +164,7 @@ E se abbiamo che il rotore è nullo, allora la forza è conservativa perché per
 Questo si può dimostrare senza molta difficoltà se scriviamo la forza di coulomb nella forma cartesiana, alla fine facendo la derivata si dovrebbe cancellare tutto.
 #### Forza radiale => forza conservativa 🟩
 Consideriamo una qualunque forza radiale e qualunque percorso lineare
-![[Campo elettrico-1697357424843.jpeg]]
+![Campo elettrico-1697357424843](images/Campo elettrico-1697357424843.jpeg)
 Consideriamo il setting come in immagine, abbiamo un qualunque percorso, e una carica che crea forza in modo radiale diciamo.
 
 Allora possiamo osservare se prendiamo un segmentino infinitesimale, ci sembrerà una scaletta, ma la forza coseno è attiva solamente in $\bar{AB} \text{ e } \bar{CD}$ questo ci permette di affermare che il lavoro (quella cosa potenziale) è **solamente dipendente dalla distanza**

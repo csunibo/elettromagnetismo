@@ -21,7 +21,7 @@ Con lo studio dell'interazione del campo magnetico ed elettrico si hanno i bei r
 La terra si comporta come un **magnete gigante** :D. E creerà momenti di dipolo per i magnetini presenti sulla superficie. ma nota: il polo sud geografico, in realtà è il **polo nord magnetico!** E anche il contrario. Esiste anche una *versione periodica (non definita)*, ogni qualche milioni di anni.
 Si nota da come si sono solidificati i magma nel tempo (si solidificherà in un certo modo).
 La teoria più buona è che ci sono delle specie di *dinamo* all'interno della Terra che generano il campo.
-![[Magnetismo-1699950928848.jpeg]]
+![Magnetismo-1699950928848](images/Magnetismo-1699950928848.jpeg)
 #### Il monopolo magnetico 🟩
 Se esistesse il monopolo magnetico potremmo definirlo in modo simile a Coulomb, vedi [[Legge di Coulomb]]:
 $$
@@ -30,7 +30,7 @@ $$
 Per il [[Dipolo elettrico]] è facile questo, basta prendere il dipolo e separarlo!
 Come si fa per il monopolo?
 Se taglio una calamita in due, avrò due nuove calamite, questa caratteristica continua anche a livello atomico -> **non esistono monopoli magnetici** secondo questa scia
-![[Magnetismo-1699951621360.jpeg]]
+![Magnetismo-1699951621360](images/Magnetismo-1699951621360.jpeg)
 La ricerca del monopolo magnetico è molto sentita, perché il modello standard prevede l'esistenza di questi monopoli però sperimentalmente non sono stati rilevati ancora.
 Questa cosa motiva che la legge simile a Coulomb è abbastanza inutile.
 NOTA: essendo la legge sperimentalmente sempre inversamente proporzionale a $r^{2}$ si può utilizzare la [[Legge di Gauss]]. Condizione necessaria per far funzionare la dimostrazione con angoli solidi.
@@ -44,7 +44,7 @@ Questo è il campo di **induzione magnetica** chiamato $\vec{B}$
 
 Figure descrittive di quanto detto sul campo magnetico, in ordine vediamo i campi, molto simili a quelli che si possono trovare per il dipolo, e l'allineamento di dipoli .
 Si può anche avere un ferro di cavallo per avere un campo uniforme.
-![[Magnetismo-1699950707933.jpeg]]
+![Magnetismo-1699950707933](images/Magnetismo-1699950707933.jpeg)
 
 #### Campo solenoidale 🟩
 Essendo il monopolo magnetico non esistente, c'è ancora una proprietà simile alla [[Legge di Gauss]] anche nel nostro caso, ma la somma totale è sempre nullo (perché se divido un dipolo ho un altro dipolo).
@@ -80,7 +80,7 @@ Attorno al 1820 questi esperimenti, poi nel 1865 **Maxwell enuncia le leggi**, i
 Questo è un primo collegamento col campo elettrico! Come fanno cariche che si muovono a creare campo elettrico?
 
 Oersted ha messo un magnete vicino a un filo. E ha osservato che se si chiude lo switch del circuito, l'ago magnetico gira.
-![[Magnetismo-1699953635505.jpeg]]
+![Magnetismo-1699953635505](images/Magnetismo-1699953635505.jpeg)
 
 #### Esperimenti di Faraday 🟩-
 Faraday ha poi l'intuizione che un magnete più magnete è in grado di influenzare la corrente, vede che se non c'è corrente è tutto ok, non succede niente, se però ci fa scorrere corrente, vede una **forza perpendicolare al filo**.
@@ -97,11 +97,11 @@ Questo veramente sembra motivare **l'utilizzo del filo per studiare il campo mag
 2. La geometria del filo è sotto mio controllo
 3. L'intensità di corrente è modulabile, quindi posso definire l'intensità del campo nei magneti.
 
-![[Magnetismo-1699954040662.jpeg]]
+![Magnetismo-1699954040662](images/Magnetismo-1699954040662.jpeg)
 
 #### Seconda legge di Laplace e Esperimento 🟩
 Definiamo l'esperimento come segue, una sbarretta metallica libera di scorrere fra le due e due supporti sopra, sotto abbiamo una batteria. Ci metto un dinamometro, e così ho la misura della forza esercitata sulla sbarretta metallica mi serve per **misurare la forza del campo magnetico**.
-![[Magnetismo-1699954552199.jpeg]]
+![Magnetismo-1699954552199](images/Magnetismo-1699954552199.jpeg)
 Nel nostro sistema avremo che la barretta ha lunghezza $d\vec{l}$, e una corrente che sale e scende (proprio come circuito)
 Le osservazioni sono: 
 1. $\lvert d\vec{F} \rvert \propto i \lvert d\vec{l} \rvert$
@@ -175,7 +175,7 @@ Una cosa strana è che **dipende dal sistema di riferimento** perché la velocit
 Se ho due cariche ferme, ma io mi muovo, allora per me loro si muovono entrambe, e dal mio punto di vista sono soggette anche di forza magnetica sulle cariche.
 
 Quindi succede che per una carica ho sia forza elettrica, e anche in questo caso una forza magnetica opposta!
-![[Magnetismo-1701679064514.jpeg]]
+![Magnetismo-1701679064514](images/Magnetismo-1701679064514.jpeg)
 Mentre per il filo si vede sempre non cambiando anche sistema di riferimento!
 
 #### Analisi della forza caso per caso  🟨-
@@ -276,7 +276,7 @@ Questo valore è proprio il valore predetto come trasformazione secondo la relat
 ### Prima legge di Laplace
 
 #### Prima legge di Laplace 🟩
-![[Magnetismo-1700468778548.jpeg]]
+![Magnetismo-1700468778548](images/Magnetismo-1700468778548.jpeg)
 Vogliamo sapere esattamente quale sia il valore del campo magnetico generato da un filo.
 Il piccolo tratto di energia sarà di valore
 $$

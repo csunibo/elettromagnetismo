@@ -17,7 +17,7 @@ $$
 d\vec{B} = \mu_{0}i d\vec{l} \times \frac{\hat{r}}{4\pi r^{2}}
 $$
 da questo posso calcolare il campo magnetico totale, in un modo simile a quanto fatto in precedenza per il campo elettrico  (solo che in questo caso abbiamo il prodotto seno, quindi l'angolo che conviene scegliere è un po' diverso), e una volta che ho questo posso usare la seconda legge per avere la forza, questo è il piano.
-![[Magnetismo-1700471121392.jpeg]]
+![Magnetismo-1700471121392](images/Magnetismo-1700471121392.jpeg)
 
 Calcoliamo ora il valore del campo magnetico per una corrente di lunghezza infinita, una osservazione fondamentale è che **i contributi sono stesso verso** quindi posso solamente sommare e concentrarmi sul modulo:
 $$
@@ -40,7 +40,7 @@ $$
 $$
 Da qui abbiamo ottenuto la legge di **Biot Savart**.
 Qui notiamo che il campo magnetico circola intorno al filo (è tangente al campo magnetico in questo caso, molto simile).
-![[Magnetismo-1700472671563.jpeg]]
+![Magnetismo-1700472671563](images/Magnetismo-1700472671563.jpeg)
 
 Possiamo utilizzare questo per calcolare la forza applicata in un tratto di filo:
 
@@ -98,7 +98,7 @@ Dobbiamo capire il significato di corrente concatenata, possiamo riprendere la d
 $$
 i = \int _{\Sigma} \vec{J} \cdot d\vec{s}
 $$
-![[Magnetismo-1700476477775.jpeg]]
+![Magnetismo-1700476477775](images/Magnetismo-1700476477775.jpeg)
 Considero una altra superficie a cappello come in figura (in cui il rosso è vuoto, perché è **superficie aperta**, ci piace questo perché non ci limita sulla forma della superficie), allora provo a calcolare il flusso su questo.
 Definisco il verso di $ds$ come convenzione, in base alla circuitazione (stessa della corrente diciamo.)
 Qualsiasi superficie aperta con bordo Gamma, riscrivendo l'equazione precedente:
@@ -172,7 +172,7 @@ E dato che sommo anche quello è una densità, e la chiamo densità di corrente 
 Questi possono indurre una forza elettromotrice. Faraday ha indagato questa possibilità e attraverso molti esperimenti si cerca di verificare questo.
 
 #### Esperimento di Faraday per campi magnetici non stazionari 🟨
-![[Magnetismo-1701684128898.jpeg]]
+![Magnetismo-1701684128898](images/Magnetismo-1701684128898.jpeg)
 1. Magnete statico: Ha messo prima una calamita su un circuito, ma questo non genera corrente
 2. Magnete in estrazione: genera una corrente che nel solenoide (comunque spira) ha un campo magnetico attrattivo
 3. Magnete in inserimento: campo magnetico repulsivo generato dalla corrente
@@ -219,7 +219,7 @@ $$
 Qui abbiamo una **corrente alternata**. È interessante notare che abbiamo corrente alternata anche se non c'è nessuna forza elettromotrice.
 
 #### Flusso variabile nel tempo 🟩
-![[Magnetismo-1701687429980.jpeg]]
+![Magnetismo-1701687429980](images/Magnetismo-1701687429980.jpeg)
 
 Supponiamo di avere un circuito in parallelo con una corrente che cambia intensità, così ho un flusso distante.
 
@@ -244,7 +244,7 @@ $$
 Con questo poi posso descrivere la FEM indotta e quindi avere la direzione della corrente
 
 #### Area variabile nel tempo 🟩
-![[Magnetismo-1701765788233.jpeg]]
+![Magnetismo-1701765788233](images/Magnetismo-1701765788233.jpeg)
 Consideriamo un circuito con una barra che si muove di velocità costante, in questo senso varia l'area, e un campo magnetico uscente costante,
 sappiamo che 
 $A = x_{0} + vt$
@@ -268,7 +268,7 @@ $$
 Per avere velocità costante, bisogna avere una *forza che annulli questo*, in modo che sia inerziale.
 
 #### Barra in movimento 🟩
-![[Magnetismo-1701765799811.jpeg]]
+![Magnetismo-1701765799811](images/Magnetismo-1701765799811.jpeg)
 Da questo esperimento proveremo che correnti vengono generati anche nel vuoto.
 Consideriamo una barretta che si muove in un campo magnetico costante.
 Allora abbiamo che deve valere
