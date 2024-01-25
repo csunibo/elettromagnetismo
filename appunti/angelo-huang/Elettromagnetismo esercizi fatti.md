@@ -391,7 +391,7 @@ Ha senso perché in questo esercizio il campo elettrico cambia a seconda della d
 
 ## Problemi sezione campo elettrico
 ### Problemi classici col flusso
-#### Problema: Flusso del cilindro su carica lineare 🟨+
+#### Problema: Flusso del cilindro su carica lineare +
 Consideriamo una linea con distribuzione di carica uniforme $\lambda$ questo è un campo **perpendicolare**, e si può dire che questo campo abbia **simmetria cilindrica** 
 ![Campo elettrico-1696847330771](images/Campo elettrico-1696847330771.jpeg)
 Sapendo la carica di questo cilindro possiamo calcolare il flusso che passa in questo cilindro, quindi abbiamo
@@ -423,7 +423,7 @@ $$
 $$
 NOTA: la cosa figa è che se è costante allora posso utilizzare la legge di gauss in questo modo, di portare fuori il modulo del campo!
 
-#### Problema: campo elettrico su piano elettrico, $\sigma$ costante 🟩
+#### Problema: campo elettrico su piano elettrico, $\sigma$ costante 
 Consideriamo una superficie con densità di carica $\sigma$ che sia costante, andiamo a valutare il campo elettrico in un punto $p$ a distanza $r$ dalla superficie.
 
 ![[Campo elettrico-1696847883210.jpeg | 600]]
@@ -459,7 +459,7 @@ $$
 C'è una discontinuità, che è dipendente dal fatto di avere la normale o meno, dovrei approfondire e vedere in che modo...
 TODO: capire cosa significa avere discontinuità in questa parte...
 
-#### Superficie cilindrica carica (!) 🟨--
+#### Superficie cilindrica carica (!) --
 Problema:
 Supponiamo di avere un cilindro di **lunghezza infinita** con una certa carica distribuita uniformemente. Capire come è fatto il campo elettrico ed energia potenziale al variare del raggio (distanza dell'asse principale).
 
@@ -499,7 +499,7 @@ r > R \implies V(r) - V(R) = \int _{r}^{R} \vec{E}\cdot d \vec{r} = \frac{\sigma
 $$
 Mentre all'interno, dato che il campo è 0, resta sempre 0 il potenziale elettrico, **costante**.
 
-#### Superficie cilindrica uniformemente carica 🟥
+#### Superficie cilindrica uniformemente carica 
 Questo è uguale al precedente, solo che che carico tutto, anche l'interno di essa in modo uniforme.
 Se prendo il raggio, allora torno al modo equivalente precedente (quindi sembra in pratica una densità lineare di carica!).
 Cambia nel caso in cui il raggio ora è interno.

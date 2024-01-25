@@ -1,17 +1,10 @@
----
-date: 2024-01-23
-ripasso: 20
-Rating: 🌕🌕🌕🌕🌕
-tags:
-  - ⚡elettromagnetism
----
 ## Introduzione
 
 ### Intuizione del campo elettrostatico
-#### Elettrostatico vs elettrodinamico 🟩
+#### Elettrostatico vs elettrodinamico 
 Andiamo a chiamare **elettrostatico** perché nel nostro caso non si sta muovendo nessuna carica all'itnerno di questo campo.
 
-#### Proprietà del campo elettrostatico (5) 🟨
+#### Proprietà del campo elettrostatico (5) 
 1. Le linee di forza in ogni punto dello spazio sono tangenti e concorde al campo in quel punto; 
 2. le linee di forza si addensano dove l'intensità del campo e maggiore; 
 3. le linee di forza non si incrociano mai, in quanto in ogni punto il campo è definito univocamente e non può avere due direzioni distinte.
@@ -19,7 +12,7 @@ Andiamo a chiamare **elettrostatico** perché nel nostro caso non si sta muovend
 5. nel caso di cariche di segno opposto, ma eguali in modulo, tutte le linee the partono dalle cariche positive si chiudono su quelle negative (**induzione completa**), alcune passando eventualmente per l'infinito; se invece le cariche non sono eguali in modulo, alcune linee terminano o provengono dall' infinito. 
 
 
-#### Carica esploratrice 🟩
+#### Carica esploratrice 
 È anche chiamata **carica di prova**, è una carica *fittizia* messa per esplorare la **struttura del campo elettrico** in un certo spazio
 
 Talvolta (Mencuccini), si potrebbe definire il valore del campo come 
@@ -29,19 +22,19 @@ $$
 in questo caso $q$ è una carica di prova, talmente piccola che non varia il campo, utilizzato per **sondare** il valore del campo in un certo punto.
 Da un punto di vista intuitivo, costruiamo la linea passo passo, a **tratti infinitesimi**, e componiamo tutto lo spazio con queste.
 
-#### Campo come grandezza 🟩
+#### Campo come grandezza 
 Il campo elettrico è proprio una **grandezza fisica** (ossia una *proprietà misurabile di un oggetto* non è solo una cosa comoda matematicamente), che è solitamente utilizzata per conoscere la **forza** applicata dal campo elettrico in un certo punto. 
 È una **caratteristica dello spazio** e una carica è in grado di modificare questo aspetto.
 
 Si rappresentano *uscenti* se positiva, *entrante* se negativa
 ![Campo elettrico-1697283852002](images/Campo elettrico-1697283852002.jpeg)
-#### Definizione di campo elettrico 🟩
+#### Definizione di campo elettrico 
 $$
 \vec{E}  = \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{R^{2}} \hat{R}
 $$
 Dove $Q$ è la sorgente di carica, si può usare il [[Legge di Coulomb#Principio di sovrapposizione|principio di sovrapposizione]] anche in questo caso
 
-#### Flusso di campo vettoriale 🟩
+#### Flusso di campo vettoriale 
 Dato un certo campo vettoriale, il **flusso** studia la relazione fra questi e una superficie a scelta.
 Intuitivamente si potrebbe dire *quante linee di campo* attraversano quella superficie.
 
@@ -53,7 +46,7 @@ Con $\hat{n}$ indicato per marcare che deve essere **orientato** e perpendicolar
 ![Campo elettrico-1697287586097](images/Campo elettrico-1697287586097.jpeg)
 Esempio di vettori normali alla superficie, nel nostro esempio il valore di $\hat{n}$.
 
-#### Campo tangenziale e parallelo 🟩
+#### Campo tangenziale e parallelo 
 Questa parte la devo ancora scrivere per bene, in breve andiamo a trattare della **discontinuità** del flusso di fronte a una superficie carica, e il fatto che la circuitazione parallela è 0. La discontinuità è trattata a pagina 79 del Mazzoldi.
 
 Questa parte serve per spiegare alcune proprietà del campo nei materiali conduttori trattata in [[Conduttori elettrici]].
@@ -69,13 +62,13 @@ Questo è necessario per poter spiegare la rifrazione nei mezzi, vedi [[Condensa
 ### Dipolo elettrico
 Fatto (molto) meglio in [[Dipolo elettrico]]
 
-#### Introduzione al problema del dipolo elettrico 🟩
+#### Introduzione al problema del dipolo elettrico 
 Questo sarà uno dei nostri primi problemi (e probabilmente anche fra le più semplici che ci permetteranno di analizzare il campo).
 Abbiamo due cariche (stessa carica assoluta), una positiva e una negativa, vogliamo andare a capire come è fatto il campo elettrico attorno a queste cariche.
 
 ![Campo elettrico-1697284042753](images/Campo elettrico-1697284042753.jpeg)
 
-#### Modellizzazione del problema dipolo elettrico 🟨+
+#### Modellizzazione del problema dipolo elettrico +
 Consideriamo un punto esattamente a metà fra le due cariche, sia $d$ la distanza fra le due cariche, mettiamo il nostro sistema di riferimento come in figura. 
 ![Campo elettrico-1697284579328](images/Campo elettrico-1697284579328.jpeg)
 il campo elettrico in quel punto è dato da.
@@ -91,7 +84,7 @@ $$
 Il valore $-d Q\hat{k}$ avrà un significato speciale, sarà il **momento di dipolo**
 
 
-#### Il momento di dipolo (2) 🟩
+#### Il momento di dipolo (2) 
 - Direttamente proporzionale fra $d$, la distanza fra le cariche e $q$ la quantità di carica delle due.
 - Mi da informazioni sulla **geometria** e sulla **carica** del sistema
 
@@ -99,10 +92,10 @@ Per questo è comodo poter analizzare un caso così semplificato di dipolo
 
 ### Distribuzione di carica uniforme lineare infinita
 Questa sarà la nostra seconda applicazione del concetto di campo e di sovrapposizione che conosciamo
-#### Introduzione problema carica uniforme lineare 🟩
+#### Introduzione problema carica uniforme lineare 
 ![Campo elettrico-1697285118213](images/Campo elettrico-1697285118213.jpeg)
 Abbiamo sull'asse $Z$ una distribuzione uniforme lineare, vogliamo cercare di capire come è fatto il campo in questo caso
-#### Modellizzazione problema carica uniforme lineare infinita 🟩
+#### Modellizzazione problema carica uniforme lineare infinita 
 Consideriamo un punto $P$ come in figura, sia dato un piccolissimo contributo di campo $d \vec{E}$, vogliamo cercare di capire come è fatto questo contributo per l'intera linea lineare.
 Possiamo fare una osservazione di simmetria e affermare che la componente $z$ si elimina (ad ogni carica corrisponde una uguale e contraria)., mentre la componente $x$, quella che esce o entra dal piano è inesistente per come è fatto il sistema
 
@@ -127,7 +120,7 @@ $$
 E_{y} = \frac{1}{2\pi\varepsilon_{0}} \frac{\lambda}{r'}
 $$
 
-#### Osservazione variare campo elettrico al variare dei problemi visti 🟩
+#### Osservazione variare campo elettrico al variare dei problemi visti 
 Un osservazione interessante è che il campo elettrico è
 - Singola carica -> $\frac{1}{r^{2}}$
 - Dipolo elettrico -> $\frac{1}{r^{3}}$
@@ -135,7 +128,7 @@ Un osservazione interessante è che il campo elettrico è
 
 ### Miscellanea: problemi semplici
 
-#### Flusso in una sfera 🟩
+#### Flusso in una sfera 
 Questa è una semplicissima applicazione della definizione di flusso.
 Consideriamo una sfera, poniamo il sistema di riferimento al centro di questa sfera, ci chiediamo quanto è il flusso del campo radiale che varia come $\vec{F} = k \vec{r}, \vec{r} = (x, y , z)$?
 
@@ -148,7 +141,7 @@ $$
 ### Introduzione al potenziale elettrostatico
 Abbiamo studiato in dinamica che il potenziale è un concetto strettamente legato al Lavoro, ossia dalla quantità di energia necessaria per spostare un oggetto da un punto all'altro, vogliamo cercare di definire le relazioni che intercorrono nel caso della forza elettromagnetica
 
-#### Rotore nullo => forza conservativa 🟩
+#### Rotore nullo => forza conservativa 
 Teorema:
 $$
 \vec{\nabla}  \times \vec{F} \implies \vec{F} \text{ è una forza conservativa}
@@ -162,14 +155,14 @@ E se abbiamo che il rotore è nullo, allora la forza è conservativa perché per
 
 **Note mie che non ho ben capito:**
 Questo si può dimostrare senza molta difficoltà se scriviamo la forza di coulomb nella forma cartesiana, alla fine facendo la derivata si dovrebbe cancellare tutto.
-#### Forza radiale => forza conservativa 🟩
+#### Forza radiale => forza conservativa 
 Consideriamo una qualunque forza radiale e qualunque percorso lineare
 ![Campo elettrico-1697357424843](images/Campo elettrico-1697357424843.jpeg)
 Consideriamo il setting come in immagine, abbiamo un qualunque percorso, e una carica che crea forza in modo radiale diciamo.
 
 Allora possiamo osservare se prendiamo un segmentino infinitesimale, ci sembrerà una scaletta, ma la forza coseno è attiva solamente in $\bar{AB} \text{ e } \bar{CD}$ questo ci permette di affermare che il lavoro (quella cosa potenziale) è **solamente dipendente dalla distanza**
 
-#### Formula dell'energia potenziale elettrostatica 🟩
+#### Formula dell'energia potenziale elettrostatica 
 ![[Campo elettrico-1697358373290.jpeg | 300]]
 Proviamo in questo momento a derivare la formula per il potenziale elettrostatico, valido per praticamente ogni percorso
 
@@ -185,7 +178,7 @@ $$
 Quindi dipende solamente dalla distanza a meno di una costante additiva.
 Il motivo per cui (credo) possiamo utilizzare la costante additiva è che ci basta fissare un altro punto ad hoc, fissato un altro punto, diventa allora possibile definire il potenziale o l'energia potenziale in ogni punto dello spazio prendendo quello come riferimento.
 
-#### Forza elettromotrice 🟩
+#### Forza elettromotrice 
 Spiegato in maggiore dettaglio in [[Leggi di Ohm]], dove iniziamo a parlare di circuiti.
 La circuitazione per un **campo elettrico** è definito in modo molto simile a quello di una forza qualunque
 
@@ -197,7 +190,7 @@ E valgono esattamente le stesse proprietà che abbiamo dimostrato sopra riguardo
 
 ### Potenziale elettrostatico
 
-#### Definizione 🟩
+#### Definizione 
 Questa non è una energia, si potrebbe dire che è la capacità di creare energia potenziale per singole cariche
 
 Definiamo
@@ -205,22 +198,22 @@ $$
 V(A) = \frac{U(A)}{q}
 $$
 Che in un certo senso è il lavoro fatto dal campo, non dalla forza (NOTA: non è corretto dire lavoro di un campo, non credo sia un concetto ben definito).
-#### Analisi di dimensionalità per potenziale elettrostatico 🟩
+#### Analisi di dimensionalità per potenziale elettrostatico 
 $$
 V(r) = \frac{1}{4\pi \varepsilon_{0}} \frac{Q}{r} \implies \left[ V \right]  = \left[ U \right] \left[ Q^{-1} \right] =\left[ M \right] \left[ L^{2} \right] \left[ T^{-2} \right]  \left[ Q^{-1} \right]
 $$
 E quindi potremmo misurare il campo elettrico anche come volt su metri, per la definizione con gli integrali
 
 
-#### Principio di sovrapposizione per potenziale elettrostatico 🟩
+#### Principio di sovrapposizione per potenziale elettrostatico 
 L'esatto principio che abbiamo descritto in precedenza per il campo elettrico vale anche il per il potenziale elettrostatico, anzi *potrebbe essere utile nel calcolo del campo elettrico stesso* se possiamo derivare in un singolo punto, otteniamo il campo elettrico in quel punto.
 
-#### Superfici equipotenziali 🟩
+#### Superfici equipotenziali 
 Possiamo definire delle sfere che abbiamo tutti lo stesso potenziale elettrostatico, che da un punto di vista matematico **basta stessa r** ma serve il concetto di **angolo solito** per poter caratterizzare matematicamente questo concetto.
 
 TODO: avere superficie della sfera con angoli solidi, perché questa è l'analisi più semplice per superfici equipotenziali di singola carica
 
-#### Equazione di Poisson🟩
+#### Equazione di Poisson
 
 $$
 \vec{\nabla} \cdot \vec{E} = \vec{\nabla} \cdot (-\vec{\nabla}V) = \frac{\rho}{\varepsilon_{0}}
@@ -241,20 +234,3 @@ $$
 V(x, y, z) = \frac{1}{4\pi\varepsilon_{0}} \int _{\Sigma} \frac{\rho(x', y', z')\, dx'dy'dz'}{\sqrt{ (x - x')^{2} + (y - y')^{2} + (z - z') ^{2} }}  
 $$
 Questo risulta utile per caratterizzare la soluzione dell'equazione di Poisson per il [[Vettore potenziale]].
-## Note di ripasso
-- In che modo dimostri che se il rotore è nullo allora la forza è conservativa?
-- In che modo fai qualcosa di simile per qualunque forza radiale?
-- Perché posso scegliere io arbitrariamente il valore del potenziale elettrico sulla superficie?
-- Calcola il campo elettrico di una spira circolare e confronta con p 20 Menc
-### da ripassare
-- Capire il teorema del gradiente per bene, anche da un punto di vista matematico se ne ha il tempo, non ho capito esattamente perché si può estendere
-- Perché andando a considerare la divergenza, se è diverso da 0 le linee si incontrano, se è uguale non si incontrano?
-- 🟥 !!!! Bisogna capire meglio le occasioni in cui è necessario definire differenza di potenziale, in quali occasioni ha senso definire potenziale da solo, senza differenza??
-
-| Data | Commenti |
-| ---- | ---- |
-| 21/10/2023 | Ho avuto molta difficoltà a dimostrare quella cosa del filo infinito, per il resto mi sembrava che lo sapessi abbastanza bene però |
-| 30/10/2023 | Ripassato linea infinita con matti ed è Ok |
-| 06/12/2023 | Dovresti fare prove di spiegazione per l'orale, però ad alto livello dovresti conoscere sta roba |
-| 28/12/2023 | Non riuscivo a dimostrare benissimo la parte sulla discontinuità |
-| 03/01/2024 | Non mi ricordavo il motivo per cui non si dovevano incrociare, ora lo so un po' meglio |

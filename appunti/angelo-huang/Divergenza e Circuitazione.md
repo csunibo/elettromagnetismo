@@ -1,13 +1,6 @@
----
-date: 2024-01-27
-ripasso: 17
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ### Scalare
 
-#### Scalare e gradiente 🟩
+#### Scalare e gradiente 
 Un campo scalare assegna a **ogni punto dello spazio un valore reale**, quindi è naturalmente rappresentabile tramite una funzione 
 $$
 \varphi(x, y, z) : \mathbb{R}^{3} \to \mathbb{R}
@@ -16,7 +9,7 @@ $$
 Un esempio abbastanza naturale è il **gradiente del valore scalare** che si indica con $$\vec{\nabla}\varphi = ( \frac{\delta\varphi}{\delta x}, \frac{\delta\varphi}{\delta y}, \frac{\delta\varphi}{\delta z}) =  \frac{\delta\varphi}{\delta x} \hat{i} +  \frac{\delta\varphi}{\delta y} \hat{j} + \frac{\delta\varphi}{\delta z} \hat{k}$$
 Se consideriamo il gradiente da solo è un campo vettoriale (dice la direzione della derivata multidimensionale).
 
-#### Gradiente in coordinate polari 🟨
+#### Gradiente in coordinate polari 
 Questo è un po' più difficile da gestire, però è abbastanza facile una volta che si fanno certe osservazioni. 
 Sappiamo che $dV  = \vec{\nabla} V \cdot d\vec{s}$, TODO: finire la dimostrazione, è descritta bene a pagina 47 del mazzoldi.
 
@@ -36,13 +29,13 @@ $$
 $$
 ### Vettoriale
 
-#### Superfice di separazione 🟩
+#### Superfice di separazione 
 Per la definizione di questo, è chiaro che il **flusso su una superficie di separazione** è nulla, quindi posso dividere superfici come mi pare internamente, tanto su queste è nulla, o posso *considerare solamente la superficie più esterna che li racchiude*
 (è nulla perché avrò due versioni uguali e contrarie).
 
 TODO: scrivere il ragionamento in formule
 
-#### Integrale per un campo: teorema del gradiente 🟨++
+#### Integrale per un campo: teorema del gradiente ++
 
 In analisi abbiamo studiato il [[Integrali#8.4.6 Teorema di Torricelli (fondamentale del calcolo integrale)|teorema di torricelli]], ma possiamo estenderlo senza troppa fatica (almeno intuitivamente), nel caso in più dimensioni!
 
@@ -57,7 +50,7 @@ $$
 
 È da notare che nel nostro caso, *se abbiamo un campo conservativo*, questo integrale è dipendente solamente da inizio e fine, **non dipende dal percorso**, il che implica che il campo è conservativo.
 
-#### Teorema della divergenza (!!) 🟩-
+#### Teorema della divergenza (!!) -
 
 Dal ragionamento precedente abbiamo capito che potrei dividere la superficie con quante superfici di separazione mi pare, tanto il flusso esterno non cambia, questo mi permette di *dividere in tanti volumetti* e cercare il flusso con questi volumetti
 
@@ -79,7 +72,7 @@ Assumendo il risultato descritto in [[#Superfice di separazione]] diventa banale
 
 **Osservazione**: questa forma diventa molto più intuitiva se direttamente andiamo a parlare di cubi infinitesimali (Mencuccini spiega per benino sta parte diciamo e arriva subito al risultato, senza passare per il discorso che non ho capito bene sul flusso in una qualunque forma infinitesimale).
 
-#### Relazione divergenza e intuizione divergenza (!) 🟩+
+#### Relazione divergenza e intuizione divergenza (!) +
 si avrà che 
 $$
 \frac{\oint_{\Sigma} \vec{F} \cdot dS}{dV} = div \vec{F} = \text{per il teorema che verrà dimostrato} = \vec{\nabla} \cdot \vec{F}
@@ -98,7 +91,7 @@ E nella seconda parte abbiamo esattamente il flusso per cubo infinitesimo.
 	
 
 ### Circuitazione
-#### Intuizione di circuitazione e th separazione 🟩
+#### Intuizione di circuitazione e th separazione 
 In questa parte qui ci chiediamo il **flusso lungo una linea CHIUSA**. Probabilmente sarà utile per leggi come Lenz o Faraday.
 Anche in questo caso non ha senso considerare linee di separazione, perché avendo direzioni diverse si annullano. (guarda [[#Superfice di separazione]] descritto in precedenza.
 
@@ -110,7 +103,7 @@ Che possiamo notare essere una forma molto molto simile rispetto a quanto defini
 
 Posso fare un giochino (esattamente uguale a quello fatto in precedenza per la divergenza), ma lo faccio per piccole superfici, e flusso che gira attorno a quella superficie allora posso andare a definire il rotore
 
-#### Il rotore e teorema di stokes 🟩-
+#### Il rotore e teorema di stokes -
 Dividiamo tutta la nostra superficie con percorso chiuso in un sacco di piccoli pezzettini:
 $$
 \Gamma_{L} = \sum_{i=1}^{N} \oint_{L_{i}} \vec{F} \cdot d\vec{l_{i}} = \sum_{i=1}^{N} \frac{ \oint_{L_{i}} \vec{F} \cdot d\vec{l_{i}}}{S_{i}} S_{i}
@@ -131,7 +124,7 @@ $$
 $$
 Questo è il teorema di stokes, e si può applicare per qualsiasi circuitazione, per qualsiasi superficie che ha come contorno alla fine L.
 
-#### Rotore dimostrazione 🟩
+#### Rotore dimostrazione 
 In questa parte proviamo ad esplorare la relazione che c'è fra il rotore, come l'abbiamo definito di sopra, e la divergenza.
 
 Consideriamo un problema come in immagine 
@@ -157,7 +150,7 @@ $$
 $$
 
 Si può notare che questo è strettamente legato al concetto di **velocità angolare**.
-#### Divergenza del rotore (!) 🟩
+#### Divergenza del rotore (!) 
 Una volta espresso il rotore matematicamente come in precedenza (e sapendo anche il suo significato intuitivo di circuitazione per superficie), allora possiamo andare a fare cose interessanti come la divergenza che mi va a creare il rotore, ed è molto particolare come i calcoli portano poi alla fine ad affermare che
 $$
 \oint_{S} (\vec{\nabla} \times \vec{F}) d\vec{s} = \iiint_{V} div (\vec{\nabla} \times \vec{F}) d\vec{s} = \iiint_{V} \vec{\nabla} \cdot (\vec{\nabla} \times \vec{F}) d\vec{s} = 0
@@ -181,10 +174,3 @@ $$
 dV = \nabla V \cdot ds
 $$
 Dove $ds = u_{x}dx + u_{y}dy + u_{z}dz$
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 22/10/2023 | Non so bene giustificare la divergenza (derivata a tre dimensioni), non esce come naturale sta forma! |
-| 27/12/2023 | Buona roba, non dovrei avere problemi nella dimo di queste cose |
-| 12/01/2024 | Tutto bene direi |

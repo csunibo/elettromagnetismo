@@ -1,13 +1,6 @@
----
-date: 2024-01-14
-ripasso: 20
-Rating: 🌕🌕🌕🌕🌕
-tags:
-  - ⚡elettromagnetism
----
 
 ### Particelle in campi magnetici
-#### Moto in campo magnetico uniforme 🟩
+#### Moto in campo magnetico uniforme 
 Se abbiamo una particella carica con velocità uniforme in campo magnetico uniforme, come abbiamo detto in precedenza, una forza centripeta, questo farà **curvare la carica**, una cosa interessante sarebbe provare a capire **raggio di curvatura** della nostra carica. Sotto in immagine abbiamo l'esempio di curvatura.
 ![Magnetismo-1700054485909](images/Magnetismo-1700054485909.jpeg)
 
@@ -33,7 +26,7 @@ Ma questo vale solo classicamente, perché poi entrano in gioco **irradiazioni**
 
 Supponiamo ora che ci sia un certo angolo fra i due allora ho che solamente la parte normale ha forza, avrò un moto elicoidale.
 
-#### Angolo generico 🟩
+#### Angolo generico 
 ![Magnetismo-1700055358930](images/Magnetismo-1700055358930.jpeg)
 
 $$
@@ -50,7 +43,7 @@ Dove $v_{p}$ è la velocità parallela al campo magnetico, e $T$ è il periodo c
 Il coseno serve per prendere la componente corretta credo....
 
 
-#### Effetto Hall 🟩
+#### Effetto Hall 
 Da studiare bene pagina 230 Mazzoldi.
 ![Spettrometri di massa-1700844643754](images/Spettrometri di massa-1700844643754.jpeg)
 Sia dato un conduttore parallelepipedo, una piccola sottile lastra, che scorre una corrente, allora avremo una forza
@@ -80,7 +73,7 @@ Questo permette di **misurare il campo magnetico** ed è chiamato *sonda di Hall
 Per esempio questo diventa molto utile quando per [[Magnetismo nella materia]] andiamo poi a misurare il campo magnetico in buchi, basta mettere questa sonda di Hall.
 
 ### Spettrometri di massa
-#### Spettrometro di massa di Thomson 🟩
+#### Spettrometro di massa di Thomson 
 ![Spettrometri di massa-1700473509303](images/Spettrometri di massa-1700473509303.jpeg)
 Ho un coso che emette particelle in tutte le direzioni, faccio passare una zona per aumentare energia e poi campo magnetico
 
@@ -101,7 +94,7 @@ Posso anche definire il rapporto fra i raggi degli isotopi che è
 $$
 \frac{r_{1}}{r_{2}} = \sqrt{ \frac{m_{1}}{m_{2}} }
 $$
-#### Selettore di velocità 🟩
+#### Selettore di velocità 
 ![Spettrometri di massa-1700473442834](images/Spettrometri di massa-1700473442834.jpeg)
 
 Metto in modo che ci sia un condensatore che abbia un certo campo elettrico, e anche che ci sia un campo magnetico, vorrei avere che abbiamo stesso valore, ossia
@@ -119,7 +112,7 @@ Anche questo posso usarlo per separare isotopi diversi, ma la cosa bella è che 
 
 ### Spire 
 
-#### Setting classico: spira rettangolare 🟩
+#### Setting classico: spira rettangolare 
 Prendiamo un campo magnetico costante, e un rettangolo di filo **indeformabile** (perché ci sono forze che potrebbero deformarla), in cui c'è corrente, questo fa girare.
 ![Magnetismo-1700058718118](images/Magnetismo-1700058718118.jpeg)
 
@@ -138,7 +131,7 @@ $$
 
 Per i lati su e giù abbiamo stessa forza che si annulla, per altri invece abbiamo un momento ora.
 
-#### Momento magnetico di spira 🟩
+#### Momento magnetico di spira 
 dal risultato precedente sembra sensato definire una nuova variabile:
 $$
 \vec{m} = i\vec{S}
@@ -150,7 +143,7 @@ $$
 Che sta clean.
 Questo è molto simile al valore trovato per il momento nel [[Dipolo elettrico]], in cui abbiamo il momento di dipolo.
 
-#### Piccole oscillazioni 🟥
+#### Piccole oscillazioni 
 usiamo quanto scritto sopra, e valutiamo cosa succede per cose piccole:
 $$
 \lvert   \vec{M} \rvert = -mB\sin \theta = mB\theta = I\dot{\omega}= I\ddot{\theta}
@@ -163,10 +156,4 @@ Questo permette di calcolare il campo magnetico, col periodo.
 La cosa interessante è che questo si comporta come un **ago magnetico**, stesso comportamento.
 
 
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|12/26/2023      | Definire meglio il concetto di ago magnetico e piccole oscillazioni che mi manca.          |
 

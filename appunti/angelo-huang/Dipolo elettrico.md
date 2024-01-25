@@ -1,13 +1,6 @@
----
-date: 2024-01-14
-ripasso: 20
-Rating: 🌕🌕🌕🌕🌑
-tags:
-  - ⚡elettromagnetism
----
 Questo problema è stato trattato in modo un po' più semplificato (nel caso in cui la carica era esattamente a metà in [[Campo elettrico#Dipolo elettrico]]).
 Questo problema è stato storico, utilizzato per analizzare l'atomo.
-### Potenziale del dipolo elettrico 🟩--
+### Potenziale del dipolo elettrico --
 ![Momento di dipolo-1698054569445](images/Momento di dipolo-1698054569445.jpeg)
 
 Per il **principio di sovrapposizione** possiamo affermare che 
@@ -44,7 +37,7 @@ $$
 \vec{E} = -\vec{\nabla} V
 $$
 
-#### Componente parallela 🟩
+#### Componente parallela 
 Basta osservare che 
 $$
 \vec{E} = - \vec{\nabla}V = -\frac{\delta V}{\delta x}\hat{i}  -\frac{\delta V}{\delta y}\hat{j} -\frac{\delta V}{\delta z}\hat{k}
@@ -63,7 +56,7 @@ $$
 $$
 Nota : $E_{z} = E_{\parallel}$ dato che è **parallela al dipolo**.
 
-#### Componente perpendicolare 🟨+
+#### Componente perpendicolare +
 $$
 E_{\perp} = \sqrt{ E_{x}^{2} + E_{y} ^{2} }
 $$
@@ -104,7 +97,7 @@ Che è coerente col risultato che abbiamo calcolato tempo fa.
 **Esercizio:** In quale angolo si annulla $E_{\parallel}$ (analiticamente, basta l'angolo che annulla $3 \cos ^{2} \theta - 1$)
 Che è uguale a 54.71 gradi.
 Domanda: perché si annulla in qu
-#### Con coordinate polari 🟥
+#### Con coordinate polari 
 Vedere 58 del Mazzoldi avremo che
 $$
 E = \frac{p}{4\pi\varepsilon_{0}r^{3}}(2\cos \theta \hat{r}+ \sin \theta \hat{\theta})
@@ -125,7 +118,7 @@ $$\vec{E} = \frac{1}{4\pi\varepsilon_{0}r^{3}}(3p\cos \theta \hat{r} - \vec{p} )
 
 Supponiamo che la carica negativa sia posta su $\vec{r}$ *quindi il sistema di riferimento è qualunque* e che $r \gg a$.
 ![Momento di dipolo-1698057889762](images/Momento di dipolo-1698057889762.jpeg)
-#### Energia potenziale del dipolo 🟩
+#### Energia potenziale del dipolo 
 Usando esattamente il metodo trattato in [[Condensatori nel vuoto]], basta applicare
 $$
 U(P) 
@@ -149,7 +142,7 @@ U(P) = q(-E_{x}a_{x} -E_{y}a_{y} -E_{z}a_{z}) = - P_{x}E_x  - P_{y}E_y - P_{z}E_
 $$
 Mentre 0 allora l'energia è minima (se è minima allora è stabile in meccanica poi, seguendo questa giustificazione, allora diventa stabile quando $\theta = 0 deg$ quindi tende a stare **parallelo al campo**. L'equilibrio è instabile se è diverso da 0 gradi. **Stabile se è 0**
 
-#### Momento di dipolo 🟩
+#### Momento di dipolo 
 $$
 \vec{F}_{T} = q\vec{E}_{+} - q\vec{E}_{-} = 0 \iff \vec{E}_{+} =\vec{E}_{-} = \vec{E}
 $$
@@ -176,7 +169,7 @@ $$
 ![Dipolo elettrico-1698143928928](images/Dipolo elettrico-1698143928928.jpeg)
 Prendiamo una distribuzione di carica qualunque nello spazio, di dimensione $d$ massima
 #### Momento di dipolo elettrico del sistema
-#### Potenziale di sistema 🟨+
+#### Potenziale di sistema +
 Abbiamo che $\vec{r} = \vec{r}_{i} + \vec{d}_{i}$, allora posso assumere che $\vec{r}$ e $\vec{r}_{i}$ siano paralleli e dire che 
 $$
 r_{i} = r - d_{i}\cos \theta_{i}
@@ -204,7 +197,7 @@ Il secondo termine mi dà informazioni del potenziale *al variare della distribu
 
 **Conseguenza importante:**  *Anche un atomo neutro può generare un campo elettrico nello spazio, che è dato dal termine di dipolo*
 
-#### Monopolo vs Dipolo grandezza 🟩--
+#### Monopolo vs Dipolo grandezza --
 Abbiamo con una approssimazione che
 $$
 \lvert \vec{P} \rvert = \left\lvert  \sum_{i} q_{i}\vec{d}_{i}  \right\rvert 
@@ -218,7 +211,7 @@ $$
 $$
 Ma nel caso in cui è neutro, allora l'unico campo che c'è è il termine di dipolo! Quindi bisogna contare per avere il campo.
 
-#### Termine dipolo nullo 🟩
+#### Termine dipolo nullo 
 Abbiamo che 
 $$
 Q_{T} = 0 = Q_{+} + Q_{-} = \sum_{i}\lvert q_{i}^{+} \rvert  - \sum_{i}\lvert q_{i}^{-} \rvert 
@@ -239,12 +232,3 @@ $$
 Ossia il termine di dipolo si può riassumere come differenza del **centro fra le cariche positive e negative**.
 Se non hanno stesso centro allora ho un campo elettrico (questo è coerente col caso classico di dipolo a due cariche!).
 E questo è **vero sempre!** è anche il motivo per cui l'acqua è carica, perché ha un momento di dipolo!
-## Note di ripasso
-- Cosa è il termine di **monopolo**? Cosa dice fisicamente?
-- Cosa è il termine di **dipolo**? Cosa dice fisicamente?
-
-| Data | Commenti |
-| ---- | ---- |
-| 10/24/2023 | Dovrei mettermi proprio mezza oretta a rifare tutte le derivazioni, che è un esercizio utile per me |
-| 11/14/2023 | Dovrei studiarmi un po' meglio la parte del momento, però ci siamo buona roba diciamo |
-| 12/27/2023 | Ho fatto un po' fatica con la versione in coordinate polari resto dovrebbe essere ok. Nemmeno l'analisi dell'insieme dipolo mi è venuto naturale (alla fine io credo di ricordare molte cosa a memoria senza capirle sul serio) |

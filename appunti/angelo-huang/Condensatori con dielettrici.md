@@ -1,13 +1,6 @@
----
-date: 2024-01-14
-ripasso: 5
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ### introduzione ai dielettrici
 
-#### Esperimenti metalli e dielettrici 🟩
+#### Esperimenti metalli e dielettrici 
 
 Verso gli anni del 1840 Faraday ha fatto molti sistematici esperimenti per scoprire come si comportava il potenziale e il campo elettrico di fronte a certi materiali.
 Sono stati principalmente posti delle sostanza (conduttrici o meno) in mezzo a lastre di [[Condensatori nel vuoto|condensatori]], e hanno misurato come cambiava il potenziale elettrico fra le due lastre (che si può vedere attraverso il modo con cui cambiano sull'elettroscopio).
@@ -24,7 +17,7 @@ Il potenziale in questo ultimo stadio lo chiamiamo $V_{k}$ e sperimentalmente ha
 $$
 k = \frac{V_{0}}{V_{k}} < 1
 $$
-#### Costante dielettrica relativa 🟩
+#### Costante dielettrica relativa 
 Questa quantità non è molto importante, forse semplifica i conti ma è utile a descrivere il nuovo campo elettrico, perché se si assume di avere un campo uniforme allora abbiamo:
 $$
 E_{k} = \frac{V_{k}}{h} = \frac{V_{0}}{kh} = \frac{E_{0}}{k} = \frac{\sigma_{0}}{k\varepsilon_{0}} = \frac{\sigma_{k}}{\varepsilon_{0}} = \frac{\sigma_{0}}{\varepsilon}
@@ -47,7 +40,7 @@ Qui si può giocare un po' senza nessun problema!
 
 L'equazione del nuovo campo elettrico è utile per avere una intuizione, è **come se esistesse un campo contrario** creato dal dielettrico, che ne affievolisce l'intensità, questo sarà spiegato meglio dopo, esisteranno seriamente queste cariche!
 
-#### Costante dielettrica assoluta del dielettrico 🟩
+#### Costante dielettrica assoluta del dielettrico 
 Si trova che le relazioni di sopra funzionano per condensatori rotondi, piani, di qualunque forma, basta che siano condensatori (quindi ci sia l'induzione completa e abbiano stessa carica).
 Infatti abbiamo anche cose come 
 $$
@@ -67,7 +60,7 @@ E notiamo che **cambia solamente il valore di dielettrico**, è ancora molto cle
 Secondo me non ha senso questa parte e possiamo soltanto dire che la **capacità cresce** col dielettrico
 
 ### Polarizzazione del dielettrico
-#### Polarizzazione per deformazione/elettronica 🟨+
+#### Polarizzazione per deformazione/elettronica +
 ![Condensatori con dielettrici-1698143952107](images/Condensatori con dielettrici-1698143952107.jpeg)
 Questa polarizzazione si spiega a un **livello atomico** perché intuitivamente si può dire che il punto medio delle cariche elettriche positive (nucleo) e negative (nube di elettroni) quando viene sottoposto a un campo elettrico si spostano, per cercare di bilanciare la piccola forza applicata dal campo elettrico, quindi è un valore direttamente proporzionale al valore del campo elettrico,
 In questo caso:
@@ -84,7 +77,7 @@ Questo viene usato per discutere a livello molecolare come avviene la polarizzaz
 La differenza col precedente è che questo è solamente un effetto di media!
 
 ### Suscettibilità elettrica (!)
-#### Definizione di suscettibilità elettrica 🟩
+#### Definizione di suscettibilità elettrica 
 Andiamo a chiamare la quantità
 $$
 \text{ suscettività dielettrica: } \chi = k - 1 = \frac{V_{k}}{V_{0}} - 1
@@ -98,7 +91,7 @@ P = \varepsilon_{0}\chi E
 $$
 Se un dielettrico soddisfa questa relazione (solitamente è omogeneo) si dice che sia **dielettrico lineare**, solitamente materiali amorfi (senza forma), dotati di *isometria spaziale*, nei cristalli in genere questo non succede.
 
-#### Dimostrazione valore 🟨
+#### Dimostrazione valore 
 ![Condensatori con dielettrici-1698151009489](images/Condensatori con dielettrici-1698151009489.jpeg)
 NOTA: nell'immagine ho sbagliato a disegnare il verso dei singoli atomi allungati.
 
@@ -125,7 +118,7 @@ E
 = kE\varepsilon_{0} - \varepsilon_{0} E = \varepsilon_{0}E(k - 1)
 = \varepsilon_{0}E\chi
 $$
-#### Valore tensoriale 🟩
+#### Valore tensoriale 
 Solitamente per materiali non isotropi è un tensore, quindi lo abbiamo in una forma del genere
 $$
 \begin{pmatrix}
@@ -171,7 +164,7 @@ $$
 Che è anche più veloce da calcolare.
 La base di autovalori si chiama anche **asse ottico**
 ### Polarizzazione in materiali non omogenei
-#### Caso dipolo omogeneo 🟩
+#### Caso dipolo omogeneo 
 Questo è come il caso di flusso esterno in una superficie qualunque.
 Presa una qualunque superficie $\Sigma$, abbiamo che:
 $$
@@ -179,7 +172,7 @@ $$
 $$
 Si può dire che è uguale a zero perché il flusso esce ed entra, per lo stesso valore.
 
-#### Caso dipolo non omogeneo 🟩
+#### Caso dipolo non omogeneo 
 sia $\Delta Q'$ la carica rimasta internamente al volume, dato che il dielettrico è neutro abbiamo che è uguale ed opposta a quella rimasta all'esterno, che chiamiamo $\Delta Q$
 Quindi abbiamo che
 $$
@@ -193,7 +186,7 @@ $$
 $$
 Ossia la divergenza del momento di dipolo per unità di volume è uguale a meno densità di volume elettrico indotto internamente.
 
-#### Equazioni di Gauss rivisitate 🟩
+#### Equazioni di Gauss rivisitate 
 Possiamo ora aggiornare le equazioni di gauss andando a contare gli effetti del dipolo in modo esplicito, abbiamo che
 
 | Forma divergente                                            | Forma integrale                            |
@@ -210,7 +203,7 @@ $$
 \implies \vec{\nabla}(\varepsilon_{0} \vec{E} + \vec{P}) = \rho_{libero}
 $$
 
-#### Vettore di spostamento elettrico/induzione dielettrica 🟩
+#### Vettore di spostamento elettrico/induzione dielettrica 
 Il vettore che abbiamo trovato poco sopra ha un significato speciale, proviamo ad analizzare proprietà di
 $$
 \vec{D} = \varepsilon_{0}\vec{E} + \vec{P}
@@ -237,7 +230,7 @@ Ossia questo è un valore che **dipende solamente dalla carica LIBERA**, per que
 
 Sappiamo che le componenti tangenti vengono conservate passando da una superficie all'altra (vedi [[Campo elettrico]]), e anche le discontinuità per componenti perpendicolari. Ora vogliamo vedere se vale la stessa cosa nei dielettrici, quando abbiamo solamente cariche di polarizzazione, ed entrambi valgono ancora (ma la sigma nel secondo caso è di polarizzazione)
 
-#### Discontinuità superficiale 🟩--
+#### Discontinuità superficiale --
 $$
 \oint_{\Sigma}\vec{E} d\vec{s} = \frac{Q_{T}}{\varepsilon_{0}}
 \implies \Delta E_{\perp} = \frac{\sigma_{p}}{\varepsilon_{0}}
@@ -262,7 +255,7 @@ $$
 \Delta D_{N} = 0
 $$
 
-#### Legge di Snell revisited 🟩--
+#### Legge di Snell revisited --
 Una volte descritte le equazioni di continuità ricavare questo è molto semplice, poi è molto molto simile (opposto) a quanto fatto per [[Magnetismo nella materia]] per la continuità dei campi magnetici nel passare su superfici con correnti.
 
 ![Condensatori con dielettrici-1698655424494](images/Condensatori con dielettrici-1698655424494.jpeg)
@@ -292,7 +285,7 @@ NOTA: **il modulo del campo elettrico cambia sempre**.
 NOTA-2: basta guardare le linee di campo per sapere se il materiale è conduttore o meno (perché per il conduttore cambia le linee di campo anche all'esterno).
 
 ### Energia nei condensatori con dielettrico (!)
-#### Derivazione con dielettrico 🟩--
+#### Derivazione con dielettrico --
 Sappiamo che l'energia totale è ancora
 $$
 U_{e} = \frac{1}{2} CV^{2} = \frac{1}{2} \frac{\varepsilon S}{d} V_{k}^{2} = \frac{1}{2} \varepsilon S E_{k}^{2}d = \frac{1}{2}\varepsilon E_{k}^{2} (Sd) = u_{e} \cdot \text{ Volume}
@@ -307,7 +300,7 @@ U = \frac{1}{2} \frac{Q^{2}}{C}
 $$
 E viene ugualmente come prima
 
-#### Con vettore di spostamento 🟩
+#### Con vettore di spostamento 
 abbiamo, considerando che $\vec{D} = \varepsilon \vec{E}$, vale per dielettrico isotropo, ma per quello anisotropo, in cui non sono più paralleli come si fa?
 
 $$
@@ -316,7 +309,7 @@ $$
 
 A parità di campo elettrico, spendo molta quantità di energia in più per caricarlo.
 
-#### Materiale anisotropo 🟩--
+#### Materiale anisotropo --
 $$
 u_{E} 
 = \frac{1}{2}\varepsilon E^{2}
@@ -324,13 +317,3 @@ u_{E}
 $$
 Perché devo contare la parte parallela.
 
-## Note di ripasso
-
-
-| Data | Commenti |
-| ---- | ---- |
-| 14/11/2023 | Lo ho studiato un po' meglio per il parziale, però era roba che inizialmente non avevo capito bene, Zoccoli spiega bene ma mi ero perso questa sua lezione |
-| 06/12/2023 | Credo bisogna fare meglio la parte di snell, per il resto credo sia abbastanza OK sta parte, poi sarebbe meglio provare a spiegare questa parte |
-| 28/12/2023 | Ho avuto dei problemi a spiegare la polarizzazione del dielettrico dal punto di vista microscopico (non mi ricordavo la giustificazione della creazione del dipolo.)<br>- Non mi ricordavo nemmeno la giustificazione sulla densità superficiale e momento di dipolo totale. |
-| 09/01/2024 | Ancora non ho capito in deep la relazione fra densità superficiale e momento di dipolo elettrico. Ho sbagliato in modo leggero la derivazione della legge di snell. Un errore grave è che avevo invertito la costante dielettrica relativa.... |
-| 10/01/2024 | Bono |

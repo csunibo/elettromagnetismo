@@ -1,12 +1,5 @@
----
-date: 2024-01-14
-ripasso: 10
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ### Introduzione ai campi magnetici
-#### Introduzione storica (non impo) 🟩
+#### Introduzione storica (non impo) 
 Il magnetismo è stato in primi osservato e documentato da Greci, che hanno osservato che materiali metallici come *ferro*, questo è successo in *magnesia*, una penisola dell'Asia minore, mentre *elettro* era più sull'ambra, che credo fosse il nome dato a quel materiale.
 
 Una cosa nota era che se vicino a un materiale magnetico, venivano create linee con materiale ferroso all'estremità (limatura magnetica).
@@ -17,12 +10,12 @@ Sperimentalmente si è osservato che *poli stesso segno si **respingevano*** e d
 
 Fino al 1800 questo è quanto si sapeva, dopo si ebbe uno studio sistematico, permesso da un progresso tecnologico (forse direi ingegneristico), grazie alla **pila di Alessandro Volta**, con l'inizio dello studio dei circuiti.
 Con lo studio dell'interazione del campo magnetico ed elettrico si hanno i bei risultati :).
-#### Campo magnetico terrestre 🟩
+#### Campo magnetico terrestre 
 La terra si comporta come un **magnete gigante** :D. E creerà momenti di dipolo per i magnetini presenti sulla superficie. ma nota: il polo sud geografico, in realtà è il **polo nord magnetico!** E anche il contrario. Esiste anche una *versione periodica (non definita)*, ogni qualche milioni di anni.
 Si nota da come si sono solidificati i magma nel tempo (si solidificherà in un certo modo).
 La teoria più buona è che ci sono delle specie di *dinamo* all'interno della Terra che generano il campo.
 ![Magnetismo-1699950928848](images/Magnetismo-1699950928848.jpeg)
-#### Il monopolo magnetico 🟩
+#### Il monopolo magnetico 
 Se esistesse il monopolo magnetico potremmo definirlo in modo simile a Coulomb, vedi [[Legge di Coulomb]]:
 $$
 \lvert \vec{F} \rvert  = k_{m} \frac{C_{m}^{1}C_{m}^{2}}{r^{2}}
@@ -35,7 +28,7 @@ La ricerca del monopolo magnetico è molto sentita, perché il modello standard 
 Questa cosa motiva che la legge simile a Coulomb è abbastanza inutile.
 NOTA: essendo la legge sperimentalmente sempre inversamente proporzionale a $r^{2}$ si può utilizzare la [[Legge di Gauss]]. Condizione necessaria per far funzionare la dimostrazione con angoli solidi.
 
-#### L'induzione magnetica e dipolo magnetico 🟩
+#### L'induzione magnetica e dipolo magnetico 
 
 Partendo da conoscenze presenti per il [[Dipolo elettrico]] possiamo andare a definire il campo magnetico come la **linea individuata dai dipoli** magnetici, perché i dipoli si allineeranno in qualche modo quando sono dentro un campo magnetico. Con la convenzione che *entra in sud ed esce in nord*.
 In un certo senso il sud è equivalente al - del dipolo elettrico e il nord al +.
@@ -46,7 +39,7 @@ Figure descrittive di quanto detto sul campo magnetico, in ordine vediamo i camp
 Si può anche avere un ferro di cavallo per avere un campo uniforme.
 ![Magnetismo-1699950707933](images/Magnetismo-1699950707933.jpeg)
 
-#### Campo solenoidale 🟩
+#### Campo solenoidale 
 Essendo il monopolo magnetico non esistente, c'è ancora una proprietà simile alla [[Legge di Gauss]] anche nel nostro caso, ma la somma totale è sempre nullo (perché se divido un dipolo ho un altro dipolo).
 $$
 \oint_{\Sigma}\vec{B} \cdot \vec{s} = \frac{M_{tot}}{k} = 0
@@ -74,7 +67,7 @@ In ferromagnetici è lo spin degli elettroni
 ### Esperimenti storici
 Facciamo una carrellata fra esperimenti storici che hanno relazionato correnti e cambi magnetici e hanno contribuito a una migliore comprensione del motivo per cui abbiamo certi fenomeni.
 Attorno al 1820 questi esperimenti, poi nel 1865 **Maxwell enuncia le leggi**, in poco tempo conosciamo del tutto tutti i fenomeni di elettromagnetismo classico.
-#### Esperimenti di Oersted 🟩
+#### Esperimenti di Oersted 
 > Un filo percorso da corrente genera un campo magnetico
 
 Questo è un primo collegamento col campo elettrico! Come fanno cariche che si muovono a creare campo elettrico?
@@ -82,13 +75,13 @@ Questo è un primo collegamento col campo elettrico! Come fanno cariche che si m
 Oersted ha messo un magnete vicino a un filo. E ha osservato che se si chiude lo switch del circuito, l'ago magnetico gira.
 ![Magnetismo-1699953635505](images/Magnetismo-1699953635505.jpeg)
 
-#### Esperimenti di Faraday 🟩-
+#### Esperimenti di Faraday -
 Faraday ha poi l'intuizione che un magnete più magnete è in grado di influenzare la corrente, vede che se non c'è corrente è tutto ok, non succede niente, se però ci fa scorrere corrente, vede una **forza perpendicolare al filo**.
 
 > Un filo percorso da corrente si **comporta come un magnete**
 
 Ossia il filo è in grado di attrarre il magnete.
-#### Esperimenti di Ampere 🟩
+#### Esperimenti di Ampere 
 
 Ampere ha avuto l'intuizione che può trattare fili come magneti, quindi due fili con corrente vicina dovrebbero essere soggette a forza, ed è effettivamente ciò che nota.
 E nota anche quanto presente in immagine: se sono verso diverso sono repulsive, altrimenti attrattive.
@@ -99,7 +92,7 @@ Questo veramente sembra motivare **l'utilizzo del filo per studiare il campo mag
 
 ![Magnetismo-1699954040662](images/Magnetismo-1699954040662.jpeg)
 
-#### Seconda legge di Laplace e Esperimento 🟩
+#### Seconda legge di Laplace e Esperimento 
 Definiamo l'esperimento come segue, una sbarretta metallica libera di scorrere fra le due e due supporti sopra, sotto abbiamo una batteria. Ci metto un dinamometro, e così ho la misura della forza esercitata sulla sbarretta metallica mi serve per **misurare la forza del campo magnetico**.
 ![Magnetismo-1699954552199](images/Magnetismo-1699954552199.jpeg)
 Nel nostro sistema avremo che la barretta ha lunghezza $d\vec{l}$, e una corrente che sale e scende (proprio come circuito)
@@ -120,7 +113,7 @@ Questo motiva chiedersi quanto sia la forza sul singolo elettrone che si muove:
 
 ### Campo magnetico
 Anche qui vale il **principio di sovrapposizione!** vedi [[Campo elettrico]].
-#### Analisi forza su cariche in movimento 🟩-
+#### Analisi forza su cariche in movimento -
 
 Dall'esperimento di Laplace abbiamo modo di derivare la forza esercitata sul singolo elettrone in movimento
 $$
@@ -143,7 +136,7 @@ $$
 Questa è relazione diretta fra chi si muove dentro e la quantità di forza che ho!
 Questa è la su un segmento di filo infinitesimale!
 
-#### Forza di Lorentz 🟩
+#### Forza di Lorentz 
 Abbiamo che la forza esercitata su una singola carica è uguale a:
 $$
 \vec{F} = q\vec{v} \land \vec{B}
@@ -159,7 +152,7 @@ La nota importante è che una **forza perpendicolare** alla direzione della velo
 -> È una forza media sul portatore di carica, perché non posso andare a misurare il singolo portatore, da un punto di vista qualitativo la forza di Laplace è molto meglio!
 
 Questo ci permette di definire una nuova unità, che è il **Tesla**, ossia quanto campo magnetico per avere 1N di forza su una singola particella di $q$
-#### Forza di Lorentz generalizzata 🟩
+#### Forza di Lorentz generalizzata 
 possiamo generalizzare la Forza di Lorentz per una forza su una carica, dovuta ai due campi:
 $$
 \vec{F} = q\vec{E} + q\vec{v} \land \vec{B}
@@ -170,7 +163,7 @@ Se una delle due, invece, si muove c'è solo elettrostatica ancora
 ### Sistema di due cariche
 Se entrambe si muovono ho entrambe le forze
 
-#### Introduzione al problema 🟩
+#### Introduzione al problema 
 Una cosa strana è che **dipende dal sistema di riferimento** perché la velocità può cambiare col sistema. È un hint sulla correlazione fra i due campi. Come si può risolvere questo?
 Se ho due cariche ferme, ma io mi muovo, allora per me loro si muovono entrambe, e dal mio punto di vista sono soggette anche di forza magnetica sulle cariche.
 
@@ -178,7 +171,7 @@ Quindi succede che per una carica ho sia forza elettrica, e anche in questo caso
 ![Magnetismo-1701679064514](images/Magnetismo-1701679064514.jpeg)
 Mentre per il filo si vede sempre non cambiando anche sistema di riferimento!
 
-#### Analisi della forza caso per caso  🟨-
+#### Analisi della forza caso per caso  -
 Proviamo ad analizzare secondo due sistemi di riferimento, una in cui il sistema è solidale con le due cariche, una altra con riferimento inerziale, con velocità $v$ lungo asse $x$.
 Per il principio di relatività di galileo, dovrei osservare la stessa cosa, vediamo nei due cosa si vede.
 
@@ -212,7 +205,7 @@ $$
 $$
 Questo è vero perché per velocità molto piccole è simile al normale, ma la cosa strana si ha quando cominciamo ad avvicinarci alla velocità della luce, perché lì cambia! Abbiamo forze diverse in due sistemi di riferimento inerziali!
 
-#### Correlazione E e B per relatività galileiana 🟨-
+#### Correlazione E e B per relatività galileiana -
 Proviamo a utilizzare la relatività galileiana (che è una legge prima presente, e affinché valga i campi elettrici e magnetici devono essere correlati), per questo ragionamento deve essere necessariamente che le due forze siano uguali, ma allora abbiamo questo risultato:
 $$
 \vec{F}' = \vec{F} \implies q_{1}\vec{E}_{2} = q_{1}\vec{E}_{2}' + q_{1}\vec{v}_{1} \times \vec{B}_{2}' \implies
@@ -275,7 +268,7 @@ Questo valore è proprio il valore predetto come trasformazione secondo la relat
 
 ### Prima legge di Laplace
 
-#### Prima legge di Laplace 🟩
+#### Prima legge di Laplace 
 ![Magnetismo-1700468778548](images/Magnetismo-1700468778548.jpeg)
 Vogliamo sapere esattamente quale sia il valore del campo magnetico generato da un filo.
 Il piccolo tratto di energia sarà di valore
@@ -289,7 +282,7 @@ Questa è la **prima legge di Laplace**.
 2. Permette di capire quale sia il modulo del campo magnetico, e si nota che cade su $\frac{1}{r^{2}}$ che è la cosa che permette l'utilizzo della legge di gauss per i monopoli magnetici
 3. Sulla congiungente della retta dl, il valore del campo magnetico è 0!
 
-#### Permeabilità magnetica del vuoto 🟩
+#### Permeabilità magnetica del vuoto 
 Il valore di $\mu_{0}$ verrà trovato sperimentalmente, e sarà: 
 $$
 \text{permeabilità magnetica del vuoto}: \mu_{0} = 4\pi \times 10 ^{7} \, \frac{Tm}{A}
@@ -299,7 +292,7 @@ Scoperta direi in modo simile a quanto fatto per permeabilità elettrica nel vuo
 
 Il valore del campo magnetico e la forza di un altro filo definiscono il comportamento *qualitativo* per i campi magnetici!
 
-#### Campo magnetico totale 🟩
+#### Campo magnetico totale 
 Per trovare il valore basta sommare tutti i contributi!
 
 $$
@@ -307,7 +300,7 @@ $$
 $$
 In modo simile a quanto fatto in [[Campo elettrico]], se siamo in regime stazionario, la $i$ può essere portata fuori dall'integrale 
 
-#### Campo magnetico da singola carica  🟨+
+#### Campo magnetico da singola carica  +
 La definizione precedente, con il $4\pi$ ci permette anche di scrivere in una forma carica utilizzando la densità di corrente [[Corrente Elettrica]].
 $$
 id\vec{l} = \vec{J} \cdot d\vec{s} d\vec{l} = \vec{J} \cdot d\tau = nq\vec{v}_{d} d\tau
@@ -323,7 +316,7 @@ $$
 
 Da qui osserviamo che se si muovono più in fretta allora il campo magnetico va più in fretta! E sappiamo che la velocità è dipendente dal campo elettrico da cui sono sottoposti.
 
-#### Legame col campo elettrico 🟨+
+#### Legame col campo elettrico +
 Dalla formula di sopra possiamo trovare la relazione col campo elettrico ponendo che 
 $$
 \vec{E} = \frac{1}{4\pi\varepsilon_{0}} \frac{q\hat{r}}{r^{2}}
@@ -339,10 +332,3 @@ E la relazione stupenda è con la velocità della luce, e si nota come queste so
 È da notare però che questo vale solo per valori della velocità tali per cui siano molto minori rispetto alla velocità della luce. (regimi non relativistici).
 
 
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 03/12/2023 | Dovrebbe essere apposto questo, conosco bene direi la teoria di questa parte direi. |
-| 29/12/2023 | Oggi ho spostato ampere e Faraday in file a parte perché altrimenti questa prima parte diventava troppo grossa. Poi da fare un po' meglio (perché non sono riuscito a ricavarlo da me) la parte con relazione singola carica e campo elettrico. |
-| 11/01/2024 | Buono direi, bisogna fare un ripasso veloce per capire se riesco a spiegarle. |

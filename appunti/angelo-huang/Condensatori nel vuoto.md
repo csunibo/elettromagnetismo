@@ -1,13 +1,6 @@
----
-date: 2024-01-14
-ripasso: 12
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ### Introduzione ai condensatori
 
-#### Analisi introduttiva condensatori: tubi di flusso 🟩
+#### Analisi introduttiva condensatori: tubi di flusso 
 ![Materiali e campo elettrico-1697456372758](images/Materiali e campo elettrico-1697456372758.jpeg)
 Consideriamo un **tubo di flusso infinitesimo** come in immagine. abbiamo che  $dQ$ è la carica totale dentro al cubo. Tale che segua le linee di campo.
 Il flusso totale sarebbe
@@ -27,12 +20,12 @@ esChe è molto molto simile alla forma $\frac{\sigma}{\varepsilon_{0}}$.
 il parametro di nostro interesse in questo esempio (almeno la cosa di nostro interesse) è *il concetto di distanza*, se ci allontaniamo dalla nostra superficie, $dS_{2}$ diventa più larga
 
 
-#### Introduzione ai condensatori 🟩
+#### Introduzione ai condensatori 
 Poniamo di avere due armature metalliche qualsiasi, che abbiamo **cariche uguali ed opposte in segno** di una forma qualunque a distanza qualunque, in questo setting teorico.
 La cosa interessante è che suppongo di avere [[#Induzione completa]] in questo caso.
 È una necessità per l'analisi dei condensatori.
 
-#### Potenziale elettrico e carica 🟨+
+#### Potenziale elettrico e carica +
 ![[Materiali e campo elettrico-1697457325467.jpeg|500]]
 Proviamo a seguire una linea di campo elettrico per studiare il potenziale elettrico, andiamo quindi a definire un **tubo di flusso**.
 Per risultato precedente abbiamo che  $E_{i} = \frac{dQ_{i}}{\varepsilon_{0}dS_{i}}$
@@ -56,7 +49,7 @@ V_{A} - V_{B} = \frac{Q}{C} \implies C = \frac{Q}{\Delta V}
 $$
 ossia la capacità del condensatore è la carica fratto la differenza di potenziale.
 
-#### Analisi dimensionale capacità 🟩-
+#### Analisi dimensionale capacità -
 
 $$
 \left[ C \right] = \frac{[Q]}{[V]} =\left[ Q \right] / \left[ ML^{2} T^{-2} Q^{-1} \right] = \left[ Q^{2} \right]  \left[ M^{-1}L^{-2} T^{+2} \right]  = \left[ F \right] 
@@ -70,7 +63,7 @@ Consideriamo un classico caso in cui abbiamo due condensatori piani, con la stes
 **Approssimazione**
 1. Consideriamo le linee di campo del tutto parallele (campo come se fosse un piano infinito per chiarirci).
 2. Facce sono infinite (ma poi nella realtà cambia solamente ai bordi).
-#### Campo elettrico in ogni regione 🟩
+#### Campo elettrico in ogni regione 
 ![Condensatori-1697527856591](images/Condensatori-1697527856591.jpeg)
 Si può notare che
 
@@ -87,7 +80,7 @@ $$
 $$
 In mezzo ai conduttori.
 Questa analisi si può fare con Gauss o semplicemente usando sovrapposizione, dovrebbe venire uguale, nel caso di conduttori infiniti.
-#### Disposizione superficiale di carica 🟩
+#### Disposizione superficiale di carica 
 **Disposizione esterna**
 Nel setting dei condensatori di sopra, possiamo chiederci dove stanno le cariche, si può dimostrare usando Gauss che sulla superficie esterna è nulla.
 Procedimento:
@@ -105,7 +98,7 @@ $$
 Abbiamo messo $S = A$ come superficie ed area, la stessa cosa in pratica.
 Quindi la discontinuità che abbiamo discusso (che non ho ancora scritto) è ancora la stessa, solo ridisposta in modo diverso, descritto in [[Campo elettrico]].
 
-#### Potenziale elettrico e capacità 🟩-
+#### Potenziale elettrico e capacità -
 Utilizziamo la definizione:
 $$
 \Delta V = \int _{A}^{B} \vec{E} \, d\vec{r} = \lvert \vec{E} \rvert   \int _{A}^{B} \, d\vec{r} = \lvert \vec{E} \rvert d = \frac{Qd}{\varepsilon_{0}S}
@@ -117,7 +110,7 @@ C = \frac{Q}{\Delta V} = \frac{S\varepsilon_{0}}{d}
 $$
 E possiamo vedere che sono sempre fattori geometrici.
 
-#### Caso piani non infiniti 🟩
+#### Caso piani non infiniti 
 Nell'analisi soprastante, abbiamo assunto di avere piani metallici infiniti
 Nel caso reale:
 1. L'approssimazione funziona in mezzo al condensatore
@@ -125,7 +118,7 @@ Nel caso reale:
 
 ### Disposizioni di condensatori
 
-#### Parallelo 🟩
+#### Parallelo 
 ![Condensatori-1697529560798](images/Condensatori-1697529560798.jpeg)
 Analizziamo sempre potenziali e capacità, da un punto di vista totale (vedendolo come un singolo condensatore).
 Chiamiamo a sinistra 1, a destra 2
@@ -138,7 +131,7 @@ C_{T} = \frac{Q_{T}}{\Delta V} = \frac{Q_{1} + Q_{2}}{\Delta V} = C_{1} + C_{2}
 $$
 > In un sistema composto da due o più condensatori posti in parallelo, la capacità totale è pari alla **somma delle singole capacità**.
 
-#### In serie 🟨
+#### In serie 
 ![Condensatori-1697529794365](images/Condensatori-1697529794365.jpeg)
 **Osservazione**
 1. Conduttori su E è isolato, quindi si *caricheranno solo per induzione*.
@@ -162,7 +155,7 @@ Partiamo sempre dal concetto di lavoro, è equivalente al **lavoro usato per car
 L'energia di un sistema di cariche che cosa è? è il **lavoro esterno compiuto per costruire il sistema**, in modo più intuitivo è quanto sforzo è stato necessario usare per partire dall'infinito e portare le particelle e portarle in quel punto.
 Se è repulsiva (quindi energia positiva) io faccio lavoro positivo, altrimenti negativo, questo l'hai visto ieri. Se l'energia è positiva posso *estrarre* energia da utilizzare, altrimenti no.
 
-#### Energia di Interazione 🟩
+#### Energia di Interazione 
 ![Condensatori-1697532550995](images/Condensatori-1697532550995.jpeg)
 L'energia di sistema (o di interazione fra le cariche) è calcolato nel modo seguente:
 
@@ -194,7 +187,7 @@ U_{tot} = \frac{1}{2} \int _{\tau} \rho V \, d\tau
 $$
 E la *stessa cosa vale per le superfici* in pratica posso calcolare l'energia totale in ogni configurazione.
 #### Lavoro di carica dei condensatori 
-##### Primo modo: lavoro punto per punto 🟨++
+##### Primo modo: lavoro punto per punto ++
 ![[Condensatori-1697534464287.jpeg | 500]]
 Consideriamo un condensatore, alla prima carica non c'è lavoro, ma poi si crea un campo elettrico che si prova ad opporre al caricamento (quindi **lavoro positivo**, forza di Coulomb è positivo).
 
@@ -223,13 +216,13 @@ L_{E} = \int _{0}^{Q} \Delta L_{E} = \int _{0}^{Q} \frac{q}{C} \, dq = \frac{1}{
 $$
 Che è esattamente il **lavoro fatto per caricare il condensatore**
 
-##### Secondo modo: energia di interazione 🟩
+##### Secondo modo: energia di interazione 
 Posso subito dire che 
 $$
 U_{E} = \frac{1}{2} \left[ Q_{A} V_{A} + Q_{B}V_{B} \right] = \frac{1}{2} \left[ C(V_{A} - V_{B})V_{A} + C(V_{B} - V_{A})V_{B}\right] = \frac{1}{2} C\, \Delta V^{2}
 $$
 
-#### Densità di energia 🟩
+#### Densità di energia 
 L'energia immagazzinata è stata utilizzata per **costruire il campo**. -> Campo elettrico porta energia! Rinnovabili per questo è nice.
 Abbiamo che 
 $$
@@ -243,7 +236,7 @@ $$
 Questo servirà per il vettore di Poynting in seguito quando faremo il minimo di propagazione. (Base di energia solare, anche la parte di propagazione che ho fatto io, e spiega che si **può ottenere energia** dal campo elettrico, costruendo o disfacendone).
 ## Scarica e carica di condensatori
 ### Carica del condensatore
-#### Setting del problema 🟩
+#### Setting del problema 
 Ci stiamo chiedendo, come varia l'intensità di corrente in un circuito fatto di semplice condensatore e resistenza? In che modo cambia il potenziale? Se ho l'intensità di corrente per un dato momento, allora posso calcolare l'intensità di corrente.
 ![Condensatori nel vuoto-1699945999446](images/Condensatori nel vuoto-1699945999446.jpeg)
 Possiamo usare le leggi presenti in [[Leggi di Ohm]] e osservare che vale, perché alla fine il campo esterno è ancora conservativo (credo), anche se la corrente varia.
@@ -273,7 +266,7 @@ $$
 q(t) = -\varepsilon C e^{-t/RC} + \varepsilon C
 $$
 
-#### Equazioni per la carica dei condensatori 🟩
+#### Equazioni per la carica dei condensatori 
 Da quanto fatto sopra otteniamo che 
 $$
 q(t) = \varepsilon C(1 - e^{-t/RC})
@@ -291,7 +284,7 @@ V_{b}(t) = i(t)R = \varepsilon e^{-t/RC}
 $$
 Come grafici questi hanno:
 ![Condensatori nel vuoto-1699947549475](images/Condensatori nel vuoto-1699947549475.jpeg)
-#### Note sul tempo di carica 🟩
+#### Note sul tempo di carica 
 Nota: il condensatore non si carica mai al valore teorico di carica che può avere (è un asintoto orizzontale). Possiamo considerarlo carico quando è tipo 1% del valore nominale, non ho capito esattamente perché questo, forse è una convenzione.
 
 Tempi tipici di carica sono **microsecondi** perché di solito Parliamo di micro-Farad e migliaia di Ohm di resistenza.
@@ -301,7 +294,7 @@ Si può notare risolvendo le equazioni di sopra otteniamo che:
 0.99% -> 4.6$\tau$
 0.999% -> 7$\tau$
 Per caricare il condensatore.
-#### Potenza erogata ed assorbita 🟩
+#### Potenza erogata ed assorbita 
 Con le equazioni di sopra possiamo anche utilizzare le equazioni di energia spesa, perché sappiamo che il generatore eroga
 $$
 P_{gen} = \varepsilon i(t) = \frac{\varepsilon^{2}}{R}e^{-t/RC}
@@ -328,11 +321,11 @@ W_{c} = \frac{1}{2}CV^{2} = \frac{W_{gen}}{2} \implies W_{r} = W_{c}
 $$
 
 ### Scarica del condensatore
-#### Setting del problema 🟩
+#### Setting del problema 
 Ho un condensatore completamente carico come in figura
 ![Condensatori nel vuoto-1699948578740](images/Condensatori nel vuoto-1699948578740.jpeg)
 Ad un certo punto chiudo l'interruttore e inizierà a scorrere della carica, vogliamo capire in che modo varia $q(t)$ e in che modo varia $i(t)$
-#### Equazioni per la scarica dei condensatori 🟩
+#### Equazioni per la scarica dei condensatori 
 In modo simile al precedente possiamo mettere su una equazione differenziale:
 $$
 0 = \frac{q(t)}{C} + \frac{d(q)}{dt}R
@@ -345,7 +338,7 @@ $$
 $$
 E poi si possono fare tutte le altre cose.
 
-### Campo magnetico in condensatore 🟨
+### Campo magnetico in condensatore 
 Guardando [[Ampere e Faraday]] se cambia l'intensità del campo elettrico, come succede per questo circuito, abbiamo che si ha una densità di corrente di spostamento.
 
 Calcoliamo la circuitazione in una parte del filo (intorno a un punto, in modo classici diciamo) e allora abbiamo
@@ -358,14 +351,3 @@ Questo scegliendo la superficie più semplice che esisteva.
 Posso però scegliere una altra superficie che passa dalle facce del condensatore, in questo caso io non ho corrente! Ecco che entra in gioco la correzione di Maxwell, per la corrente di spostamento.
 E facendo i calcoli si è scoperto che la predizione era corretta, e il valore è esattamente lo stesso.
 
-## Note di ripasso
-
-
-
-| Data | Commenti |
-| ---- | ---- |
-| 10/25/2023 | Abbastanza bene riesci anche a fare esercizietti con la carica per benino diciamo :) |
-| 11/14/2023 | abbastanza tutto apposto, dovrei solo studiarmi di nuovo l'analisi con i tubi di flusso, quella è un po così così, poi anche il calcolo dell'energia per i condensatori |
-| 12/06/2023 | Sarebbe buono provare a fare le dimostrazioni di scarica e carica da zero, delle disposizioni, e del lavoro per la carica, anche l'analisi del tubo di flusso, però quello credo tu lo sappia un po' meglio |
-| 12/28/2023 | Mi manca da fare per bene la parte di energia di interazione. |
-| 02/01/2024 | Leggera difficolta per la dimostrazione per condensatori in serie. Non mi ricordo esattamente come si calcola energia di condensatore con energia di interazione. |

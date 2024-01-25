@@ -1,13 +1,6 @@
----
-date: 2024-01-15
-ripasso: 10
-Rating: 🌕🌕🌕🌕🌕
-tags:
-  - ⚡elettromagnetism
----
 
 ### Relazioni con fili - Ampere
-#### Legge di Biot-Savart/Formalizzazione esperienza di Ampere 🟩
+#### Legge di Biot-Savart/Formalizzazione esperienza di Ampere 
 Poniamo che ho due fili in cui scorra della corrente, voglia capire la forza per unità di lunghezza del filo uno su due e viceversa.
 - So che entrambi generano campo magnetico
 - So che il campo magnetico induce forza su correnti in movimento.
@@ -56,7 +49,7 @@ $$
 Questo vale perché abbiamo considerato fili infiniti rettilinei.
 Per la terza legge della dinamica la forza esercitata da due su uno è la stessa, invertita però, e questo conferma anche quanto sperimentalmente trovato con l'esperienza di ampere
 
-#### Definizioni di dimensioni  🟩
+#### Definizioni di dimensioni  
 L'ampere posso definirlo in questo modo: corrente percorsa in due fili paralleli nel momenti in cui la distanza è un singolo metro, e la lunghezza è un metro e ho una forza uguale a $2\times 10^{-7} N$ .
 Questo poi mi permette di definire il Coulomb in termini di corrente. È una definizione utile per anche avere in automatico il valore di $\mu_{0}$ (quindi molto artificiale secondo me).
 
@@ -68,7 +61,7 @@ Questo poi mi permette di definire il Coulomb in termini di corrente. È una def
 
 Posso calcolare la **circuitazione**, e scelgo una circonferenza chiusa:
 
-#### Circuitazione del campo magnetico (!) 🟩
+#### Circuitazione del campo magnetico (!) 
 $$
 \oint_{\Gamma} \vec{B}d\vec{r} 
 = \oint_{\gamma} \frac{\mu_{0}i}{2\pi} \frac{dr}{R} 
@@ -86,14 +79,14 @@ $$
 $$
 Questo discorso ha delle similitudini con l'analisi del Potenziale elettrico in [[Campo elettrico]]. Anche lì spezzettavamo, e concludevamo conservatività per cose radiali.
 
-#### Legge di Ampere 🟩
+#### Legge di Ampere 
 > La circuitazione di $\vec{B}$ lungo una qualsiasi linea chiusa Gamma, è pari all'intensità di corrente **complessiva** **concatenata** alla linea chiusa moltiplicata per la permeabilità magnetica del vuoto
 
 Questo è motivato da quanto fatto sopra per la circuitazione del campo magnetico, solo che quando l'abbiamo derivato l'abbiamo fatto per un filo rettilineo uniforme.
 
 In un certo senso questa legge è simile a [[Legge di Gauss]] perché consideriamo solamente le correnti dentro alla nostra circuitazione (come per gauss si considerava solamente le cariche all'interno).
 
-#### Corrente concatenata (!!) 🟩
+#### Corrente concatenata (!!) 
 Dobbiamo capire il significato di corrente concatenata, possiamo riprendere la definizione di corrente elettrica che abbiamo dato durante [[Corrente Elettrica]], e considerare una superficie più ampia! Infatti considero la superficie aperta con bordo $\Gamma$, dalla definizione di densità di corrente, non mi importa che questa superficie sia oltre il nostro filo, può esser più ampio , e in questo senso la corrente è sempre quella, definita come
 $$
 i = \int _{\Sigma} \vec{J} \cdot d\vec{s}
@@ -106,7 +99,7 @@ $$
 \oint_{\Gamma} \vec{B} \cdot d\vec{r} = \mu_{0} \int _{\Sigma(\Gamma)} \vec{J} \cdot d\vec{s} 
 $$
 
-#### Ampere in forma differenziale 🟩
+#### Ampere in forma differenziale 
 Guardare [[Divergenza e Circuitazione]], è il teorema di Stokes quello che utilizziamo:
 
 $$
@@ -121,7 +114,7 @@ Da cui abbiamo ancora che $B$ non è conservativo, e quindi non ha senso chieder
 
 
 
-#### Terza legge di Maxwell (Ampere-Maxwell) 🟩
+#### Terza legge di Maxwell (Ampere-Maxwell) 
 Come si gestisce il caso in cui l'intensità della corrente cambia?
 Ricordiamo la legge di continuità della corrente, ossia abbiamo
 $$
@@ -150,7 +143,7 @@ $$
 Questo è fondamentale! Perché basta far variare il campo elettrico e questo crea un campo magnetico!
 
 Sono quattro equazioni differenziali a derivate parziali (stessa cosa per il campo elettrico), e con questo si può risolvere tutto.
-#### Densità di corrente di spostamento 🟩
+#### Densità di corrente di spostamento 
 Il termine nuovo che ha introdotto Maxwell è chiamato **densità di corrente di spostamento** e si può vedere che hanno le stesse dimensioni infatti
 $$
 \vec{J}_{s} = \varepsilon_{0} \frac{\delta \vec{E}}{\delta t}
@@ -171,7 +164,7 @@ E dato che sommo anche quello è una densità, e la chiamo densità di corrente 
 
 Questi possono indurre una forza elettromotrice. Faraday ha indagato questa possibilità e attraverso molti esperimenti si cerca di verificare questo.
 
-#### Esperimento di Faraday per campi magnetici non stazionari 🟨
+#### Esperimento di Faraday per campi magnetici non stazionari 
 ![Magnetismo-1701684128898](images/Magnetismo-1701684128898.jpeg)
 1. Magnete statico: Ha messo prima una calamita su un circuito, ma questo non genera corrente
 2. Magnete in estrazione: genera una corrente che nel solenoide (comunque spira) ha un campo magnetico attrattivo
@@ -186,7 +179,7 @@ Questi possono indurre una forza elettromotrice. Faraday ha indagato questa poss
 
 Questi risultati sono uguali quando si usa un  circuito affacciato al primo (ci sono esattamente le stesse cose di prima). -> **Un flusso variabile può generare forza elettromotrice**.
 
-#### Quarta legge di Maxwell (Faraday-Neumann-Lenz) 🟩
+#### Quarta legge di Maxwell (Faraday-Neumann-Lenz) 
 $$
 \varepsilon_{IND} = -\frac{d\Phi(\vec{B})}{dt}
 \implies
@@ -208,7 +201,7 @@ Possiamo individuare tre casi in cui la variazione non è nulla, li andiamo a di
 2. $\theta = \theta(t)$
 3. $\Sigma = \Sigma(t)$
 
-#### Angolo variabile nel tempo 🟩
+#### Angolo variabile nel tempo 
 Supponiamo di avere un campo magnetico costante, vogliamo cercare di guardare quant'è la corrente indotta quando la spira ruota.
 Supponiamo ruoti con $\omega = \frac{d\theta}{dt}$
 Allora:
@@ -218,7 +211,7 @@ $$
 $$
 Qui abbiamo una **corrente alternata**. È interessante notare che abbiamo corrente alternata anche se non c'è nessuna forza elettromotrice.
 
-#### Flusso variabile nel tempo 🟩
+#### Flusso variabile nel tempo 
 ![Magnetismo-1701687429980](images/Magnetismo-1701687429980.jpeg)
 
 Supponiamo di avere un circuito in parallelo con una corrente che cambia intensità, così ho un flusso distante.
@@ -243,7 +236,7 @@ $$
 $$
 Con questo poi posso descrivere la FEM indotta e quindi avere la direzione della corrente
 
-#### Area variabile nel tempo 🟩
+#### Area variabile nel tempo 
 ![Magnetismo-1701765788233](images/Magnetismo-1701765788233.jpeg)
 Consideriamo un circuito con una barra che si muove di velocità costante, in questo senso varia l'area, e un campo magnetico uscente costante,
 sappiamo che 
@@ -267,7 +260,7 @@ $$
 $$
 Per avere velocità costante, bisogna avere una *forza che annulli questo*, in modo che sia inerziale.
 
-#### Barra in movimento 🟩
+#### Barra in movimento 
 ![Magnetismo-1701765799811](images/Magnetismo-1701765799811.jpeg)
 Da questo esperimento proveremo che correnti vengono generati anche nel vuoto.
 Consideriamo una barretta che si muove in un campo magnetico costante.
@@ -290,12 +283,3 @@ E solitamente questo non è conservativo (se è indotto non è statico solitamen
 
 Vogliamo cercare di ricavare una equazione di conservazione dell'energia in elettromagnetismo classico
 
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 31/12/23 | Tutto apposto questo. |
-| 11/01/24 | Derivazione di ampere Maxwell (con continuità di corrente) non l'avevo ben chiara. |
-|  |  |
-
-z

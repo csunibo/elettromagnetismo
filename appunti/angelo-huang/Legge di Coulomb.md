@@ -1,10 +1,3 @@
----
-date: 2024-01-15
-ripasso: 27
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ## Introduzione elettromagnetismo
 
 ### Note storiche: triboelettricità
@@ -15,15 +8,15 @@ Il vetro si caricava poi abbastanza da poter attrarre carta per esempio. [esempi
 Questo effetto è chiamato **triboelettricità**.
 
 ### Dimensioni atomo
-#### Misure classiche dimensione atomo 🟨
+#### Misure classiche dimensione atomo 
 Questa è una piccolissima sezione per dare l'intuizione su quanto sia grande in generale un atomo, confronto fra protone ed elettrone:
 ![Introduzione-1696712973312](images/Introduzione-1696712973312.jpeg)
-#### Forza di gravità vs elettromagnetico 🟩
+#### Forza di gravità vs elettromagnetico 
 TODO: in questa parte viene fatto un confronto fra quanto è grande la forza di gravità contro la forza elettrica in un atomo
 Fatto da esempio 1.1 pagina 9 del Mazzoldi
 Abbiamo che la differenza in modulo della forza di gravità e forza elettrica sia molto differente (circa $10^{39}$ di differenza, quindi troppo per dire.)
 ### Esperimenti classici
-#### Elettroscopio a foglie 🟩
+#### Elettroscopio a foglie 
 ![Introduzione-1696711860049](images/Introduzione-1696711860049.jpeg)
 [Video per l'esperimento](https://youtu.be/XXVUuW5F0xU?si=eKnTMxnoIitJdTB_) in cui vengono presentati tre casi (e tre cariche risultanti diverse).
 
@@ -33,7 +26,7 @@ Abbiamo che la differenza in modulo della forza di gravità e forza elettrica si
 
 L'angolo di separazione fra le foglie hanno permesso di **misurare la carica per la prima volta**. (poi probabilmente qualcosa di meccanica per calcolare).
 
-#### Bilancia a torsione 🟩-
+#### Bilancia a torsione -
 Questo è un setting un po' più complesso anche se l'idea è ancora quella presente in [[#Elettroscopio a foglie]] di misurare un angolo per avere la distanza.
 [video esempio](https://youtu.be/FYSTGX-F1GM?si=PLB61tg1ljz-XbRb).
 
@@ -50,10 +43,10 @@ $$
 Da cui si può derivare la forza, e quindi sperimentalmente anche i valori di questa carica elettrica.
 
 ## La legge di coulomb
-### Enunciato a parole 🟩
+### Enunciato a parole 
 > Date due cariche elettriche poste a una distanza $r$, tra di esse esercita una forza che è direttamente proporzionale al prodotto delle cariche ed inversamente proporzionale al quadrato della distanza, tale forza è diretta fra la congiungente delle cariche elettriche, repulsiva se i segni sono concordi e attrattiva se discordi.
 
-### I risultati di coulomb 🟩
+### I risultati di coulomb 
 Grazie al suo lavoro metodico di sperimentazione è riuscito ad elaborare la legge che viene presentata subito sopra, è riuscito a ridurre il tutto a tre proprietà fondamentali
 1. la forza è diretta sulla congiungente
 2. A volte è attrattiva, altre volte repulsiva
@@ -66,7 +59,7 @@ $$
 Con questa costante qui che non è più adimensionale come nel caso della costante elastica di torsione, ma è stato nel tempo scoperto essere dipendente dalla **costante dielettrica del vuoto**, di cui capiremo un po' meglio quando andremo a parlare di dielettrici in seguito.
 Una analisi dimensionale ci darà che l'unità di misura di quello è $\frac{Nm^{2}}{C^{2}}$.
 
-### Costante dielettrica del vuoto 🟩
+### Costante dielettrica del vuoto 
 Bisogna ricordarsi il valore della costante a memoria! Anche la sua dimensione!
 
 Altra analisi di cui non so la derivazione si avrà che 
@@ -83,7 +76,7 @@ $$
 ## Sulla carica
 
 ### Come proprietà della materia
-#### Proprietà (2) 🟩
+#### Proprietà (2) 
 La carica è una **proprietà intrinseca della materia**, esattamente come la massa, se consideriamo protoni ed elettroni, questi sono la più piccola unità di carica possibile.
 
 - **Costante**, questo significa che se il sistema è **isolato**, la quantità di carica non cambia mai
@@ -95,13 +88,13 @@ Si può dire che un protone e un neutrone è formato da quark, anche se non so e
 ![Legge di Coulomb-1697278798755](images/Legge di Coulomb-1697278798755.jpeg)
 
 
-#### Carica protoni ed elettroni 🟩
+#### Carica protoni ed elettroni 
 Stiamo provando a rispondere alla domanda *perché la carica di elettroni e protoni è uguale?* Proviamo a ragionare per assurdo, assumendo le costanti che conosciamo già sopra in [[#I risultati di coulomb]].
 
 Supponiamo ci sia una differenza di carica fra protoni ed elettroni, anche piccolissima, mettiamo caso sia $1.6 \cdot 10^{-28}C$, e consideriamo due palle di ferro puro di massa $1Kg$ e raggio $1m$, allora dato che la $\Delta q \neq 0$ si avrà una forza, che sarà di $k \Delta q \frac{\Delta q_{2}}{r^{2}}$,  considerando che il ferro nella tavola periodica ha $Z=26$ ossia il numero totale di protoni e $A=55$, il numero di massa, avremo che $\Delta Q = N_{protoni}\cdot \Delta q$, e da questo si può ricavare un valore simile a $0,0455 C$, e considerando che $N_{p} = z \cdot N_{atomi} = Z \cdot \frac{M}{A} N_{a}$ dove l'ultimo è il numero di avocadro credo, la forza che sarebbe presente sarebbe di circa $1.7 \cdot 10^{7} N$, e si avrebbe il terzo principio della dinamica, ma sperimentalmente non esiste questa forza
 ### Principio di sovrapposizione
 
-#### Enunciato del principio di sovrapposizione 🟩
+#### Enunciato del principio di sovrapposizione 
 Questo è uno dei metodi principali che sarà utilizzato per calcolare il [[Campo elettrico]], dice semplicemente che i vettori della forza di Coulomb si possono semplicemente sommare fra di loro
 $$
 \frac{1}{4\pi\varepsilon_{0}} Q_{p} \sum_{i=1}^{N} \frac{q_{i}}{r_{i}^{2}} \hat{r}_{ip}
@@ -109,19 +102,19 @@ $$
 
 Questa stessa idea si può utilizzare senza nessun problema anche nel caso in cui ho volumetti carichi
 
-#### Densità volumetrica di carica 🟩
+#### Densità volumetrica di carica 
 $$
 \rho(\vec{r}) = \lim_{ \Delta \tau \to 0 } \frac{\Delta q}{\Delta \tau} = \frac{dq}{d\tau} \implies \rho(\vec{r}) d\tau = dq
 $$
 Andando a considerare gli infinitesimi
 
-#### Densità superficiale di carica 🟩
+#### Densità superficiale di carica 
 Il concetto è uguale al precedente, solo che ora andiamo a considerare una superficie, e non un volume infinitesimale
 $$
 \rho(\vec{r}) = \lim_{ \Delta s \to 0 } \frac{\Delta q}{\Delta s} = \frac{dq}{ds} \implies \rho(\vec{r}) ds = dq
 $$
 
-#### Densità lineare di carica 🟩
+#### Densità lineare di carica 
  
 Stesso concetto per la lineare, ma anche qui non lo riscrivo però, scrivo però l'equivalente dell [[#Enunciato del principio di sovrapposizione]] per più facile comprensione.
 $$
@@ -129,16 +122,3 @@ $$
 $$
 Integrale lineare
 
-## Note di ripasso
-- Spiega la triboelettricità, cosa è?
-- Perché vetro o plastica si caricano con la seta? perché la seta è in grado di dare o cedere elettroni?
-- Quali sono esperimenti comuni per la triboelettricità?
-- Come si calcolano il numero di protoni in un elemento data la sua massa, numero Z e atomico?
-
-| Data | Commenti |
-| ---- | ---- |
-| 21/10/23 | Alla fine non conoscevi bene le grandezze classiche di atomi e la loro carica (questo dovrebbe essere a memoria), inoltre non mi ricordavo delle proprietà della carica per bene (il fatto che fosse costante etc.) |
-| 09/11/23 | Mi sembra apposto alla fine di questo è importante sapere soltanto gli esperimenti principali e la proprietà della carica |
-| 03/12/23 | Non credo di essere riuscito a spiegare bene il funzionamento della bilancia di torsione |
-| 31/12/23 | Non mi ricordavo come ricavare la formula della forza per la bilancia a torsione, però per il resto credo nice, dovrei saperlo |
-| 13/01/24 | Sapevo bene la bilancia a torsione |

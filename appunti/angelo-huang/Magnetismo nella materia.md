@@ -1,13 +1,6 @@
----
-date: 2024-01-08
-ripasso: 6
-Rating: 🌕🌕🌕🌑🌑
-tags:
-  - ⚡elettromagnetism
----
 ### Analisi macroscopica
 
-#### Setting dell'esperimento 🟩
+#### Setting dell'esperimento 
 ![Magnetismo nella materia-1701163856145](images/Magnetismo nella materia-1701163856145.jpeg)
 
 Provare a guardare 269 del Mazzoldi. (227 per la defivazione della forza.)
@@ -28,7 +21,7 @@ La cosa da notare è che per campi uniformi abbiamo che si può definire il lavo
 
 Comunque questo esperimento è stato importante per dire che se metto un materiale nella bobina, a volte viene attratta, altre volte respinta, quindi faceva pensare che esiste qualcosa nel materiale che induceva queste cose.
 
-#### Magnetizzazione 🟩
+#### Magnetizzazione 
 Considerando la forza per unità di volume si può introdurre la densità del momento magnetico, anche chiamata **magnetizzazione**.
 
 $$
@@ -42,35 +35,35 @@ $$
 \frac{B}{B_{0}} = k_{m}
 $$
 Simile a quanto abbiamo fatto in [[Condensatori con dielettrici]].
-#### Permeabilità magnetica relativa 🟩
+#### Permeabilità magnetica relativa 
 
 $$
 \mu = \mu_{0} k_{m}
 $$
 In modo simile a quanto fatto per la costante dielettrica.
 
-#### Interpretazione correnti Amperiane 🟩
+#### Interpretazione correnti Amperiane 
 Quindi vengono create delle sorte di correnti sul nostro materiale quando questa viene sommersa in un certo campo magnetico, che hanno modulo
 $$
 \vec{B}_{m} = \mu_{0}\chi_{m}ni
 $$
 Vedere pagina 272 del Mazzoldi.
 Ed effettivamente ci sono delle correnti così indotte su questo materiale. Si potranno studiare da un punto di vista microscopico dopo.
-#### Suscettività magnetica 🟩
+#### Suscettività magnetica 
 Ci dice quanto è cambiato il campo magnetico passando di mezzo, e quindi abbiamo:
 $$
 \chi_{m } = k_{m } - 1
 $$
 ### Classificazione di sostanze magnetiche
-#### Diamagnetiche 🟩
+#### Diamagnetiche 
 
 Se $k_{m} < 1$
 Ossia le correnti amperiane hanno verso opposto.
 
-#### paramagnetiche 🟩
+#### paramagnetiche 
 Se $k_{m} > 1$. In cui si ha anche una dipendenza con la temperatura. A temperatura normale questo sono piccolissime
 
-#### Ferromagnetiche 🟩
+#### Ferromagnetiche 
 Quando la differenza è tipo $10^{3}$, ed è una relazione non lineare.
 
 
@@ -186,7 +179,7 @@ E si scopre in qualche modo che se $B \ll 5 \times 10^{5} T$ si avrà che il per
 
 Tutta la parte sopra dovrebbe essere fatta prima pagina 274 del mazzoldi.
 
-##### Larmor 🟨--
+##### Larmor --
 Quando proviamo a definire il momento angolare, tramite una velocità angolare e inerzia, introduciamo la velocità angolare di Larbor
 
 $$
@@ -213,10 +206,10 @@ $$
 E questo si può sostituire si sopra e otteniamo che il momento di Larbor è:
 
 
-##### Precessione di Larmor 🟨--
+##### Precessione di Larmor --
 Abbiamo detto che abbiamo un fattore di momento angolare che è dipendente dal campo magnetico, per questo motivo possiamo spiegare l'effetto del campo magnetico nel creare correnti (in questo caso l'elettrone che si muove).
 
-#### Momento magnetico per unità di volume 🟩--
+#### Momento magnetico per unità di volume --
 momento magnetico per unità di volume è uguale al momento magnetico del nostro atomo per il numero di atomi per unità di volume, e abbiamo un valore di **magnetizzazione** che è in pratica una corrente amperiana.
 In formule:
 $$
@@ -244,7 +237,7 @@ $$
 j_{m} = \frac{i}{h} = \lvert M \rvert  = \vec{M} \times \hat{u}
 $$
 
-#### Caso Magnetizzazione non uniforme 🟨--
+#### Caso Magnetizzazione non uniforme --
 Questo rende la cosa un po' più compelssa perché le correnti amperiane non si cancellano. Consideriamo il setting in figura:
 ![Magnetismo nella materia-1701162173942](images/Magnetismo nella materia-1701162173942.jpeg)
 
@@ -275,7 +268,7 @@ $$
 $$
 
 
-### Equazioni del campo magnetico revisited 🟩-
+### Equazioni del campo magnetico revisited -
 
 abbiamo che
 $$
@@ -298,14 +291,14 @@ $$
 
 In cui abbiamo **una altra sorgente del campo magnetico** che è dipendente dal materiale presente al campo magnetico.
 
-#### Forma divergente 🟩
+#### Forma divergente 
 $$
 \vec{\nabla} \times \vec{B} = \mu_{0}(\vec{J} + \vec{J}_{M}) = \mu_{0}(\vec{J}_{c}  + \vec{\nabla} \times \vec{M})
 = 
 \vec{\nabla} \times (\vec{B} - \mu_{0} \vec{M}) = \mu_{0} \vec{J}_{c}
 $$
 
-#### Campo di magnetizzante 🟩-
+#### Campo di magnetizzante -
 In modo simile al campo di induzione elettrica o vettore di spostamento, è sensato definire una nuova dimensione
 $$
 \vec{H} = \frac{\vec{B}}{\mu_{0}} - \vec{M}
@@ -320,7 +313,7 @@ $$
 $$
 Dimensione Ampere su Metro, la stessa del vettore di magnetizzazione.
 
-#### Relazioni M, H, B 🟩--
+#### Relazioni M, H, B --
 > VALGONO SOLO PER MATERIALI NON FERROMAGNETICI!
 
 
@@ -339,7 +332,7 @@ $$
 \vec{M} = \frac{k - 1}{k} \vec{B}
 $$
 
-#### Discontinuità nelle superfici magnetizzate 🟨++
+#### Discontinuità nelle superfici magnetizzate ++
 
 Consideriamo il campo magnetico in due mezzi, queste saranno sottoposte a correnti amperiane diverse.
 Applichiamo il classico cilindro sulla superficie di separazione.
@@ -397,7 +390,7 @@ $$
 = \frac{k_{1}}{k_{2}}
 $$
 
-#### Schermi magnetici 🟩
+#### Schermi magnetici 
 Pensiamo di avere un materiale ferromagnetico, e facciamo finta che abbiamo campo magnetico entrante.
 Per questa relazione abbiamo che probabilmente per ogni angolo, questo sarà deflesso in modo praticamente parallelo alla superficie.
 E se c'è un buco, allora non ci passa praticamente campo magnetico, e possiamo costruire **schermi magnetici** in questo modo.
@@ -411,7 +404,7 @@ Certi materiali si magnetizzano velocemente quando si mettono vicino a campi mag
 
 Consideriamo un toroide, uguale a quello descritto in [[Geometrie di spire]], abbiamo che quando mettiamo un materiale, $H$ non cambia, perché dipende solo da correnti concatenate.
 
-#### Magnetizzazione in funzione di H 🟩
+#### Magnetizzazione in funzione di H 
 ![Magnetismo nella materia-1701266367852](images/Magnetismo nella materia-1701266367852.jpeg)
 Lo **stato vergine** è lo stato iniziale del materiale.
 POi si ha la **curva di prima magnetizzazione** che è la curva $a$ in figura.
@@ -425,7 +418,7 @@ Si parla di **campo coercitivo** quando abbiamo un campo che fa diventare 0 la m
 Ciclo di isteresi di smagnetizzazione:
 ![[Magnetismo nella materia-1703924356823.jpeg|400]]
 In pratica devo fargli fare tanti giri (senza portarlo a saturazione!)
-#### Ciclo di isteresi 🟩
+#### Ciclo di isteresi 
 
 È il grafico che abbiamo visto di sopra, in cui il materiale va su e giù. e si potrebbero anche definire concetti come **permeabilità differenziale** che mi rappresenta come cambia in fretta se seconda dell'induzione magnetica
 
@@ -436,12 +429,12 @@ $$
 
 Una altra osservazione è che posso avere tutti i punti all'interno del ciclo, ed è per questo che posso smagnetizzare un magnete. Il metodo è accende e spegnere in un certo modo $H$.
 
-#### Materiali duri e dolci 🟩
+#### Materiali duri e dolci 
 
 Dolci sono usati solamente negli elettromagneti, perché sono facili da magnetizzare.
 Quelli duri sono difficili da magnetizzare, e hanno solitamente un ciclo di isteresi molto lungo.
 
-#### Seconda legge di curie (non importante) 🟨++
+#### Seconda legge di curie (non importante) ++
 
 Questa è la relazione per materiali dolci, e lega la temperatura con la suscettibilità magnetica ()
 
@@ -450,7 +443,7 @@ $$
 $$
 dove $\rho$ è la densità della sostanza.
 
-#### Domini di Weiss 🟨--
+#### Domini di Weiss --
 Trattato pagina 316 del Mazzoldi:
 
 Possiamo caratterizzare alcuni domini magnetici ($~10^{5}$ atomi per il prof, per il libro circa $10^{11}$ atomi, sono regioni di circa 0.001 picometri., che ha senso perché i ferromagnetici sono questo fattore più grandi rispetto agli altri., e poi vanno ad influenzare ed ingrandire, capire da Heisemberg (ma per il prof. difficili).
@@ -459,11 +452,3 @@ Una cosa strana è che $H$ dentro a un solenoide è verso giù all'interno, perc
 
 **Solenoide infinitamente lungo**: non abbiamo vettore H perché la circuitazione è sempre 0.
 ![Magnetismo nella materia-1704061722916](images/Magnetismo nella materia-1704061722916.jpeg)
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 29/12/2023 | Non ho capito la dimostrazione che relaziona le correnti Amperiane con la magnetizzazione, troppo strana, perché va a considerare quelle cose? E poi altra cosa che prima non avevo capito era il motivo del setting con quel coso .... Devo fare molto meglio Larmor, poi la roba ferromagnetica e se rimane del tempo anche un po' di paramagnetismo!). |
-| 30/12/23 | Ancora problemi a dimostrare la discontinuità (inizialmente anche un dubbio nella derivazione della relazione fra M, H, B), credo manchi la parte sui domini di Baiss. |
-| 13/01/24 | Should be good. |
-

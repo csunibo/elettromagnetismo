@@ -1,10 +1,3 @@
----
-date: 2024-01-15
-ripasso: 30
-Rating: 🌕🌕🌕🌕🌕
-tags:
-  - ⚡elettromagnetism
----
 ## Introduzione alla corrente elettrica
 
 ### Considerazioni generali
@@ -13,7 +6,7 @@ tags:
 Ricorda che è un **reticolo cristallino**, con un elettrone nell'ultimo orbitale poco legato, quindi facilmente ionizzabile, in cui gli elettroni si possono muovere facilmente, e abbiamo che $n \approx 8.5 \times 10^{28} \frac{e^{-}}{m^{3}}$ nel rame
 Per l'argento abbiamo 5.9 con stesso ordine di grandezza.
 
-#### Velocità media elettroni senza campo elettrico 🟩
+#### Velocità media elettroni senza campo elettrico 
 Se è isotropo, gli elettroni si muovo in generale a caso e la velocità media dipendente dall'eccitazione termica (in teoria cinetica dei gas è studiata sta cosa).
 $$
 \vec{v}_{m} = \sum_{i = 1} ^{N} \frac{\vec{v}_{i}}{N} = 0
@@ -32,7 +25,7 @@ Assumendo che $T = 293K$ con la **teoria cinetica dei gas classica**. Ma probabi
 
 In assenza di campo sembra assistere a urti anelastici in giro, che vanno a caso e si scontrano con atomi molto più pesanti.
 
-#### Velocità di deriva 🟩
+#### Velocità di deriva 
 
 Proviamo a considerare questo esperimento:
 Sia $\vec{v}_{i}$ la velocità di un elettrone prima di un urto, e $\vec{v}_{i + 1}$ la velocità dopo un urto. Facciamo finta che in un campo elettrico venga acceso un campo elettrico nell'intervallo fra $i$ e $i + 1$, allora sarà sottoposto a una forza 
@@ -56,7 +49,7 @@ $$
 Dato che la velocità che proviene solamente da agitazione termica è 0, e che ogni singola particella è soggetta alla stessa forza (si semplifica il numero diciamo per il secondo addendo).
 
 
-#### Similitudine velocità di deriva con caduta 🟨
+#### Similitudine velocità di deriva con caduta 
 Molto brevemente se sottoposti a un campo elettrico, gli elettroni si spostano, ma questa cosa dura molto poco, quindi non era poi utile a utilizzare.
 
 Dopo Alessandro Volta abbiamo un campo elettrico costante all'interno di un conduttore. Riusciva a **generare una differenza di potenziale costante** sui capi dell'oggetto.
@@ -71,15 +64,15 @@ Anche in questo caso ci sarà una velocità constante media degli elettroni, qua
 
 Nel caso delle correnti si chiama effetto di **RESISTENZA** ossia l'effetto di urti sugli atomi del mezzo conduttore, che rallentano, qui il *baricentro delle cariche* si sposta all'interno del campo, che va in modo costante.
 
-#### Superconduttori 🟩
+#### Superconduttori 
 Sono materiali in cui **non c'e resistenza**, solitamente leghe di metalli rari (boruro di metallo tipo), in cui vicino allo 0 assoluto non hanno resistenza.
 
-#### Semiconduttori 🟩
+#### Semiconduttori 
 Sono dei dielettrici **drogati** con aggiunta di ioni che siano in grado di liberare carica, come sali disciolti nell'acqua. Hanno una densità di elettroni molto molto minori rispetto ai conduttori, ma sono sufficienti per condurre
 La caratteristica principale è che hanno molti meno elettroni liberi, ma ne hanno alcuni.
 ### Introduzione con definizioni
 
-#### Definizione della corrente 🟩
+#### Definizione della corrente 
 **Intensità di corrente**
 $$
 i = \lim_{ \Delta t \to 0 }  \frac{\Delta q}{\Delta t} = \frac{dq}{dt}
@@ -87,14 +80,14 @@ $$
 Questo si può mettere in relazione con la densità di corrente che sarà spiegata subito dopo, abbiamo che
 
 
-#### Grandezza della corrente 🟩
+#### Grandezza della corrente 
 $$
 [i] = [Q][T]^{-1} = [A]
 $$
 Ossia $1A = 1C / 1s$ che è una quantità enorme.
 
 ### Densità di corrente
-#### Definizione di densità di corrente 🟩
+#### Definizione di densità di corrente 
 
 Perché la $\vec{J}$ che è definita ha stesso verso del campo elettrico.
 È la quantità di corrente che attraversa una superficie qualunque, quindi è un flusso.
@@ -106,7 +99,7 @@ $$
 $$
 Con la velocità di deriva.
 
-#### Densità di corrente motivazione (!) 🟩
+#### Densità di corrente motivazione (!) 
 ![Corrente Elettrica-1698661245378](images/Corrente Elettrica-1698661245378.jpeg)
 Vogliamo capire, quanta corrente in un intervallo $dt$ attraversa quella superficie?
 Tutta la carica che sta a distanza $v_{d}dt$ riesce a passare la superficie.
@@ -166,7 +159,7 @@ Ma essendo la carica enorme, alla fine ho grandi valori!
 
 Facendo tutto questo calcolo abbiamo che 
 
-#### Equazione di continuità della densità di corrente (!) 🟩
+#### Equazione di continuità della densità di corrente (!) 
 ![Corrente Elettrica-1698663340120](images/Corrente Elettrica-1698663340120.jpeg)
 
 $$
@@ -176,7 +169,7 @@ Perché sto considerando la carica positiva che sta uscendo, quindi dentro sto p
 
 **Regime stazionario** si ha quando $i = 0$, quindi non ho carica che gira, nel senso che stessa carica esce, e stessa carica esce durante il circuito.
 
-#### Continuità in forma differenziale 🟩
+#### Continuità in forma differenziale 
 Questo è l'equivalente di conservazione di carica per la corrente.
 
 Noi abbiamo per il teorema della divergenza (vedi [[Divergenza e Circuitazione]]) che 
@@ -200,9 +193,3 @@ $$
 $$
 
 
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 27/12/2023 | Tutto ok direi. |
-| 12/01/2024 | Nessun problema, studiata con Matti, avevo una misconception riguardante l'equazione di continuità, però ora è apposto direi. |

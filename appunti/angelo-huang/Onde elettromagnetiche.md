@@ -1,10 +1,3 @@
----
-date: 2024-01-13
-ripasso: 1
-Rating: 🌕🌕🌗🌑🌑
-tags:
-  - ⚡elettromagnetism
----
 
 Prendiamo 
 La legge di Ampere-Maxwell
@@ -40,7 +33,7 @@ Strana cosa era che dal nucleo venivano emessi elettroni (questo è il decadimen
 
 ### Teorema di Poynting
 
-#### Setting del problema 🟩
+#### Setting del problema 
 ![[Energia elettromagnetica-1702285966111.jpeg|500]]
 Consideriamo una distribuzione di cariche $dq = \rho dt$ che dipende dalla posizione $\rho = \rho(\hat{r}t)$, stessa cosa per la velocità in un campo elettromagnetico costante.
 Voglio sapere il **lavoro** e **potenza** fatto dai campi sulla carica.
@@ -69,7 +62,7 @@ dW = \vec{J} \cdot \vec{E} d\tau
 $$
 Questa è la stessa formula, calcolata in modo diverso in [[Leggi di Ohm]] quando calcolavamo la potenza
 
-#### Derivazione con Ampere e Faraday (tosta) 🟨
+#### Derivazione con Ampere e Faraday (tosta) 
 Usando la legge di Ampere-Maxwell, presente in [[Ampere e Faraday]], possiamo continuare questa esplorazione.
 $$
 \vec{\nabla} \times \vec{B} = \mu_{0}\vec{J} + \mu_{0}\varepsilon_{0} \frac{\delta \vec{E}}{d\tau}
@@ -78,7 +71,7 @@ $$
 \implies
 \vec{J} \cdot \vec{E} = \frac{1}{\mu_{0}} \vec{E}\cdot[\vec{\nabla} \times \vec{B}]  - \varepsilon_{0} \frac{\delta \vec{E}}{d\tau} \cdot \vec{E}
 $$
-Ora proviamo ad analizzarlo pezzo per pezzo, partiamo dalla parte magnetica e elettrica 🟨
+Ora proviamo ad analizzarlo pezzo per pezzo, partiamo dalla parte magnetica e elettrica 
 
 $$
 \vec{\nabla} \cdot (\vec{E} \times \vec{B}) = (\vec{\nabla}\times \vec{E}) \cdot \vec{B} - (\vec{\nabla} \times \vec{B}) \cdot \vec{E}
@@ -97,7 +90,7 @@ W_{\tau} = \vec{J} \cdot \vec{E} = -\frac{1}{\mu_{0}} \vec{\nabla} \cdot (\vec{E
  - \varepsilon_{0} \frac{\delta \vec{E}}{d\tau} \cdot \vec{E}
 $$
 
-Ora dobbiamo fare altre osservazioni strambe: 🟩-
+Ora dobbiamo fare altre osservazioni strambe: -
 $$
 \frac{\delta B^{2}}{\delta t} = \frac{\delta}{\delta t} (\vec{B} \cdot \vec{B}) = \vec{B} \cdot \frac{\delta}{\delta t}(\vec{B}) + \frac{\delta}{\delta t}(\vec{B}) \cdot \vec{B} = 2 \vec{B} \frac{\delta}{\delta t}\vec{B}
 $$
@@ -137,7 +130,7 @@ $$
 **Attenzione**: a volte tau è usato come tempo a volte come volume (fai attenzione a distinguerli bene)
 
 
-#### Formulazione e interpretazione finale 🟨+
+#### Formulazione e interpretazione finale +
 
 $$
 W =  - \int_{\Sigma(\tau)}   \frac{1}{\mu_{0}}\cdot (\vec{E} \times \vec{B}) \, d\vec{S}
@@ -159,7 +152,7 @@ Che ha senso (somma di due energie, somma classica)), perché l'energia trasferi
 
 In pratica è un Or logico, l'energia o è presa da dentro, o da fuori, il primo termine è il dentro, il secondo è il fuori. Concettualmente è semplice, la derivazione è complessa e utilizza molte cose di algebra e analisi.
 
-#### Il vettore di Poynting 🟩
+#### Il vettore di Poynting 
 Possiamo definire ora il vettore di Poynting come
 $$
 S' = \frac{1}{\mu_{0}} \vec{E} \times \vec{B}
@@ -168,7 +161,7 @@ in un certo senso è una densità superficiale di potenza elettromagnetica, perc
 
 Energia per unità di tempo e superficie trasportata da una onda.
 
-#### Quantità di moto 🟩
+#### Quantità di moto 
 Si può dimostrare che è
 $$
 d\vec{P} = \mu_{0}\varepsilon_{0} \vec{S}' d\tau
@@ -200,7 +193,7 @@ $$
 $$
 Che dovrebbe essere una equazione di onda.
 
-#### Equazioni di D'Alambert 🟨-
+#### Equazioni di D'Alambert -
 $$
 \nabla^{2}\vec{E} = \mu_{0}\varepsilon_{0}\frac{ \delta^{2} \vec{E}}{\delta t^{2}}
 $$
@@ -235,10 +228,4 @@ In gravitazione ho precessione di Mercurio che metteva sotto problema le predizi
 2. Neutrini non hanno massa zero
 3. Galassia ruota in modo costante, nonostante rallentare.
 4. Energia del vuoto predetto male da quantistica.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-| 02;/01/24     | La derivazione dell'energia di un onda abbastanza ok, devo ripassare come si derivano le equazioni di d'Alambert.         |
 

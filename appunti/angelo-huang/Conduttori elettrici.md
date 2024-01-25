@@ -1,10 +1,3 @@
----
-date: 2024-01-20
-ripasso: 15
-Rating: 🌕🌕🌕🌕🌕
-tags:
-  - ⚡elettromagnetism
----
 ## Campo elettrico nei materiali
 
 Se prendiamo un **conduttore**, gli elettroni in questi materiali sono liberi, significa che sono liberi di muoversi come vogliono, si può dire che "vadano in giro" (per esempio questo vale per il rame).
@@ -12,7 +5,7 @@ Se prendiamo un **conduttore**, gli elettroni in questi materiali sono liberi, s
 il **reticolo cristallino** è al struttura regolare che è comune nei materiali, in cui gli atomi sono sempre a distanza costante (o comunque a pattern regolari) uno dall'altro $r$ per esempio.
 
 ### Campo e materiali (6)
-#### Schermatura del campo (!) 🟩
+#### Schermatura del campo (!) 
 Quando un materiale conduttore è sottoposto a un campo elettrico *gli elettroni si mettono in modo da **schermare*** il campo esterno, in modo tale da raggiungere un equilibrio.
 ![Campo elettrico-1696921500696](images/Campo elettrico-1696921500696.jpeg)
 
@@ -27,7 +20,7 @@ Le cariche sono **ferme** all'interno del conduttore.
 
 Ma questa carica da dove origina? Dove sono posizionate? Sono sulla superficie o anche dentro il materiale?
 
-#### Cariche non sono dentro al conduttore (!) 🟩
+#### Cariche non sono dentro al conduttore (!) 
 > In ogni punto interno al conduttore, all'equilibrio la carica elettrica è nulla, come avveniva in assenza del campo elettrico.
 
 Questo implica che da dentro il conduttore non cambia niente.
@@ -39,7 +32,7 @@ $$
 $$
 Si può anche dimostrare usando [[Legge di Gauss]] per i campi elettrici
 ![Materiali e campo elettrico-1697449300417](images/Materiali e campo elettrico-1697449300417.jpeg)
-#### Cariche si spostano in superficie 🟩
+#### Cariche si spostano in superficie 
 > Lo spostamento di cariche elettriche determinato dal campo elettrico esterno **all'equilibrio** si risolve in un ri-arrangiamento di carica che interessa solo la superficie del conduttore 
 
 ![Materiali e campo elettrico-1697449147378](images/Materiali e campo elettrico-1697449147378.jpeg)
@@ -60,7 +53,7 @@ dove $\hat{n}$ è il vettore normale alla superficie equipotenziale
 
 Se è negativa è esattamente il contrario
 
-#### Influenza sul campo elettrico 🟩
+#### Influenza sul campo elettrico 
 ![[Materiali e campo elettrico-1697449430923.jpeg|400]]
 
 > Dato un conduttore immerso in un campo elettrico esterno, all'equilibrio, altera le linee di campo **anche** all'esterno del conduttore. 
@@ -74,12 +67,12 @@ Quindi basta anche un conduttore neutro per cambiare il campo esterno
 
 Questo è anche un modo per **testare la conduttività di un materiale**, le linee di campo *DEVONO* essere 90 gradi ad entrare
 
-#### Superficie equipotenziale come conduttore 🟩
+#### Superficie equipotenziale come conduttore 
 > La superficie del conduttore è equipotenziale, così come l'interno
 
 Per avere questo risultato vedere sotto [[#Potenziale sulla superficie]].
 
-#### Campo elettrico in geometria cava 🟩
+#### Campo elettrico in geometria cava 
 
 > Se un conduttore cavo viene immerso in un campo elettrico esterno, all'equilibrio, il campo elettrico all'interno della cavità è nullo e **non vi sono cariche elettriche indotte** sulla superficie della cavità
 
@@ -105,7 +98,7 @@ Negli ascensori se varia troppo in fretta, non viene fermato, perché gli elettr
 
 
 ### Altri fenomeni
-#### Singola Carica elettrica in geometria cava 🟩
+#### Singola Carica elettrica in geometria cava 
 ![[Materiali e campo elettrico-1697452550332.jpeg|300]]
 Le cariche si sposteranno, e cercheranno anche in questo caso di schermare.
 Se considero una superficie che li rinchiude, in questo caso avrò un campo elettrico.
@@ -121,13 +114,13 @@ $$
 Perché la carica del conduttore è neutra, per ipotesi non era carica. $Q_{C} = Q_{I} + Q_{E}$ ossia carica interna (sul buco interno e sul buco esterno), ma in questo caso allora posso concludere che 
 $Q_{E} = -Q_{I} = Q$, ossia sia una superficie esterna, sia la superficie interna vengono influenzate da questa carica.
 
-#### Induzione completa 🟩
+#### Induzione completa 
 ![[Materiali e campo elettrico-1697452550332.jpeg|200]]
 Fenomeno descritto in precedenza è **l'induzione completa** come fenomeno. Nel caso in cui **tutte le linee di campo** entrano nel conduttore.
 In un certo senso se stai fuori dal materiale conduttore, è come se lasciasse passare il campo senza problemi (se sto molto lontano **sembra singola carica**) (invece di renderlo radiale, sto cambiando leggermente la\ direzione del campo *sulla superficie* se sto vicino).
 **Il campo interno non viene schermato**
 
-#### Materiale conduttore carico 🟩
+#### Materiale conduttore carico 
 Supponiamo di avere un materiale conduttore carico, anche in assenza di campo elettrico.
 Nel caso precedente avevamo analizzato il caso di un conduttore neutro in campo elettrico, la differenza qui è che è il conduttore stesso che è carico
 
@@ -141,7 +134,7 @@ Posso avere esattamente le stesse proprietà dette prima per conduttore immerso 
 
 Una altra applicazione è il **parafulmine** perché la carica si distribuisce sempre all'esterno.
 
-#### Distribuzione di carica e densità superficiale in conduttori connessi 🟩---
+#### Distribuzione di carica e densità superficiale in conduttori connessi ---
 ![Materiali e campo elettrico-1697454386232](images/Materiali e campo elettrico-1697454386232.jpeg)
 Supponiamo di avere due sfere connesse da un filo conduttore (quindi la carica è libera di connettersi), ci andiamo a chiedere che se metto $Q$ in questo sistema, in che modo si distribuisce?
 Io so che $R_{1} = 2R_{2}$
@@ -171,7 +164,7 @@ Sembra in qualche modo questo concetto una naturale ottimizzazione che segue [[S
 Questa cosa funziona anche per la **Terra stessa**, e si potrebbe considerare come quantità infinita di carica, ed è questo il significato di mettere a terra (si può scaricare a terra carica in eccesso).
 
 ### Potenziale nei conduttori in equilibrio
-#### Potenziale interno al conduttore 🟩
+#### Potenziale interno al conduttore 
 Si può dimostrare, senza molta difficoltà che il potenziale è sempre 0 all'interno del conduttore.
 
 $$
@@ -180,7 +173,7 @@ $$
 Perché il campo elettrico è 0.
 ![Materiali e campo elettrico-1697450041034](images/Materiali e campo elettrico-1697450041034.jpeg)-
 
-#### Potenziale sulla superficie 🟩
+#### Potenziale sulla superficie 
 
 Per risultato precedente, è sempre perpendicolare col campo, quindi è sempre 0, perché stiamo considerando il prodotto coseno. 
 Si può concludere che in questo caso l'intera superficie è equipotenziale.
@@ -189,11 +182,3 @@ $$
 $$
 
 
-## Note di ripasso
-- Come hanno misurato il campo elettrico dentro un materiale conduttore?
-
-| Data | Commenti |
-| ---- | ---- |
-| 22/10/2023 | Praticamente quasi tutto di questa lezione è ok, le proprietà dei conduttori sono ora conosciute |
-| 14/11/2023 | Alla fine lo ho studiata per il parziale, lo dovrei conoscere bene questo fenomeno |
-| 05/01/2024 | Non sapevo esattamente come dimostrare che campo elettrico è normale sulla superficie (basta l'argomentazione sul gradiente della differenza di potenziale alla fine) per il resto credo di riuscire a spiegarlo bene.<br>Unica pecca è l'argomento sulla concentrazione di carica su superficie più piccola. |

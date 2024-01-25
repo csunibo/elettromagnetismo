@@ -1,10 +1,3 @@
----
-date: 2024-01-14
-ripasso: 7
-Rating: 🌕🌕🌕🌕🌑
-tags:
-  - ⚡elettromagnetism
----
 
 
 
@@ -14,7 +7,7 @@ tags:
 Questo è descritto nell'esempio 8.1 del Mazzoldi.
 È stato descritto anche in un esercizio in classe (non è importante).
 
-#### Spira circolare 🟩
+#### Spira circolare 
 Vedere pagina 245
 Vogliamo cercare il valore del campo sull'asse della spira circolare.
 ![[Geometrie di spire-1704296692075.jpeg | 500]]
@@ -61,7 +54,7 @@ Questo risultato ci sarà utile per l'analisi del solenoide in seguito.
 #### Momento magnetico della spira
 Prova a ricorda quanto fatto per la spira quadrata in [[Spettrometri di massa]]. ossia ancora da capire bene (la cosa con l'inerzia, e il momento di dipolo, una cosa che dipende solamente dalla struttura) descritta da $i \cdot S$ ossia dalla corrente e dalla superficie, da cui poi ha senso descrivere un concetto di flusso.
 
-#### Componenti del campo magnetico 🟥+
+#### Componenti del campo magnetico +
 Possiamo scriverlo in modo simile a quanto si ha precedentemente con il [[Dipolo elettrico]].
 Quindi possiamo calcolare le componenti radiali e ad un certo angolo per questa spira, e data la somiglianza con essa sarà esattamente nella stessa forma
 $$
@@ -71,7 +64,7 @@ Con componente radiale e trasversa.
 Pg 254 Mazzoldi
 ### Solenoide
 
-#### Descrizione del solenoide 🟩
+#### Descrizione del solenoide 
 ![Geometrie di spire-1700555199573](images/Geometrie di spire-1700555199573.jpeg)
 Vogliamo cercare di definire quale sia il campo magnetico presente sull'asse
 
@@ -95,13 +88,13 @@ $$
 $$
 Mettendo l'origine all'inizio della spira, e supponendo che la lunghezza della spira sia $d$ otteniamo questo per i valori di sopra e gli angoli di sopra, ma comunque spiega meglio il libro su questo.
 ![Geometrie di spire-1700557573857](images/Geometrie di spire-1700557573857.jpeg)
-#### Campo esterno del solenoide 🟨+
+#### Campo esterno del solenoide +
 
 Se assumiamo che i raggi siano simili, allora prendiamo due contributi e abbiamo che 
 $B = \frac{\mu_{0}i}{4\pi} (dl_{1} r_{1} \sin \theta + dl_{2}r_{2}\sin(\pi - \theta))$
 E si elidono, e questo dovrebbe funzionare anche per cose un po' a lato!
 
-#### Al centro del solenoide 🟩
+#### Al centro del solenoide 
 Bisogna in primo momento scrivere la derivazione di sopra in altro modo, possiamo trovare il valore del campo elettrico al centro del solenoide e otteniamo (vedere 248 Mazzoldi):
 $$
 B_{0} = \mu_{0}ni \frac{d}{\sqrt{ d^{2} + 4R^{2} }}
@@ -113,7 +106,7 @@ B_{\infty} = \mu_{0}ni
 $$
 E si può dimostrare che all'interno il campo è sempre quello, lo stesso, costante.
 ![Geometrie di spire-1700556983093](images/Geometrie di spire-1700556983093.jpeg)
-#### Analisi tramite circuitazione del solenoide 🟩
+#### Analisi tramite circuitazione del solenoide 
 Possiamo provare ad applicare Ampere [[Magnetismo]] per potere sapere quanto valga il valore del campo magnetico.
 Noi sappiamo che il campo magnetico all'interno (da fare ancora) è sempre parallelo all'asse del solenoide
 ![Geometrie di spire-1700557328403](images/Geometrie di spire-1700557328403.jpeg)
@@ -126,9 +119,9 @@ $$
 Potrebbe essere interessante rifare l'analisi seguendo la 256, in cui si divide la corrente in circolare e lineare(falla e scrivi qui i risultati come esercizio al prossimo ripasso)
 ### Toroide
 ![Geometrie di spire-1700558950220](images/Geometrie di spire-1700558950220.jpeg)
-#### Campo esterno 🟩
+#### Campo esterno 
 Possiamo usare ampere e dire che corrente concatenata è nulla e concludere che il campo magnetico è nullo.
-#### Campo magnetico del toroide 🟩
+#### Campo magnetico del toroide 
 Possiamo fare la sequente analisi:
 $$
 \oint Bds = \mu_{0} Ni \implies B 2\pi r = \mu_{0} Ni \implies B = \mu_{0} \frac{Ni}{2\pi r}
@@ -140,7 +133,7 @@ $$
 H = \frac{Ni}{2\pi r}
 $$
 Vedere descrizione in [[Magnetismo nella materia]]
-#### Toroide pieno 🟩-
+#### Toroide pieno -
 
 Supponiamo ci sia un materiale dentro al toroide, allora so che
 $$
@@ -152,12 +145,12 @@ Poi avendo questo posso sia calcolare B che M.
 ### Tanti fili carichi 
 
 ![Geometrie di spire-1700559752504](images/Geometrie di spire-1700559752504.jpeg)
-#### Simmetria su asse y 🟩
+#### Simmetria su asse y 
 Dalla figura 8.35 si può dire che non abbiamo una componente $y$ , perché si eliminano.
 
 Quindi non abbiamo circuitazione sui pezzi AD e BC, però abbiamo cose sullo stesso verso ma cose oppose sugli altri versi!
 
-#### Discontinuità parallela 🟩-
+#### Discontinuità parallela -
 Stiamo sempre considerando una linea carica di correnti come da esempio sopra.
 
 Proviamo ad usare ampere, abbiamo allora:
@@ -168,13 +161,13 @@ $$
 Abbiamo sempre questo valore per il campo magnetico, ma **i versi sono diversi**. Questo giustifica anche una *discontinuità della componente parallela*, per il campo magnetico, di valore $\mu_{0}ni$.
 Conviene talvolta scrivere $ni\hat{u} = \vec{J}$ e con $\hat{u}$ la direzione della corrente, così posso sapere subito quale sia la direzione diciamo.
 
-#### Continuità perpendicolare 🟩
+#### Continuità perpendicolare 
 Prendo sempre il classico cilindro, avrò che
 $$
 \oint \vec{B} \hat{u}_{n} = \oint \vec{B}_{1} ds - \oint \vec{B}_{2}ds = B_{1\perp}A_{1} - B_{2\perp}A_{1} = 0 \implies B_{1} = B_{2}
 $$
 
-### Flusso concatenato campi magnetici 🟩
+### Flusso concatenato campi magnetici 
 
 #### Setting delle spire
 ![Geometrie di spire-1701683646789](images/Geometrie di spire-1701683646789.jpeg)
@@ -197,7 +190,7 @@ $$
 $$
 Quindi per avere il flusso "basta" fare l'integrale di nuovo poi sulla superficie aperta concatenata a quella spira.
 
-#### Coefficiente di mutua induzione 🟩
+#### Coefficiente di mutua induzione 
 
 $$
 \Phi_{2} (\vec{B}_{1}) = \int _{\Sigma(\Gamma_{2})} \vec{B}_{1} \, \vec{dS_{2}}
@@ -219,7 +212,7 @@ La dimostrazione dovrebbe venire semplice con [[Vettore potenziale]]
 
 ### Induttanza
 
-#### Introduzione valore fisico 🟩
+#### Introduzione valore fisico 
 
 Consideriamo l'autoinduzione, si può applicare un concetto simile al precedente e possiamo scrivere che
 $$
@@ -232,7 +225,7 @@ Sia questo sia il coefficiente di mutua induzione è misurato in $\frac{W}{A}$. 
 
 Solitamente l'induttanza di un circuito di casa è $\approx 10^{-7} H$.
 
-#### Induttanza su solenoide 🟩
+#### Induttanza su solenoide 
 
 Ora consideriamo l'induttanza con **l'auto-flusso**, abbiamo:
 $$
@@ -253,7 +246,7 @@ $$
 \mu_{0}n^{2}
 $$
 
-#### Circuito con induttanza 🟩
+#### Circuito con induttanza 
 ![Geometrie di spire-1701767116060](images/Geometrie di spire-1701767116060.jpeg)
 Può essere opportuno confrontare questo circuito con quello trovato in [[Condensatori nel vuoto]] per la carica/scarica.
 
@@ -294,7 +287,7 @@ $$
 $$
 Che va a 0, asintoticamente abbiamo il caso classico
 
-#### Energia dell'induttanza 🟨++
+#### Energia dell'induttanza ++
 Facciamo un altro genere di analisi:
 $$
 \varepsilon = Ri + \frac{Ldi}{dt}
@@ -311,7 +304,7 @@ $\frac{1}{2}CV^{2}$l
 
 L'energia è spesa per la *costruzione del campo magnetico* dal nulla, mentre per il condensatore è stato usato per avere il campo elettrico.
 
-#### Densità energetica dell'induttanza 🟩--
+#### Densità energetica dell'induttanza --
 Abbiamo che
 $$
 B = \mu_{0}ni, L = \mu_{0} n^{2}(ls) \implies i = \frac{B}{\mu_{0}n}
@@ -331,10 +324,3 @@ E si può fare la stessa cosa con il vettore di spostamento, in questo caso con 
 $$
 u_{l} = \frac{1}{2} \mu_{0} H^{2} = \frac{1}{2 }HB
 $$
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 06/12/2023 | Dovrei fare la dimostrazione per induttanza e mutua induzione, per il resto credo sia ok. |
-| 03/01/2024 | Sono forti dubbi riguardo alla derivazione di proprietà del solenoide (campo magnetico interno dico)<br>Bisogna studiare npo meglio il calcolo di energia per l'induttanza, e scarica e carica di essa. |
-| 12/01/2024 | Sono riuscito a fare Energia senza problemi direi. |

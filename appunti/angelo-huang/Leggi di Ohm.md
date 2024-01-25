@@ -1,14 +1,7 @@
----
-date: 2024-01-15
-ripasso: 20
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 Gli argomenti della lezione 31 Ottobre sono circa da pagina 164 fino a 185 del mazzoldi.
 ### Leggi di Ohm
 
-#### Introduzione microscopica 🟩
+#### Introduzione microscopica 
 Sappiamo che
 $$
 \vec{J} = -n e \vec{v}_{d}
@@ -37,7 +30,7 @@ Dove $\rho$ è la **resistività**, e si ha $\rho = \frac{1}{\sigma}$
 Nota: c'è qualcosa con i semiconduttori o cose drogate, che puoi scomporre la parte di sopra con cariche negative o positive, questa cosa è da approfondire sul libro, perché non la ho capita oggi a lezione
 Vedi 6.7 mazzoldi c'è scritto.
 
-#### Potenza e densità elettrica 🟩--
+#### Potenza e densità elettrica --
 Chiamiamo $P_{\tau}$ come la potenza per unità di volume, che ricordiamo la derivata del lavoro per il tempo.
 Ricordando che $P = \frac{dW}{dt} = \frac{\vec{F}ds}{dt} = \vec{F} \cdot \vec{v}$
 
@@ -52,7 +45,7 @@ $$
 P_{\tau} = \vec{J} \cdot \vec{E} = \sigma E^{2} = \rho J^{2}
 $$
 
-#### Resistenza nei fili 🟩
+#### Resistenza nei fili 
 Consideriamo un *cilindro* (che sarà il nostro filo) con superficie $S$ verticale e lunghezza $L$, consideriamo due lati $A$ e un lato $B$
 Assumiamo di avere una batteria che crea un campo costante:
 Allora abbiamo:
@@ -89,7 +82,7 @@ Seguendo quanto c'è in immagine.
 
 Quando abbiamo ai capi di un conduttore una differenza di un volt, si ottiene una corrente di un ampere, e questo è l'ampere.
 
-#### Legge di Ohm della conduzione elettrica 🟨++
+#### Legge di Ohm della conduzione elettrica ++
 Vedi mazzoldi pagina 170.
 $$
 \sigma = \frac{ne^{2}\tau_{+}}{m_{+}} + { \frac{ne^{2}\tau_{-}}{m_{-}}}
@@ -103,7 +96,7 @@ $$
 $$
 Dove la densità di corrente è relazionata al campo elettrico generato solamente da variabili fisiche riguardanti la composizione del metallo e costanti elementari come massa di portatori di carica.
 
-#### Il regime stazionario 🟩
+#### Il regime stazionario 
 
 Che ha senso solo in **regime stazionario** ossia in cui il campo elettrico non varia, ed è costante.
 Un altro modo per dirlo è che **in ogni punto passa sempre la stessa corrente** quindi il flusso del $\vec{J}$ è 0.
@@ -117,7 +110,7 @@ $$
 $$
 
 
-#### Resistività e temperatura 🟨+
+#### Resistività e temperatura +
 Intuitivamente se aumenta l'agitazione termica, aumenta la resistività perché c'è più agitazione, quindi più incontri, si ha una legge del tipo:
 
 $$
@@ -152,14 +145,14 @@ $$
 Noi paghiamo in $W = RI^{2}t$ che sono ikilowattora.
 il riscaldamento si chiama **effetto Joule**.
 
-#### Legge di Ohm generalizzata 🟩
+#### Legge di Ohm generalizzata 
 Per ogni ramo dovrei mettere la differenza di potenziale più tutte le forze elettromotrici meno tutte le cadute.
 Si scrive:
 $$
 V_{A} -V_{B} + \Sigma_{k}\varepsilon_{k} = R_{T}i
 $$
 Questa è un caso generale della legge di Kirchhoff alle maglie descritta dopo
-#### Potenza per unità di volume 🟩
+#### Potenza per unità di volume 
 Vedi Mazzoldi pagina 170
 $$
 P_{\tau} = nP = \rho J^{2} = \sigma E^{2}
@@ -173,7 +166,7 @@ L'abbiamo ricavato anche in [[Magnetismo]] parlando di Poynting, in qui possiamo
 ### Resistori in serie e parallelo
 Una cosa da notare è che saldare assieme è una **altra resistenza** non considerata, comunque è piccola, quindi approssimiamo che ciò che è filo non la valutiamo, è trascurabile.
 Una cosa importante da notare è che in questi casi è *utile utilizzare resistenze di valore simile* altrimenti in serie prevarrà la resistenza grossa, in quella parallela la resistenza piccola.
-#### Serie 🟩
+#### Serie 
 L'osservazione principale per spiegare questo è il fatto che **la corrente che passa è la stessa**
 Abbiamo $V_{A} - V_{B} = iR_{1}$ e $V_{B} - V_{C} = iR_{2}$
 
@@ -186,7 +179,7 @@ Anche la potenza è semplicemente una cosa lineare!
 
 ![Corrente Elettrica-1698742421659](images/Corrente Elettrica-1698742421659.jpeg)
 
-#### Parallelo 🟩
+#### Parallelo 
 
 In questo caso la differenza di potenziale è la stessa dato che $V_{A} - V_{B}$ è un valore condiviso, in questo caso la corrente si dividere in modo inversamente proporzionale alla resistenza. Quindi abbiamo
 
@@ -207,7 +200,7 @@ Riguardo la potenza si comporta bene lo stesso, seguendo questa relazione.
 
 ### Introduzione ai generatori FEM
 
-#### Def forza elettromotrice 🟩
+#### Def forza elettromotrice 
 si basano sul concetto introdotto molto tempo fa:
 $$
 \varepsilon = \oint_{\Sigma} \vec{E} d\vec{l}
@@ -220,7 +213,7 @@ Dato che applicando le leggi di sopra non c'è la circuitazione nulla.
 Questo è un caso in **non valgono le leggi conservative** che abbiamo studiato per un mese e mezzo, trattate in [[Campo elettrico]] nella sezione elettromotrice.
 
 
-#### Derivazione forza elettromotrice 🟩-
+#### Derivazione forza elettromotrice -
 ![Leggi di Ohm-1698744414897](images/Leggi di Ohm-1698744414897.jpeg)
 Esiste una *piccola corrente interna del generatore*
 Allora il nostro generatore produrrà una forza uguale a
@@ -244,7 +237,7 @@ $$
 $$
 Che notiamo è lo stesso valore per la **differenza di potenziale elettrico** per un circuito semplice
 
-#### Campo elettrico elettromotore 🟨+
+#### Campo elettrico elettromotore +
 Trattato a pagina 181 del Mazzoldi
 
 ![Leggi di Ohm-1698744602540](images/Leggi di Ohm-1698744602540.jpeg)
@@ -265,7 +258,7 @@ $$
 $$
 Quindi internamente abbiamo un campo $E = E^{*} + E_{el}$ mentre all'esterno c'è solamente il campo statico.
 
-#### Misura fem 🟩
+#### Misura fem 
 
 Nel caso in cui $i = 0$ è molto semplice, basta prendere la differenza di potenziale ai due capi:
 $V_{A} - V_{B} = \varepsilon$ e sappiamo che il campo elettrico all'interno della fem è 0
@@ -274,10 +267,10 @@ Ossia $E^{*} + E_{el} = 0$
 A differenza se c'è corrente avremo dei risultati diversi.
 
 ### Ramo
-#### Definizione 🟩--
+#### Definizione --
 Una parte di filo, parte del circuito fra più nodi, in cui circola una certa corrente.
 
-#### Prima legge di Kirchhoff ai nodi 🟩
+#### Prima legge di Kirchhoff ai nodi 
 >La somma algebrica delle correnti che confluiscono in un nodo è nullo
 
 La corrente che entra è uguale a quello che esce
@@ -287,7 +280,7 @@ $$
 $$
 È causa del principio di conservazione della carica, espressa alla fine in modo diverso.
 
-#### Seconda legge di Kirchhoff alle maglie 🟩
+#### Seconda legge di Kirchhoff alle maglie 
 > La somma algebrica delle f.e.m. presenti nei rami della maglia è uguale alla somma algebrica dei prodotti $R_{k}i_{k}$
 
 $$
@@ -295,10 +288,3 @@ $$
 $$
 Questo vale solo se il ramo è chiuso, altrimenti bisogna aggiungere in RHS una componente per la differenza di potenziale in quei due punti.
 
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 12/06/2023 | Dovrei ripassare meglio la parte di forza elettromotrice e ragionamento sul campo. Anche il ragionamento sulla divisione delle cariche non lo hoc apito |
-| 12/27/2023 | Non mi ricordavo esattamente bene la definizione di ramo |
-| 11/01/2024 | Ieri l'ho fatta bene, e non ci dovrebbero essere problemi, forse l'unico è per i nomi (dare un nome alla formula questa dovrei ripassarla.) |

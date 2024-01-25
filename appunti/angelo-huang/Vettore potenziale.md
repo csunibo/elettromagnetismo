@@ -1,12 +1,5 @@
----
-date: 2024-01-13
-ripasso: 10
-Rating: 🌕🌕🌕🌕🌗
-tags:
-  - ⚡elettromagnetism
----
 ### Introduzione al vettore potenziale
-#### Definizione vettore potenziale 🟩
+#### Definizione vettore potenziale 
 Possiamo sempre scrivere il campo $\vec{B}$ come 
 $$
 \vec{B} = \vec{\nabla} \times \vec{A}
@@ -20,7 +13,7 @@ $$
 $$
 Perché sappiamo che la divergenza del rotore  (questo operatore dico) è sempre nullo per ragioni di Cauchy, se ne parla in [[Divergenza e Circuitazione]].
 
-#### Unicità del campo 🟩
+#### Unicità del campo 
 Proviamo ad analizzarlo matematicamente, ci stiamo chiedendo, è **unica**?
 > Lo è a **meno di un gradiente di una funzione scalare**
 
@@ -38,7 +31,7 @@ Dove il gradiente di $F$, si ricorda è vettoriale, ed è utilizzato per rappres
 
 Simile con il potenziale, che è una **funzione definita a meno di una costante** perché possiamo mettere un punto (che scegliamo noi) in un certo punto, o potenziale del sistema che sono contati in quella costante, ne parliamo in [[Campo elettrico]]. (in questo capo la nostra costante è un vettore in un certo senso :P)
 
-#### Scelta del campo A 🟩
+#### Scelta del campo A 
 Per la divergenza abbiamo invece:
 
 $$
@@ -53,7 +46,7 @@ $$
 Per qualche motivo questa cosa **vale solo nel caso stazionario (con $\vec{J}$ stabile)**.
 
 ### Comodità del vettore potenziale
-#### Ampere Max-well con vettore potenziale 🟩
+#### Ampere Max-well con vettore potenziale 
 
 Abbiamo quindi
 
@@ -84,7 +77,7 @@ $$
 $$
 Quindi quantità di corrente lungo un certo tratto di filo!
 
-#### Faraday con vettore potenziale 🟩--
+#### Faraday con vettore potenziale --
 
 $$
 \vec{\nabla} \times \vec{E} = - \frac{\delta \vec{B}}{\delta t} = \frac{\delta (\vec{\nabla} \times \vec{A})}{\delta t}
@@ -101,7 +94,7 @@ $$
 \vec{E} = -\frac{\delta A}{\delta t} \implies \vec{\nabla}V = \frac{\delta A}{\delta t}
 $$
 
-#### Circuitazione del vettore potenziale 🟩
+#### Circuitazione del vettore potenziale 
 Consideriamo il flusso del vettore su una superficie
 
 $$
@@ -112,7 +105,7 @@ Dove l'ultima vale per **Stokes** in [[Divergenza e Circuitazione]], quindi poss
 
 ### Esempi di applicazione
 
-#### Studio del vettore potenziale in un solenoide 🟩
+#### Studio del vettore potenziale in un solenoide 
 Possiamo poi scoprire che
 $$
 \vec{A} = B \frac{r}{2} \hat{u}_{c}
@@ -121,10 +114,3 @@ Quando $r$ è minore del raggio del solenoide, se è maggiore abbiamo
 $$
 \vec{A} = B \frac{R^{2}}{2r} \hat{u}
 $$
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 07/01/2024 | Dovrei farmi meglio ampere e faraday col vettore potenziale |
-| 13/01/2024 | Oggi meglio direi, anche la parte che facevo fatica |
-
