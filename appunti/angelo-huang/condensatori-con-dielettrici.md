@@ -279,7 +279,7 @@ k_{1}E_{1}\cos \theta_{1} = k_{2}E_{2} \cos \theta_{2}
 $$
 Quindi so esattamente in che modo il modulo e la direzione di $E$ cambia all'interno della superficie di separazione dei mezzi.
 Quindi se passo da superficie con $k_{2}$ più alto i raggi tendono verso l'esterno (angolo più grande), e stessa cosa al contrario.
-![[Condensatori con dielettrici-1698655976503.jpeg | 500]]
+![a](images/Condensatori con dielettrici-1698655976503.jpeg)
 
 NOTA: **il modulo del campo elettrico cambia sempre**.
 NOTA-2: basta guardare le linee di campo per sapere se il materiale è conduttore o meno (perché per il conduttore cambia le linee di campo anche all'esterno).

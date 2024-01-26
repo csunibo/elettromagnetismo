@@ -10,7 +10,7 @@ Questo è descritto nell'esempio 8.1 del Mazzoldi.
 #### Spira circolare 
 Vedere pagina 245
 Vogliamo cercare il valore del campo sull'asse della spira circolare.
-![[Geometrie di spire-1704296692075.jpeg | 500]]
+![a](images/Geometrie di spire-1704296692075.jpeg)
 Questo è semplice, basta usare la prima di Laplace e trovare l'apporto del campo magnetico al centro.
 Si può anche pensare come momento magnetico, allora si utilizza sempre lo stesso discorso per la spira quadrata classica e il suo momento.
 

@@ -14,7 +14,7 @@ $$
 \Phi = \int _{\sum} \, d\Phi= \int _{\sum}  \frac{Q}{4\pi\varepsilon}\, d\Omega =  \frac{Q}{4\pi\varepsilon}\int _{\sum}  \, d\Omega   = \frac{Q}{4\pi\varepsilon} 4\pi = \frac{Q}{\varepsilon}
 $$
 Nota **il flusso dipende solamente dalla CARICA**, indipendente dalla singola posizione.
-![[Campo elettrico-1696844095493.jpeg | 300]]
+![a](images/Campo elettrico-1696844095493.jpeg)
 
 
 

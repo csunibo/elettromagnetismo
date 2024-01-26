@@ -163,7 +163,7 @@ Consideriamo il setting come in immagine, abbiamo un qualunque percorso, e una c
 Allora possiamo osservare se prendiamo un segmentino infinitesimale, ci sembrerà una scaletta, ma la forza coseno è attiva solamente in $\bar{AB} \text{ e } \bar{CD}$ questo ci permette di affermare che il lavoro (quella cosa potenziale) è **solamente dipendente dalla distanza**
 
 #### Formula dell'energia potenziale elettrostatica 
-![[Campo elettrico-1697358373290.jpeg | 300]]
+![a](images/Campo elettrico-1697358373290.jpeg)
 Proviamo in questo momento a derivare la formula per il potenziale elettrostatico, valido per praticamente ogni percorso
 
 $$

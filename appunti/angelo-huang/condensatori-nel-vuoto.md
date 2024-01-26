@@ -26,7 +26,7 @@ La cosa interessante è che suppongo di avere [[#Induzione completa]] in questo 
 È una necessità per l'analisi dei condensatori.
 
 #### Potenziale elettrico e carica +
-![[Materiali e campo elettrico-1697457325467.jpeg|500]]
+![a](images/Materiali e campo elettrico-1697457325467.jpeg)
 Proviamo a seguire una linea di campo elettrico per studiare il potenziale elettrico, andiamo quindi a definire un **tubo di flusso**.
 Per risultato precedente abbiamo che  $E_{i} = \frac{dQ_{i}}{\varepsilon_{0}dS_{i}}$
 
@@ -188,7 +188,7 @@ $$
 E la *stessa cosa vale per le superfici* in pratica posso calcolare l'energia totale in ogni configurazione.
 #### Lavoro di carica dei condensatori 
 ##### Primo modo: lavoro punto per punto ++
-![[Condensatori-1697534464287.jpeg | 500]]
+![a](images/Condensatori-1697534464287.jpeg)
 Consideriamo un condensatore, alla prima carica non c'è lavoro, ma poi si crea un campo elettrico che si prova ad opporre al caricamento (quindi **lavoro positivo**, forza di Coulomb è positivo).
 
 Man mano che si carica la $\Delta V(q)$ cambia. Proviamo a vedere la formula superficiale.

@@ -416,7 +416,7 @@ Si parla di **campo coercitivo** quando abbiamo un campo che fa diventare 0 la m
 
 
 Ciclo di isteresi di smagnetizzazione:
-![[Magnetismo nella materia-1703924356823.jpeg|400]]
+![a](images/Magnetismo nella materia-1703924356823.jpeg)
 In pratica devo fargli fare tanti giri (senza portarlo a saturazione!)
 #### Ciclo di isteresi 
 
