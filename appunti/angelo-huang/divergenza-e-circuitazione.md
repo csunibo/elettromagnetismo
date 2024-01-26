@@ -128,7 +128,7 @@ Questo è il teorema di stokes, e si può applicare per qualsiasi circuitazione,
 In questa parte proviamo ad esplorare la relazione che c'è fra il rotore, come l'abbiamo definito di sopra, e la divergenza.
 
 Consideriamo un problema come in immagine 
-![Campo elettrico-1697355180851](images/Campo elettrico-1697355180851.jpeg)
+![Campo elettrico-1697355180851](images/campo-elettrico-1697355180851.jpeg)
 Vogliamo cerca di definire la circuitazione, proviamo ad applicare proprio la definizione, quindi abbiamo che
 $$
 \oint \vec{F} \cdot d\vec{l} = \int _{A}^{B}F(x, y_{0}) \, dx + \int _{B}^{C}F(x_{0} + \Delta x, y) \, dy + \int _{C}^{D}F(x, y_{0} + \Delta y) \, dx + \int _{D}^{A}F(x_{0}, y) \, dy 

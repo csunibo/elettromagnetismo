@@ -1,7 +1,7 @@
 Questo problema è stato trattato in modo un po' più semplificato (nel caso in cui la carica era esattamente a metà in [[Campo elettrico#Dipolo elettrico]]).
 Questo problema è stato storico, utilizzato per analizzare l'atomo.
 ### Potenziale del dipolo elettrico --
-![Momento di dipolo-1698054569445](images/Momento di dipolo-1698054569445.jpeg)
+![Momento di dipolo-1698054569445](images/momento-di-dipolo-1698054569445.jpeg)
 
 Per il **principio di sovrapposizione** possiamo affermare che 
 $$
@@ -117,7 +117,7 @@ $$\vec{E} = \frac{1}{4\pi\varepsilon_{0}r^{3}}(3p\cos \theta \hat{r} - \vec{p} )
 **NOTA:** Posso *assumere* il valore di $\vec{E}$ come **costante** sulle due cariche perché tanto varia molto molto poco. Anche se non ho capito esattamente il ragionamento.
 
 Supponiamo che la carica negativa sia posta su $\vec{r}$ *quindi il sistema di riferimento è qualunque* e che $r \gg a$.
-![Momento di dipolo-1698057889762](images/Momento di dipolo-1698057889762.jpeg)
+![Momento di dipolo-1698057889762](images/momento-di-dipolo-1698057889762.jpeg)
 #### Energia potenziale del dipolo 
 Usando esattamente il metodo trattato in [[Condensatori nel vuoto]], basta applicare
 $$
@@ -166,7 +166,7 @@ $$
 \vec{M} = \vec{P} \times \vec{E}
 $$
 ### Distribuzione di carica
-![Dipolo elettrico-1698143928928](images/Dipolo elettrico-1698143928928.jpeg)
+![Dipolo elettrico-1698143928928](images/dipolo-elettrico-1698143928928.jpeg)
 Prendiamo una distribuzione di carica qualunque nello spazio, di dimensione $d$ massima
 #### Momento di dipolo elettrico del sistema
 #### Potenziale di sistema +

@@ -7,7 +7,7 @@ il **reticolo cristallino** è al struttura regolare che è comune nei materiali
 ### Campo e materiali (6)
 #### Schermatura del campo (!) 
 Quando un materiale conduttore è sottoposto a un campo elettrico *gli elettroni si mettono in modo da **schermare*** il campo esterno, in modo tale da raggiungere un equilibrio.
-![Campo elettrico-1696921500696](images/Campo elettrico-1696921500696.jpeg)
+![Campo elettrico-1696921500696](images/campo-elettrico-1696921500696.jpeg)
 
 Se andiamo a chiamare $\vec{E}_{i}$ il campo elettrico indotto dentro il materiale, allora avremo che 
 
@@ -31,11 +31,11 @@ $$
 \vec{\nabla} \cdot\vec{E}_{T} = \frac{\rho}{\varepsilon_{0}} \land \vec{E}_{T} = 0 \implies \rho=0
 $$
 Si può anche dimostrare usando [[Legge di Gauss]] per i campi elettrici
-![Materiali e campo elettrico-1697449300417](images/Materiali e campo elettrico-1697449300417.jpeg)
+![Materiali e campo elettrico-1697449300417](images/materiali-e-campo-elettrico-1697449300417.jpeg)
 #### Cariche si spostano in superficie 
 > Lo spostamento di cariche elettriche determinato dal campo elettrico esterno **all'equilibrio** si risolve in un ri-arrangiamento di carica che interessa solo la superficie del conduttore 
 
-![Materiali e campo elettrico-1697449147378](images/Materiali e campo elettrico-1697449147378.jpeg)
+![Materiali e campo elettrico-1697449147378](images/materiali-e-campo-elettrico-1697449147378.jpeg)
 
 La componente **tangente** non esiste sulla superficie, perché altrimenti le cariche si muoverebbero, invece la *componente normale* esiste sigma su $\varepsilon_{0}$, Nel caso di cariche positiva c'è proprio una forza **sempre** normale alla superficie, che spinge cariche fuori, in presenza di campo elettrico
 
@@ -54,7 +54,7 @@ dove $\hat{n}$ è il vettore normale alla superficie equipotenziale
 Se è negativa è esattamente il contrario
 
 #### Influenza sul campo elettrico 
-![img](images/Materiali e campo elettrico-1697449430923.jpeg)
+![img](images/materiali-e-campo-elettrico-1697449430923.jpeg)
 
 > Dato un conduttore immerso in un campo elettrico esterno, all'equilibrio, altera le linee di campo **anche** all'esterno del conduttore. 
 > Il cambiamento delle linee di campo dipende dalla **geometria** del conduttore.
@@ -94,12 +94,12 @@ $$
 
 Quindi $\vec{E} = 0$, questo è il **principio di schermatura**, se abbiamo qualcosa di conduttore, non passa.
 Negli ascensori se varia troppo in fretta, non viene fermato, perché gli elettroni ci mettono un po' a rimettersi in sesto. Un altro motivo è che non è puramente metallica (conduttrice) questo ascensore.
-![Materiali e campo elettrico-1697451595390](images/Materiali e campo elettrico-1697451595390.jpeg)
+![Materiali e campo elettrico-1697451595390](images/materiali-e-campo-elettrico-1697451595390.jpeg)
 
 
 ### Altri fenomeni
 #### Singola Carica elettrica in geometria cava 
-![img2](images/Materiali e campo elettrico-1697452550332.jpeg)
+![img2](images/materiali-e-campo-elettrico-1697452550332.jpeg)
 Le cariche si sposteranno, e cercheranno anche in questo caso di schermare.
 Se considero una superficie che li rinchiude, in questo caso avrò un campo elettrico.
 $$
@@ -115,7 +115,7 @@ Perché la carica del conduttore è neutra, per ipotesi non era carica. $Q_{C} =
 $Q_{E} = -Q_{I} = Q$, ossia sia una superficie esterna, sia la superficie interna vengono influenzate da questa carica.
 
 #### Induzione completa 
-![a](images/Materiali e campo elettrico-1697452550332.jpeg)
+![a](images/materiali-e-campo-elettrico-1697452550332.jpeg)
 Fenomeno descritto in precedenza è **l'induzione completa** come fenomeno. Nel caso in cui **tutte le linee di campo** entrano nel conduttore.
 In un certo senso se stai fuori dal materiale conduttore, è come se lasciasse passare il campo senza problemi (se sto molto lontano **sembra singola carica**) (invece di renderlo radiale, sto cambiando leggermente la\ direzione del campo *sulla superficie* se sto vicino).
 **Il campo interno non viene schermato**
@@ -135,7 +135,7 @@ Posso avere esattamente le stesse proprietà dette prima per conduttore immerso 
 Una altra applicazione è il **parafulmine** perché la carica si distribuisce sempre all'esterno.
 
 #### Distribuzione di carica e densità superficiale in conduttori connessi ---
-![Materiali e campo elettrico-1697454386232](images/Materiali e campo elettrico-1697454386232.jpeg)
+![Materiali e campo elettrico-1697454386232](images/materiali-e-campo-elettrico-1697454386232.jpeg)
 Supponiamo di avere due sfere connesse da un filo conduttore (quindi la carica è libera di connettersi), ci andiamo a chiedere che se metto $Q$ in questo sistema, in che modo si distribuisce?
 Io so che $R_{1} = 2R_{2}$
 Noi sappiamo che il **potenziale sulla superficie** è uguale, i due potenziali devono essere uguali anche nel nostro caso (altrimenti forse non è bilanciato)
@@ -171,7 +171,7 @@ $$
 \Delta V = V(A) - V(B) = \int _{A}^{B}\vec{E} \cdot  \, d\vec{r} = 0 
 $$
 Perché il campo elettrico è 0.
-![Materiali e campo elettrico-1697450041034](images/Materiali e campo elettrico-1697450041034.jpeg)
+![Materiali e campo elettrico-1697450041034](images/materiali-e-campo-elettrico-1697450041034.jpeg)
 
 #### Potenziale sulla superficie 
 

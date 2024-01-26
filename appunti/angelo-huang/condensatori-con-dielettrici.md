@@ -61,7 +61,7 @@ Secondo me non ha senso questa parte e possiamo soltanto dire che la **capacità
 
 ### Polarizzazione del dielettrico
 #### Polarizzazione per deformazione/elettronica +
-![Condensatori con dielettrici-1698143952107](images/Condensatori con dielettrici-1698143952107.jpeg)
+![Condensatori con dielettrici-1698143952107](images/condensatori-con-dielettrici-1698143952107.jpeg)
 Questa polarizzazione si spiega a un **livello atomico** perché intuitivamente si può dire che il punto medio delle cariche elettriche positive (nucleo) e negative (nube di elettroni) quando viene sottoposto a un campo elettrico si spostano, per cercare di bilanciare la piccola forza applicata dal campo elettrico, quindi è un valore direttamente proporzionale al valore del campo elettrico,
 In questo caso:
 $$
@@ -92,7 +92,7 @@ $$
 Se un dielettrico soddisfa questa relazione (solitamente è omogeneo) si dice che sia **dielettrico lineare**, solitamente materiali amorfi (senza forma), dotati di *isometria spaziale*, nei cristalli in genere questo non succede.
 
 #### Dimostrazione valore 
-![Condensatori con dielettrici-1698151009489](images/Condensatori con dielettrici-1698151009489.jpeg)
+![Condensatori con dielettrici-1698151009489](images/condensatori-con-dielettrici-1698151009489.jpeg)
 NOTA: nell'immagine ho sbagliato a disegnare il verso dei singoli atomi allungati.
 
 Assumiamo di immergere un dielettrico in un campo elettrico uniforme, allora abbiamo che
@@ -244,7 +244,7 @@ $$
 Quindi il vettore di spostamento per il dielettrico è ancora *costante*, non varia diciamo passando da una superficie all'altra, quindi **è continua.**
 
 Andiamo a fare la stessa analisi in immagine, assumendo che $dh \to 0$ quindi non abbiamo flusso verticale
-![Condensatori con dielettrici-1698655065772](images/Condensatori con dielettrici-1698655065772.jpeg)
+![Condensatori con dielettrici-1698655065772](images/condensatori-con-dielettrici-1698655065772.jpeg)
 $$
 \vec{D}_{1}d\vec{S}_{1} + \vec{D}_{2}d\vec{S}_{2} = 0
 \implies \vec{D}_{1}\cos \theta_{1} + \vec{D}_{2} \cos \theta_{2} = 0
@@ -258,7 +258,7 @@ $$
 #### Legge di Snell revisited --
 Una volte descritte le equazioni di continuità ricavare questo è molto semplice, poi è molto molto simile (opposto) a quanto fatto per [[Magnetismo nella materia]] per la continuità dei campi magnetici nel passare su superfici con correnti.
 
-![Condensatori con dielettrici-1698655424494](images/Condensatori con dielettrici-1698655424494.jpeg)
+![Condensatori con dielettrici-1698655424494](images/condensatori-con-dielettrici-1698655424494.jpeg)
 Sappiamo che $E_{\parallel}^{1} = E_{\parallel}^{2}$, che $E_{\perp}^{1} = E_{\perp}^{2}$ e che $D_{\perp}^{1} = D_{\perp}^{2}$
 E che $\vec{D} = \varepsilon_{0}k\vec{E}$
 Da quello sappiamo che 
@@ -279,7 +279,7 @@ k_{1}E_{1}\cos \theta_{1} = k_{2}E_{2} \cos \theta_{2}
 $$
 Quindi so esattamente in che modo il modulo e la direzione di $E$ cambia all'interno della superficie di separazione dei mezzi.
 Quindi se passo da superficie con $k_{2}$ più alto i raggi tendono verso l'esterno (angolo più grande), e stessa cosa al contrario.
-![a](images/Condensatori con dielettrici-1698655976503.jpeg)
+![a](images/condensatori-con-dielettrici-1698655976503.jpeg)
 
 NOTA: **il modulo del campo elettrico cambia sempre**.
 NOTA-2: basta guardare le linee di campo per sapere se il materiale è conduttore o meno (perché per il conduttore cambia le linee di campo anche all'esterno).

@@ -34,7 +34,7 @@ Strana cosa era che dal nucleo venivano emessi elettroni (questo è il decadimen
 ### Teorema di Poynting
 
 #### Setting del problema 
-![a](images/Energia elettromagnetica-1702285966111.jpeg)
+![a](images/energia-elettromagnetica-1702285966111.jpeg)
 Consideriamo una distribuzione di cariche $dq = \rho dt$ che dipende dalla posizione $\rho = \rho(\hat{r}t)$, stessa cosa per la velocità in un campo elettromagnetico costante.
 Voglio sapere il **lavoro** e **potenza** fatto dai campi sulla carica.
 
