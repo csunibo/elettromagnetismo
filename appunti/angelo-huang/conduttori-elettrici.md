@@ -54,7 +54,7 @@ dove $\hat{n}$ è il vettore normale alla superficie equipotenziale
 Se è negativa è esattamente il contrario
 
 #### Influenza sul campo elettrico 
-![[Materiali e campo elettrico-1697449430923.jpeg|400]]
+![img](images/Materiali e campo elettrico-1697449430923.jpeg)
 
 > Dato un conduttore immerso in un campo elettrico esterno, all'equilibrio, altera le linee di campo **anche** all'esterno del conduttore. 
 > Il cambiamento delle linee di campo dipende dalla **geometria** del conduttore.
@@ -99,7 +99,7 @@ Negli ascensori se varia troppo in fretta, non viene fermato, perché gli elettr
 
 ### Altri fenomeni
 #### Singola Carica elettrica in geometria cava 
-![[Materiali e campo elettrico-1697452550332.jpeg|300]]
+![img2](images/Materiali e campo elettrico-1697452550332.jpeg)
 Le cariche si sposteranno, e cercheranno anche in questo caso di schermare.
 Se considero una superficie che li rinchiude, in questo caso avrò un campo elettrico.
 $$
@@ -115,7 +115,7 @@ Perché la carica del conduttore è neutra, per ipotesi non era carica. $Q_{C} =
 $Q_{E} = -Q_{I} = Q$, ossia sia una superficie esterna, sia la superficie interna vengono influenzate da questa carica.
 
 #### Induzione completa 
-![[Materiali e campo elettrico-1697452550332.jpeg|200]]
+![a](images/Materiali e campo elettrico-1697452550332.jpeg)
 Fenomeno descritto in precedenza è **l'induzione completa** come fenomeno. Nel caso in cui **tutte le linee di campo** entrano nel conduttore.
 In un certo senso se stai fuori dal materiale conduttore, è come se lasciasse passare il campo senza problemi (se sto molto lontano **sembra singola carica**) (invece di renderlo radiale, sto cambiando leggermente la\ direzione del campo *sulla superficie* se sto vicino).
 **Il campo interno non viene schermato**
@@ -171,7 +171,7 @@ $$
 \Delta V = V(A) - V(B) = \int _{A}^{B}\vec{E} \cdot  \, d\vec{r} = 0 
 $$
 Perché il campo elettrico è 0.
-![Materiali e campo elettrico-1697450041034](images/Materiali e campo elettrico-1697450041034.jpeg)-
+![Materiali e campo elettrico-1697450041034](images/Materiali e campo elettrico-1697450041034.jpeg)
 
 #### Potenziale sulla superficie 
 
